@@ -23,10 +23,10 @@
 	allowed_organs = list(BP_AUGMENT_R_ARM, BP_AUGMENT_L_ARM)
 	holding_type = /obj/item/armblade
 	//Limited to robolimbs
-	augment_flags = AUGMENTATION_MECHANIC
+	augment_flags = AUGMENTATION_MECHANIC & AUGMENTATION_ORGANIC
 	material = /decl/material/solid/metal/steel
 	matter = list(/decl/material/solid/fiberglass = MATTER_AMOUNT_REINFORCEMENT)
-	
+
 /obj/item/armblade/claws
 	icon_state = "wolverine"
 	name = "combat claws"
@@ -44,6 +44,6 @@
 	allowed_organs = list(BP_AUGMENT_R_HAND, BP_AUGMENT_L_HAND)
 	holding_type = /obj/item/armblade/claws
 	//Limited to robolimbs
-	augment_flags = AUGMENTATION_MECHANIC
+	augment_flags = AUGMENTATION_MECHANIC & AUGMENTATION_ORGANIC
 	material = /decl/material/solid/metal/steel
 	matter = list(/decl/material/solid/gemstone/diamond = MATTER_AMOUNT_REINFORCEMENT)

@@ -3,7 +3,7 @@
 	action_button_name = "Access cyberbrain"
 	icon_state = "cyberbrain"
 	allowed_organs = list(BP_HEAD)
-	augment_flags = AUGMENTATION_MECHANIC
+	augment_flags = AUGMENTATION_MECHANIC & AUGMENTATION_ORGANIC
 	origin_tech = "{'materials':2,'magnets':3,'engineering':3,'biotech':2,'programming':4}"
 
 	var/list/default_hardware = list(
