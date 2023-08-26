@@ -17,3 +17,16 @@
 /obj/item/modular_computer/tablet/lease
 	desc = "A small, portable microcomputer. This one has a gold and blue stripe, and a serial number stamped into the case."
 	icon_state = "tabletsol"
+
+/obj/item/modular_computer/tablet/solgov
+	name = "SolGov Administration Tablet"
+	desc = "A small tablet, used to monitor and administrate the innerworkings of SolGov's frontier program. You should probably return this if it's not in SolGov's hands."
+	icon_state = "tabletsg"
+	light_strength = 3
+
+/obj/item/modular_computer/tablet/solgov/consul
+	name = "SolGov High Administration Tablet"
+	desc = "A small tablet, used to monitor and administrate SolGov's frontier program. This one is laced with a golden, shiny trim, with purple embroidery. It belongs to someone important. You should definitely return this if it's not in SolGov's hands."
+	icon_state = "tabletconsul"
+	light_strength = 4
+	interact_sound_volume = 50 // you should know they're doing something.

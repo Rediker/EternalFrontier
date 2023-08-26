@@ -67,6 +67,16 @@
 	material = /decl/material/solid/metal/steel
 	matter = list(/decl/material/solid/fiberglass = MATTER_AMOUNT_REINFORCEMENT)
 
+/obj/item/stock_parts/computer/hard_drive/solgov
+	name = "solgov tablet hard drive"
+	desc = "A small, but highly efficient, hard drive for SolGov tablets. Its technology is unable to be replicated on the frontier."
+	power_usage = 15
+	max_capacity = 256
+	icon_state = "hdd_sg"
+	hardware_size = 1
+	material = /decl/material/solid/metal/steel
+	matter = list(/decl/material/solid/fiberglass = MATTER_AMOUNT_REINFORCEMENT)
+
 /obj/item/stock_parts/computer/hard_drive/diagnostics()
 	. = ..()
 	// 999 is a byond limit that is in place. It's unlikely someone will reach that many files anyway, since you would sooner run out of space.
