@@ -41,3 +41,12 @@
 		icon_edge_layer = -1
 		footstep_type = /decl/footsteps/asteroid
 		color = null
+
+/turf/exterior/bloodgrass
+	name = "xanadu grass"
+	icon = 'icons/turf/exterior/wildgrass.dmi'
+	icon_edge_layer = EXT_EDGE_GRASS_WILD
+	icon_has_corners = TRUE
+	color = "#7c1a1a"
+	base_color = "#7c1a1a"
+	footstep_type = /decl/footsteps/grass
