@@ -20,6 +20,7 @@
 	icon_state = "plant-26"
 	spawn_nothing_percentage = 0
 
-/obj/random/pottedplant/spawn_choices()
+/* /obj/random/pottedplant/spawn_choices()
 	var/static/list/spawnable_choices = subtypesof(/obj/structure/flora/pottedplant) - list(/obj/structure/flora/pottedplant/unusual)
 	return spawnable_choices
+*/
