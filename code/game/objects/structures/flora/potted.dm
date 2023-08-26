@@ -2,7 +2,7 @@
 // ############ POTTED PLANTS ############
 // ############ ############# ############
 
-// Credits: Majority of original pottedp plants were done by Flashkirby. An additional few were added by Cajoes.
+// Credits: Majority of original potted plants were done by Flashkirby. An additional few were added by Cajoes.
 // Potted plants were resprited in bulk to have a matching color scheme, and potted plants for their production cues, done by Crimsonerva.
 // Majority of plants are now sprited by Crimsonerva, and all current pots & descriptions were made by her.
 // Any sprites edited or modified are clearly labeled, along with who made what sprites, who edited which sprites, and who the original creators were.
