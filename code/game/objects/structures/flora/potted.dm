@@ -302,22 +302,22 @@
 	. = ..()
 	set_light(l_range = 2, l_power = 0.5, l_color = "#b6ebef")
 
-/obj/structure/flora/pottedplant/fern // Credit to Crimsonerva for complete sprite.
+/obj/structure/flora/pottedplant/futuristic/fern // Credit to Crimsonerva for complete sprite.
 	name         = "holographic potted fern"
 	desc         = "A holographic fern. Someone is truly trying to flaunt their wealth. It emits a blue glow from its sensors."
 	icon_state   = "fern_holographic"
 
-/obj/structure/flora/pottedplant/tree // Credit to Crimsonerva for complete sprite.
+/obj/structure/flora/pottedplant/futuristic/tree // Credit to Crimsonerva for complete sprite.
 	name         = "holographic potted tree"
 	desc         = "A holographic tree. Someone is truly trying to flaunt their wealth. It emits a blue glow from its sensors."
 	icon_state   = "tree_holographic"
 
-/obj/structure/flora/pottedplant/shrub // Credit to Crimsonerva for complete sprite.
+/obj/structure/flora/pottedplant/futuristic/shrub // Credit to Crimsonerva for complete sprite.
 	name         = "holographic potted shrub"
 	desc         = "A holographic shrub. Someone is truly trying to flaunt their wealth. It emits a blue glow from its sensors."
 	icon_state   = "shrub_holographic"
 
-/obj/structure/flora/pottedplant/xenoflora // Credit to Crimsonerva for complete sprite.
+/obj/structure/flora/pottedplant/futuristic/xenoflora // Credit to Crimsonerva for complete sprite.
 	name         = "holographic potted xenoflora"
 	desc         = "A holographic array of xenoflora. Someone is truly trying to flaunt their wealth. It emits a blue glow from its sensors."
 	icon_state   = "xenoflora_holographic"
