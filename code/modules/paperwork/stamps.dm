@@ -14,6 +14,31 @@
 	)
 	attack_verb = list("stamped")
 
+/obj/item/stamp/solgov/consul
+	name = "SolGov Consul's Stamp"
+	desc = "A stamp used by the official SolGov designated Consul to officially stamp papers. If you have this, you should probably return it. It's lined with gold, denoting the SolGov colors, along with a vibrant finish."
+	icon_state = "stamp-sgconsul"
+
+/obj/item/stamp/solgov/sentinel
+	name = "SolGov Chief Sentinel's Stamp"
+	desc = "A stamp belonging to the Consul's hand-picked Chief Sentinel, to officially stamp papers. If you have this, you should probably return it. It has a dash of rose gold."
+	icon_state = "stamp-sgsentinel"
+
+/obj/item/stamp/solgov/dean
+	name = "SolGov Dean's Stamp"
+	desc = "A stamp belonging to the Consul's hand-picked Dean, to officially stamp papers. If you have this, you should probably return it. It has a dash of rose gold."
+	icon_state = "stamp-sgdean"
+
+/obj/item/stamp/solgov/approved
+	name = "SolGov Stamp"
+	desc = "A stamp belonging to a SolGov desk clerk, to officially approve or stamp papers. If you have this, you should probably return it. It's blue and yellow, denoating SolGov colors."
+	icon_state = "stamp-sgapproved"
+
+/obj/item/stamp/solgov/denied
+	name = "SolGov Denied Stamp"
+	desc = "A stamp belonging to a SolGov desk clerk, to officially deny or stamp papers. If you have this, you should probably return it. It's blue and yellow, denoating SolGov colors."
+	icon_state = "stamp-sgdenied"
+
 /obj/item/stamp/captain
 	name = "captain's rubber stamp"
 	icon_state = "stamp-cap"
