@@ -847,7 +847,7 @@
 "Wg" = (/obj/machinery/papershredder,/turf/simulated/floor/wood/bamboo,/area/nativitas/command/office/important/hop)
 "Wh" = (/obj/machinery/network/area_controller,/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/bluegrid,/area/nativitas/command/office/important/hos)
 "Wq" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup,/turf/simulated/floor/plating,/area/nativitas/engineering/power)
-"Wr" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/railing/mapped{dir = 1; color = "b6e4ef"},/obj/machinery/light{dir = 4},/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
+"Wr" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/railing/mapped{dir = 1; color = "b6e4ef"},/obj/machinery/light{dir = 4},/mob/living/simple_animal/cat/fluff/kaleidoscope,/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
 "Ws" = (/obj/machinery/computer/modular/preset/aislot/sysadmin{dir = 4},/turf/simulated/floor/wood/ebony,/area/nativitas/command/office/important/hos)
 "Wt" = (/obj/machinery/computer/ship/sensors{dir = 1},/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
 "Ww" = (/obj/machinery/telepad_cargo,/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/supply)
