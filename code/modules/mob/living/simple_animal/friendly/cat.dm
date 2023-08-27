@@ -232,6 +232,19 @@
 /obj/item/holder/runtime
 	origin_tech = "{'programming':1,'biotech':1}"
 
+/mob/living/simple_animal/cat/fluff/kaleidoscope
+	name = "Kaleidoscope"
+	desc = "Her fur feels of feathers. Named after her multi-colored ears, the name Kaleidoscope is engraved on her collar. Seems she belongs to the Consul from SolGov."
+	icon = 'icons/mob/simple_animal/cat_kaleidoscope.dmi'
+	speak = list("Meow~","Meeeeeow.","Puurrrr...","Meeeuhhh.")
+	speak_emote = list("purrs", "meows")
+	emote_hear = list("meows","mews")
+	emote_see = list("shakes her head", "shivers")
+	minbodytemp = 100
+	maxbodytemp = 500
+	skin_material = /decl/material/solid/skin/fur/black
+	holder_type = /obj/item/holder/runtime
+
 /mob/living/simple_animal/cat/kitten
 	name = "kitten"
 	desc = "D'aaawwww"
