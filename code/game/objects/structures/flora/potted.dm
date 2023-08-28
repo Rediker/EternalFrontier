@@ -19,9 +19,7 @@
 	anchored     = FALSE // do not anchor
 	layer        = ABOVE_HUMAN_LAYER
 	w_class      = ITEM_SIZE_LARGE // they can be put in bags, but take lots of room.
-	remains_type = /obj/effect/decal/cleanable/dirt
 	hitsound     = 'sound/effects/glass_crack2.ogg'
-	snd_cut      = 'sound/effects/break_ceramic.ogg'
 	attack_verb = list("pollenated", "seeded", "potted")
 	throw_speed = 1
 	throw_range = 2 // potted plants are heavy dude
@@ -32,8 +30,6 @@
 		/decl/material/solid/plantmatter = MATTER_AMOUNT_SECONDARY,     //#TODO: Maybe eventually drop the plant, or some seeds or something? Plants should also be made from their ingredients.
 	)
 
-/obj/item/pottedplant/get_material_health_modifier()
-	return 0.80
 
 // ### ######### ###
 // ### SAPPLINGS ###
