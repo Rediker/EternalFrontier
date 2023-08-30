@@ -34,10 +34,10 @@
 "aH" = (/obj/structure/table,/turf/simulated/floor/tiled/white,/area/nativitas/medical/surgery)
 "aI" = (/obj/machinery/portable_atmospherics/hydroponics,/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "aJ" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/plating,/area/nativitas/public/business/three)
-"aK" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/plating,/area/nativitas/public/business/three)
+"aK" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/plating,/area/nativitas/public/business/three)
 "aL" = (/turf/simulated/floor/tiled/dark,/area/nativitas/security/hall)
 "aM" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/public/business/three)
-"aN" = (/obj/machinery/atmospherics/binary/pump/high_power/on,/turf/simulated/floor/plating,/area/nativitas/engineering/power)
+"aN" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/sign/warning/lethal_turrets{pixel_y = 32},/turf/simulated/floor/reinforced,/area/nativitas/command/other/mainframe)
 "aO" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
 "aP" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
 "aQ" = (/obj/machinery/alarm{dir = 4; pixel_x = -22},/turf/simulated/floor/plating,/area/nativitas/public/business/three)
@@ -70,7 +70,7 @@
 "br" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/greengrid,/area/nativitas/command/other/mainframe)
 "bs" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
 "bt" = (/obj/structure/lattice,/turf/exterior/volcanic,/area/nativitas/engineering/hangar)
-"bu" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 4},/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/two)
+"bu" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/two)
 "bv" = (/obj/structure/closet,/turf/simulated/floor/plating,/area/nativitas/medical/storage)
 "bw" = (/obj/machinery/atmospherics/binary/oxyregenerator{dir = 4},/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
 "bx" = (/obj/structure/table/glass,/obj/item/pottedplant/floral/red{pixel_y = 12},/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/two)
@@ -92,7 +92,7 @@
 "bN" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/turf/simulated/floor/reinforced,/area/nativitas/command/other/mainframe)
 "bO" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/west)
 "bP" = (/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
-"bQ" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/dark,/area/nativitas/security/storage)
+"bQ" = (/obj/structure/table,/obj/item/pottedplant/floral/red{pixel_y = 12; pixel_x = -16},/turf/simulated/floor/wood,/area/nativitas/command/other/meeting)
 "bR" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "bS" = (/turf/simulated/floor/lino,/area/nativitas/research)
 "bT" = (/obj/machinery/power/tracker,/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
@@ -133,7 +133,7 @@
 "cC" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
 "cD" = (/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
 "cE" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/greengrid,/area/nativitas/command/other/mainframe)
-"cF" = (/obj/machinery/telecomms/hub,/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"cF" = (/obj/machinery/telecomms/hub,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "cG" = (/obj/structure/wall_frame/hull,/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/machinery/door/firedoor/autoset,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/window/reinforced/full,/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "cH" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/machinery/papershredder,/turf/simulated/floor/wood,/area/nativitas/command/other/records)
 "cI" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/east)
@@ -158,7 +158,7 @@
 "db" = (/obj/structure/table/reinforced,/obj/structure/cable,/obj/machinery/power/apc/high{name = "south bump"; pixel_y = -24},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/holding)
 "dc" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
 "dd" = (/obj/machinery/fabricator/imprinter/filled,/turf/simulated/floor/lino,/area/nativitas/research)
-"de" = (/obj/machinery/network/bank,/obj/structure/cable,/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"de" = (/obj/machinery/network/bank,/obj/structure/cable,/obj/structure/cable,/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "df" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/table/marble,/obj/machinery/button/toggle/switch{pixel_x = 8; pixel_y = 7; name = "Consul-Dean Shutters"; id_tag = "SG_Consul_3"},/obj/machinery/button/toggle/switch{pixel_x = 8; pixel_y = -3; name = "SolGov Vault Shutters"},/turf/simulated/floor/carpet/purple,/area/nativitas/command/office/important/director)
 "dg" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
 "dh" = (/obj/structure/table,/turf/simulated/floor/plating,/area/nativitas/research)
@@ -214,14 +214,14 @@
 "ef" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/dark,/area/nativitas/security/hall)
 "eg" = (/obj/structure/closet,/obj/machinery/light,/turf/simulated/floor/tiled/dark,/area/nativitas/security/storage)
 "eh" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/obj/machinery/alarm{pixel_y = 20},/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/two)
-"ei" = (/obj/structure/table/reinforced,/obj/structure/cable{icon_state = "0-1"; dir = 4},/obj/machinery/light{dir = 4},/obj/machinery/power/apc/high{dir = 4; name = "east bump"; pixel_x = 24},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/two)
+"ei" = (/obj/structure/table/reinforced,/obj/machinery/light{dir = 4},/obj/machinery/power/apc/high{dir = 4; name = "east bump"; pixel_x = 24},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/two)
 "ej" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/plating,/area/nativitas/engineering/bay)
 "ek" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/one)
 "el" = (/obj/structure/window/reinforced/full,/turf/simulated/floor/plating,/area/nativitas/public/business/one)
 "em" = (/obj/machinery/fabricator/pipe/filled,/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
 "en" = (/obj/machinery/cryopod/despawner{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/wood/bamboo,/area/nativitas/command/other/cryo)
 "eo" = (/obj/machinery/cryopod/despawner,/obj/machinery/light{dir = 4},/turf/simulated/floor/wood/bamboo,/area/nativitas/command/other/cryo)
-"ep" = (/obj/machinery/telecomms/server/presets,/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"ep" = (/obj/machinery/telecomms/server/presets,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "eq" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/plating,/area/nativitas/research)
 "er" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable{icon_state = "0-2"},/obj/machinery/light{dir = 1},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "es" = (/obj/machinery/atmospherics/pipe/simple/visible,/obj/machinery/door/airlock/glass,/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
@@ -232,11 +232,11 @@
 "ex" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/dark,/area/nativitas/security/hall)
 "ey" = (/obj/structure/table/marble,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/faxmachine,/turf/simulated/floor/carpet/purple,/area/nativitas/command/office/important/director)
 "ez" = (/obj/structure/cable{icon_state = "0-2"},/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "1-8"},/obj/structure/wall_frame/hull,/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/window/reinforced/full,/turf/simulated/floor/reinforced,/area/nativitas/hull)
-"eA" = (/obj/structure/table/reinforced,/obj/structure/cable{icon_state = "0-1"; dir = 4},/obj/machinery/light{dir = 4},/obj/machinery/power/apc/high{dir = 4; name = "east bump"; pixel_x = 24},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/one)
+"eA" = (/obj/structure/table/reinforced,/obj/machinery/light{dir = 4},/obj/machinery/power/apc/high{dir = 4; name = "east bump"; pixel_x = 24},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/one)
 "eB" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/wood,/area/nativitas/command/other/records)
 "eC" = (/turf/simulated/wall/chargen/r_titanium,/area/nativitas/medical/chemistry)
 "eD" = (/obj/machinery/atmospherics/omni/filter/buildable,/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
-"eE" = (/obj/machinery/power/apc{dir = 8; name = "_West APC"; pixel_x = -25},/obj/structure/cable{icon_state = "0-1"; dir = 8},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
+"eE" = (/obj/machinery/power/apc{dir = 8; name = "_West APC"; pixel_x = -25},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
 "eF" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/wood/bamboo,/area/nativitas/command/other/cryo)
 "eG" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/white,/area/nativitas/medical/chemistry)
 "eH" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
@@ -261,17 +261,17 @@
 "fa" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "fb" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "fc" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/nativitas/public/business/three)
-"fd" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/plating,/area/nativitas/public/business/two)
+"fd" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/plating,/area/nativitas/public/business/two)
 "fe" = (/obj/machinery/floor_light,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/holding)
 "ff" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/public/business/three)
 "fg" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/public/business/two)
-"fh" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/plating,/area/nativitas/public/business/four)
+"fh" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/plating,/area/nativitas/public/business/four)
 "fi" = (/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled,/area/nativitas/public/business/two)
 "fj" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/nativitas/public/business/two)
 "fk" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/nativitas/public/business/two)
 "fl" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
 "fm" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/public/business/two)
-"fn" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/wood,/area/nativitas/command/other/records)
+"fn" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/wood,/area/nativitas/command/other/records)
 "fo" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/command/wing/west)
 "fp" = (/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
 "fq" = (/obj/structure/cable{icon_state = "1-4"},/turf/simulated/wall/chargen/r_titanium,/area/nativitas/command/office/important/director)
@@ -283,18 +283,18 @@
 "fw" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/public/business/four)
 "fx" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/nativitas/public/business/four)
 "fy" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/nativitas/public/business/four)
-"fz" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 4},/turf/simulated/floor/plating,/area/nativitas/public/business/one)
+"fz" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/nativitas/public/business/one)
 "fA" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "fB" = (/turf/simulated/wall/chargen/r_titanium,/area/nativitas/command/office/important/hos)
 "fC" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "fD" = (/obj/structure/table,/obj/structure/table,/obj/item/spirit_board,/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "fE" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/obj/structure/filing_cabinet/tall{pixel_x = -8},/obj/structure/filing_cabinet/chestdrawer{dir = 1; pixel_x = 7},/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
 "fF" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/security/hall)
-"fG" = (/obj/machinery/power/apc{dir = 4; name = "_East APC"; pixel_x = 27; pixel_y = 2},/obj/structure/cable{icon_state = "0-1"; dir = 4},/turf/simulated/floor/plating,/area/nativitas/command/wing/west)
-"fJ" = (/obj/machinery/network/message_server,/obj/structure/cable,/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"fG" = (/obj/machinery/power/apc{dir = 4; name = "_East APC"; pixel_x = 27; pixel_y = 2},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/nativitas/command/wing/west)
+"fJ" = (/obj/machinery/network/message_server,/obj/structure/cable,/obj/structure/cable,/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "fQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "fS" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/wall/chargen/r_titanium,/area/nativitas/command/office/important/hos)
-"fV" = (/obj/machinery/telecomms/receiver,/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"fV" = (/obj/machinery/telecomms/receiver,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "fW" = (/obj/machinery/atmospherics/pipe/simple/visible,/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
 "fX" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
 "fY" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/wall/chargen/r_titanium,/area/nativitas/command/office/important/director)
@@ -352,7 +352,7 @@
 "jb" = (/obj/machinery/door/airlock/glass/sol{name = "SolGov Space Airlock"; dir = 4},/obj/machinery/door/blast/regular{dir = 4; id_tag = "SG_Command_2"; name = "Airlock Lockdown"},/turf/simulated/floor/plating,/area/nativitas/hull)
 "jd" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/mining)
 "je" = (/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
-"jg" = (/obj/structure/charge_pylon,/turf/simulated/floor/pool,/area/nativitas/service/adherent)
+"jg" = (/obj/structure/filing_cabinet/chestdrawer,/turf/simulated/floor/wood/ebony,/area/nativitas/command/office/important/hos)
 "jh" = (/obj/structure/foamedmetal,/turf/exterior/volcanic,/area/exoplanet/kleibkhar)
 "ji" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/dark,/area/nativitas/security/storage)
 "jn" = (/obj/structure/rack,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/plating,/area/nativitas/medical/storage)
@@ -367,7 +367,7 @@
 "jH" = (/obj/structure/wall_frame/hull,/obj/structure/wall_frame/hull,/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/window/reinforced/full,/obj/machinery/door/firedoor/autoset,/turf/simulated/floor/reinforced,/area/nativitas/hull)
 "jJ" = (/obj/structure/wall_frame/hull,/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor/tiled/white,/area/nativitas/medical/surgery)
 "jL" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/one)
-"jN" = (/obj/structure/table,/obj/structure/cable{icon_state = "0-1"; dir = 8},/obj/machinery/power/apc/high{dir = 8; name = "west bump"; pixel_x = -24},/turf/simulated/floor/tiled/white,/area/nativitas/medical/surgery)
+"jN" = (/obj/structure/table,/obj/machinery/power/apc/high{dir = 8; name = "west bump"; pixel_x = -24},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/white,/area/nativitas/medical/surgery)
 "jQ" = (/turf/simulated/wall/chargen/r_titanium,/area/nativitas/medical/reception)
 "jR" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
 "jS" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/alarm{dir = 1; pixel_y = -25},/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/supply)
@@ -376,7 +376,7 @@
 "kd" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "ke" = (/obj/machinery/washing_machine,/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "ki" = (/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/one)
-"kk" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/wood,/area/nativitas/command/other/meeting)
+"kk" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/wood,/area/nativitas/command/other/meeting)
 "ku" = (/obj/structure/table,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "kz" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/wood,/area/nativitas/command/other/records)
 "kJ" = (/obj/structure/wall_frame/hull,/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/window/reinforced/full,/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/west)
@@ -400,18 +400,18 @@
 "lO" = (/obj/structure/cable,/obj/structure/wall_frame/hull,/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/window/reinforced/full,/turf/simulated/floor/wood,/area/nativitas/command/office/important/director)
 "lQ" = (/obj/machinery/conveyor{dir = 10; id_tag = "recycler"},/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/mining)
 "lS" = (/obj/structure/closet/crate/freezer,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/tiled/white,/area/nativitas/medical/surgery)
-"lW" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/structure/cable{icon_state = "0-1"; dir = 4},/obj/machinery/network/relay/wall_mounted{dir = 1; pixel_y = -20},/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
+"lW" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/machinery/network/relay/wall_mounted{dir = 1; pixel_y = -20},/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
 "lY" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/greengrid,/area/nativitas/command/other/mainframe)
 "mb" = (/obj/structure/cable{icon_state = "1-2"},/mob/living/simple_animal/cat/fluff/kaleidoscope,/obj/structure/bed/chair/rounded/purple,/turf/simulated/floor/carpet/purple,/area/nativitas/command/office/important/director)
 "md" = (/obj/structure/wall_frame/hull,/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/window/reinforced/full,/obj/machinery/door/firedoor/autoset,/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "mf" = (/obj/machinery/vitals_monitor,/turf/simulated/floor/tiled/white,/area/nativitas/medical/surgery)
 "mg" = (/obj/structure/table,/obj/structure/table,/turf/simulated/floor/plating,/area/nativitas/research)
-"mj" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/east)
+"mj" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/east)
 "mn" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/wood/ebony,/area/nativitas/command/office/important/hos)
 "mo" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
 "mr" = (/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/holding)
 "mx" = (/obj/machinery/atmospherics/unary/vent_pump/on,/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled,/area/nativitas/public/business/one)
-"mF" = (/obj/machinery/light,/obj/machinery/network/trade_controller,/obj/structure/cable,/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"mF" = (/obj/machinery/light,/obj/machinery/network/trade_controller,/obj/structure/cable,/obj/structure/cable,/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "mH" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled,/area/nativitas/public/business/two)
 "mI" = (/obj/machinery/computer/shuttle_control,/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
 "mL" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
@@ -428,7 +428,7 @@
 "nU" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/network/mainframe,/obj/structure/cable,/turf/simulated/floor/bluegrid,/area/nativitas/command/other/mainframe)
 "nX" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "od" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/door/firedoor,/obj/machinery/door/airlock/glass/sol{name = "SolGov Consul"; desc = "The office of the big, bad, boss. It opens and closes."},/turf/simulated/floor/wood,/area/nativitas/command/office/important/director)
-"om" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
+"om" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/carpet/blue2,/area/nativitas/command/wing/north)
 "on" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/east)
 "oo" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 5},/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
 "oq" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4; level = 2},/turf/simulated/floor/tiled,/area/nativitas/public/business/three)
@@ -456,7 +456,7 @@
 "pW" = (/obj/structure/table/woodentable/maple,/obj/item/pottedplant/floral/red{pixel_y = 12},/turf/simulated/floor/carpet/blue,/area/nativitas/command/office/important/hop)
 "qa" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
 "qe" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/alarm{dir = 1; pixel_y = -22},/turf/simulated/floor/wood/ebony,/area/nativitas/command/office/important/hos)
-"qi" = (/obj/machinery/telecomms/processor,/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"qi" = (/obj/machinery/telecomms/processor,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "ql" = (/turf/simulated/floor/plating,/area/nativitas/research)
 "qm" = (/obj/machinery/conveyor{dir = 1; id_tag = "mining_internal"},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/mining)
 "qo" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/east)
@@ -469,7 +469,6 @@
 "qX" = (/obj/structure/wall_frame/hull,/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/window/reinforced/full,/obj/machinery/door/firedoor/autoset,/turf/simulated/floor/reinforced,/area/nativitas/hull)
 "rb" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/obj/structure/cable,/obj/machinery/power/apc/high{name = "south bump"; pixel_y = -24},/turf/simulated/floor/tiled/white,/area/nativitas/medical/chemistry)
 "rj" = (/obj/machinery/docking_beacon,/turf/simulated/floor/plating,/area/nativitas/engineering/hangar)
-"rq" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/sign/warning/lethal_turrets{pixel_y = 32},/turf/simulated/floor/reinforced,/area/nativitas/command/other/mainframe)
 "rt" = (/obj/machinery/computer/modular/preset,/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/supply)
 "ru" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
 "rx" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/carpet/blue2,/area/nativitas/command/other/cryo)
@@ -520,7 +519,7 @@
 "uE" = (/obj/structure/wall_frame/hull,/obj/machinery/door/firedoor/autoset,/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/window/reinforced/full,/turf/simulated/floor/reinforced,/area/nativitas/command/wing/north)
 "uP" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/network/relay/wall_mounted{dir = 8; pixel_x = 24},/turf/simulated/floor/tiled/white,/area/nativitas/medical/hall)
 "uV" = (/turf/simulated/wall/chargen/r_titanium,/area/nativitas/command/other/meeting)
-"vf" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4; level = 2},/obj/machinery/power/apc{dir = 8; name = "_West APC"; pixel_x = -25},/obj/structure/cable{icon_state = "0-1"; dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/supply)
+"vf" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4; level = 2},/obj/machinery/power/apc{dir = 8; name = "_West APC"; pixel_x = -25},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/supply)
 "vk" = (/obj/machinery/atmospherics/unary/freezer{dir = 4},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "vl" = (/turf/simulated/floor/reinforced,/area/nativitas/command/wing/east)
 "vw" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled,/area/nativitas/command/wing/east)
@@ -535,13 +534,12 @@
 "wm" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
 "wn" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4; level = 2},/turf/simulated/floor/tiled/white,/area/nativitas/medical/treatment)
 "wt" = (/obj/machinery/floor_light,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/two)
-"wu" = (/turf/simulated/floor/carpet/blue,/area/nativitas/command/office/important/hop)
 "ww" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/east)
 "wz" = (/obj/machinery/door/airlock/highsecurity{dir = 4; name = "SolGov Vault"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
-"wE" = (/obj/machinery/telecomms/bus,/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"wE" = (/obj/machinery/telecomms/bus,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "wJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/public/business/one)
 "wM" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
-"wQ" = (/obj/structure/cable{icon_state = "0-1"; dir = 1},/obj/machinery/power/apc/high{dir = 8; name = "west bump"; pixel_x = -24},/turf/simulated/floor/plating,/area/nativitas/medical/storage)
+"wQ" = (/obj/machinery/power/apc/high{dir = 8; name = "west bump"; pixel_x = -24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/plating,/area/nativitas/medical/storage)
 "wX" = (/obj/structure/table/reinforced,/turf/simulated/floor/plating,/area/nativitas/security/hall)
 "wY" = (/obj/structure/ore_box,/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
 "wZ" = (/obj/machinery/atmospherics/unary/vent_pump/on,/obj/machinery/light{dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/west)
@@ -555,7 +553,7 @@
 "xT" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/alarm{dir = 8; pixel_x = 24},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "xX" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/wall/chargen/r_titanium,/area/nativitas/hull)
 "xY" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
-"yu" = (/obj/structure/cable{icon_state = "0-1"; dir = 8},/obj/machinery/power/apc/high{dir = 8; name = "west bump"; pixel_x = -24},/turf/simulated/floor/tiled/white,/area/nativitas/medical/hall)
+"yu" = (/obj/machinery/power/apc/high{dir = 8; name = "west bump"; pixel_x = -24},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/white,/area/nativitas/medical/hall)
 "yv" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/alarm{dir = 4; pixel_x = -23},/turf/simulated/floor/tiled/dark,/area/nativitas/security/hall)
 "yy" = (/obj/machinery/atmospherics/pipe/simple/visible,/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
 "yE" = (/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
@@ -568,7 +566,7 @@
 "yT" = (/obj/machinery/alarm{dir = 4; pixel_x = -22},/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "yW" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/white,/area/nativitas/medical/hall)
 "zf" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/structure/hygiene/toilet,/obj/structure/curtain/shower,/turf/simulated/floor/tiled,/area/nativitas/service/restrooms)
-"zg" = (/obj/machinery/recharger/wallcharger{pixel_y = 25},/turf/simulated/floor/wood/ebony,/area/nativitas/command/office/important/hos)
+"zg" = (/obj/structure/charge_pylon,/turf/simulated/floor/pool,/area/nativitas/service/adherent)
 "zk" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "zr" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
 "zz" = (/turf/simulated/floor/carpet,/area/nativitas/command/other/cryo)
@@ -577,11 +575,11 @@
 "zF" = (/obj/machinery/door/airlock/glass/sol{name = "SolGov West Wing"; dir = 4},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/east)
 "zG" = (/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled,/area/nativitas/service/restrooms)
 "zH" = (/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
-"zI" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/power/apc{dir = 4; name = "_East APC"; pixel_x = 27; pixel_y = 2},/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
+"zI" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/power/apc{dir = 4; name = "_East APC"; pixel_x = 27; pixel_y = 2},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "zQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/fabricator/industrial/filled,/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
 "zW" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel,/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
-"Aa" = (/obj/structure/rack,/obj/chargen/light{dir = 8},/obj/machinery/light/small{dir = 8},/obj/machinery/power/apc{dir = 8; name = "_West APC"; pixel_x = -25},/obj/structure/cable{icon_state = "0-1"; dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/mining)
-"Ag" = (/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "0-1"; dir = 4},/turf/simulated/floor/plating,/area/nativitas/hull)
+"Aa" = (/obj/structure/rack,/obj/chargen/light{dir = 8},/obj/machinery/light/small{dir = 8},/obj/machinery/power/apc{dir = 8; name = "_West APC"; pixel_x = -25},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/mining)
+"Ag" = (/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/hull)
 "Ah" = (/turf/simulated/wall/chargen/r_titanium,/area/nativitas/command/other/records)
 "Al" = (/obj/item/stack/material/rods,/turf/exterior/volcanic,/area/exoplanet/kleibkhar)
 "Av" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/photocopier,/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
@@ -602,10 +600,10 @@
 "Bn" = (/obj/machinery/atmospherics/binary/circulator{dir = 8},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "Bo" = (/obj/structure/table/glass,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/obj/item/stamp/solgov/approved,/obj/item/stamp/solgov/denied,/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/two)
 "Bp" = (/obj/structure/wall_frame/hull,/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor/tiled/white,/area/nativitas/medical/chemistry)
-"Br" = (/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "0-1"; dir = 4},/turf/simulated/floor/plating,/area/nativitas/hull)
+"Br" = (/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/plating,/area/nativitas/hull)
 "Bs" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "BB" = (/obj/structure/table/woodentable/maple,/obj/item/modular_computer/tablet/solgov/preset,/turf/simulated/floor/carpet/blue,/area/nativitas/command/office/important/hop)
-"BE" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/carpet/blue2,/area/nativitas/command/wing/north)
+"BE" = (/obj/machinery/atmospherics/binary/pump/high_power/on,/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "BP" = (/obj/structure/table/glass,/obj/machinery/faxmachine,/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/two)
 "BV" = (/obj/machinery/reagentgrinder,/turf/simulated/floor/tiled/white,/area/nativitas/medical/chemistry)
 "BW" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
@@ -627,7 +625,7 @@
 "Di" = (/turf/simulated/floor/plating,/area/nativitas/security/hall)
 "Dl" = (/obj/structure/table,/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/mining)
 "Dm" = (/obj/machinery/smartfridge/chemistry{dir = 4},/turf/simulated/floor/tiled/white,/area/nativitas/medical/chemistry)
-"Dn" = (/obj/machinery/network/relay,/obj/structure/cable,/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"Dn" = (/obj/machinery/network/relay,/obj/structure/cable,/obj/structure/cable,/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "Do" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/white,/area/nativitas/medical/treatment)
 "Dv" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/obj/machinery/alarm{dir = 4; pixel_x = -23},/turf/simulated/floor/tiled/dark,/area/nativitas/security/cell/one)
 "Dy" = (/obj/structure/wall_frame/hull,/obj/structure/grille,/obj/structure/window/reinforced/full,/turf/simulated/floor/tiled/techfloor/grid,/area/nativitas/service/mining)
@@ -675,18 +673,17 @@
 "GT" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
 "GU" = (/obj/machinery/computer/modular/preset,/turf/simulated/floor/plating,/area/nativitas/security/hall)
 "GW" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/mainframe)
-"GY" = (/obj/structure/cable{icon_state = "0-1"; dir = 4},/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
+"GY" = (/obj/structure/mineral_bath,/turf/simulated/floor/pool,/area/nativitas/service/adherent)
 "GZ" = (/turf/simulated/wall/chargen/r_titanium,/area/nativitas/security/cell/one)
-"Hg" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 8},/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/one)
+"Hg" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/one)
 "Ho" = (/turf/simulated/wall/chargen/r_titanium,/area/nativitas/service/mining)
 "Hr" = (/obj/machinery/network/router/wall_mounted{pixel_x = -24; dir = 4},/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
-"Hu" = (/obj/structure/hygiene/sink{pixel_y = -12},/obj/structure/cable{icon_state = "0-1"; dir = 8},/obj/machinery/power/apc/high{dir = 8; name = "west bump"; pixel_x = -24},/turf/simulated/floor/tiled,/area/nativitas/service/restrooms)
+"Hu" = (/obj/structure/hygiene/sink{pixel_y = -12},/obj/machinery/power/apc/high{dir = 8; name = "west bump"; pixel_x = -24},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled,/area/nativitas/service/restrooms)
 "Hx" = (/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/wall/chargen/r_titanium,/area/nativitas/command/office/important/director)
 "HM" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4; level = 2},/obj/item/pottedplant/sappling/willow,/turf/simulated/floor/wood/ebony,/area/nativitas/command/office/important/hos)
 "HR" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/command/wing/east)
 "HW" = (/obj/machinery/alarm{dir = 4; pixel_x = -23},/turf/simulated/floor/plating,/area/nativitas/engineering/bay)
 "HY" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/white,/area/nativitas/medical/treatment)
-"Ia" = (/obj/structure/sign/warning/lethal_turrets{pixel_y = 32},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "Ib" = (/obj/structure/bed/chair/rounded/blue,/mob/living/simple_animal/corgi/beepsky,/turf/simulated/floor/carpet/red,/area/nativitas/command/office/important/hos)
 "Id" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "Ih" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/white,/area/nativitas/medical/chemistry)
@@ -695,7 +692,7 @@
 "Ip" = (/obj/machinery/atmospherics/binary/circulator{dir = 4},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "Ir" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/plating,/area/nativitas/medical/storage)
 "It" = (/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/smes/buildable/max_cap_in_out{charge = 50000},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
-"Iw" = (/obj/machinery/power/apc{dir = 8; name = "_West APC"; pixel_x = -25},/obj/structure/cable{icon_state = "0-1"; dir = 8},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
+"Iw" = (/obj/machinery/power/apc{dir = 8; name = "_West APC"; pixel_x = -25},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/bay)
 "IB" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/plating,/area/nativitas/security/hall)
 "IC" = (/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/mainframe)
 "IJ" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
@@ -704,6 +701,7 @@
 "IV" = (/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
 "IX" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/plating,/area/nativitas/public/business/two)
 "Ja" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/wood,/area/nativitas/command/other/meeting)
+"Jc" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/item/pottedplant/shrub/heart,/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "Jg" = (/obj/machinery/fabricator/protolathe/filled,/obj/structure/railing/mapped{dir = 4; color = "b6e4ef"},/turf/simulated/floor/plating,/area/nativitas/research)
 "Jp" = (/obj/structure/railing/mapped{color = "b6e4ef"},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/west)
 "Js" = (/obj/structure/table/glass,/obj/item/paper_bin,/obj/item/pen/fancy,/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/one)
@@ -725,6 +723,7 @@
 "Kw" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/plating,/area/nativitas/command/wing/west)
 "KK" = (/obj/machinery/internet_repeater,/obj/structure/cable{icon_state = "0-2"},/obj/structure/cable,/turf/simulated/floor/bluegrid,/area/nativitas/command/other/mainframe)
 "KN" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/white,/area/nativitas/medical/treatment)
+"KO" = (/obj/machinery/recharger/wallcharger{pixel_y = 25},/turf/simulated/floor/wood/ebony,/area/nativitas/command/office/important/hos)
 "KS" = (/obj/structure/iv_drip,/obj/machinery/alarm{pixel_y = 23},/turf/simulated/floor/tiled/white,/area/nativitas/medical/surgery)
 "KZ" = (/obj/machinery/network/acl,/obj/structure/cable{icon_state = "0-4"},/obj/machinery/light{dir = 1},/turf/simulated/floor/bluegrid,/area/nativitas/command/other/mainframe)
 "Lb" = (/obj/structure/closet,/obj/structure/closet,/turf/simulated/floor/plating,/area/nativitas/medical/storage)
@@ -738,7 +737,7 @@
 "LD" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/light,/turf/simulated/floor/wood/bamboo,/area/nativitas/command/office/important/hop)
 "LE" = (/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/nativitas/hull)
 "LG" = (/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
-"LQ" = (/obj/structure/filing_cabinet/chestdrawer,/turf/simulated/floor/wood/ebony,/area/nativitas/command/office/important/hos)
+"LQ" = (/obj/structure/table/woodentable/ebony,/obj/item/pottedplant/floral/red{pixel_y = 12},/turf/simulated/floor/carpet/red,/area/nativitas/command/office/important/hos)
 "LV" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/alarm{dir = 1; pixel_y = -22},/turf/simulated/floor/wood/bamboo,/area/nativitas/command/office/important/hop)
 "LY" = (/turf/simulated/floor/tiled,/area/nativitas/public/business/four)
 "Ma" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/east)
@@ -747,7 +746,7 @@
 "Mp" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/wall/chargen/r_titanium,/area/nativitas/command/other/vault)
 "Mv" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "Mz" = (/obj/machinery/power/solar,/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
-"MC" = (/obj/machinery/light{dir = 1},/obj/machinery/network/trade_controller,/obj/structure/cable{icon_state = "0-8"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"MC" = (/obj/machinery/light{dir = 1},/obj/machinery/network/trade_controller,/obj/structure/cable{icon_state = "0-8"},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "MH" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/wood/bamboo,/area/nativitas/command/office/important/hop)
 "MI" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 6},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "MJ" = (/obj/structure/bed/chair/padded/blue{dir = 8},/turf/simulated/floor/wood,/area/nativitas/command/other/meeting)
@@ -801,12 +800,12 @@
 "Qx" = (/turf/simulated/wall/chargen/r_titanium,/area/nativitas/security/cell/holding)
 "Qy" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible,/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "Qz" = (/obj/structure/grille{material = /decl/material/solid/metal/alienalloy; name = "super-reinforced titanium grille"},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "0-4"},/turf/simulated/floor/plating,/area/nativitas/hull)
-"QE" = (/obj/structure/mineral_bath,/turf/simulated/floor/pool,/area/nativitas/service/adherent)
+"QE" = (/obj/structure/sign/warning/lethal_turrets{pixel_y = 32},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "QO" = (/obj/machinery/optable,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/white,/area/nativitas/medical/surgery)
 "Rc" = (/obj/structure/railing/mapped{dir = 4; color = "b6e4ef"},/obj/structure/railing/mapped{dir = 8; color = "b6e4ef"},/turf/simulated/floor/carpet/blue2,/area/nativitas/command/wing/north)
 "Rh" = (/turf/simulated/floor/plating,/area/nativitas/engineering/power)
-"Rl" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/west)
-"Rn" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/item/pottedplant/shrub/heart,/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
+"Rl" = (/obj/machinery/power/apc{dir = 1; name = "_North APC"; pixel_y = 24},/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/west)
+"Rn" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/dark,/area/nativitas/security/storage)
 "Rx" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/plating,/area/nativitas/engineering/solars)
 "Rz" = (/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/two)
 "RI" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 1},/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
@@ -832,6 +831,7 @@
 "Ta" = (/obj/machinery/vending/lavatory,/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "Tl" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/public/business/one)
 "Tm" = (/obj/machinery/computer/modular/preset/aislot/sysadmin{dir = 8},/obj/machinery/light{dir = 4},/turf/simulated/floor/carpet/blue,/area/nativitas/command/office/important/hop)
+"Tq" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/steel_grid,/area/nativitas/engineering/atmos)
 "Tr" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "Tt" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/east)
 "TH" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/glass/sol{name = "SolGov Chief Sentinel"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/wood,/area/nativitas/command/office/important/hos)
@@ -839,7 +839,7 @@
 "TK" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "TL" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
 "TY" = (/obj/machinery/atmospherics/pipe/simple/hidden/fuel{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/wing/west)
-"TZ" = (/obj/structure/table/woodentable/ebony,/obj/item/pottedplant/floral/red{pixel_y = 12},/turf/simulated/floor/carpet/red,/area/nativitas/command/office/important/hos)
+"TZ" = (/turf/simulated/floor/carpet/blue,/area/nativitas/command/office/important/hop)
 "Ua" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/tiled/dark,/area/nativitas/security/hall)
 "Uc" = (/obj/machinery/vending/sol,/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "Ud" = (/obj/structure/cable{icon_state = "1-4"},/obj/machinery/light{dir = 8},/obj/structure/cable{icon_state = "4-8"},/obj/item/pottedplant/shrub/roses,/turf/simulated/floor/wood/walnut,/area/nativitas/command/office/important/director)
@@ -868,7 +868,6 @@
 "Vx" = (/obj/machinery/light{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/wood,/area/nativitas/command/office/bureaucrat/one)
 "VC" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/greengrid,/area/nativitas/command/other/mainframe)
 "VF" = (/obj/machinery/network/relay/wall_mounted{dir = 8; pixel_x = 24},/turf/simulated/floor/plating,/area/nativitas/command/wing/west)
-"VH" = (/obj/structure/table,/obj/item/pottedplant/floral/red{pixel_y = 12; pixel_x = -16},/turf/simulated/floor/wood,/area/nativitas/command/other/meeting)
 "VO" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "VR" = (/obj/structure/table/woodentable_reinforced,/obj/item/paper_bin,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "2-4"},/obj/item/pottedplant/floral2/chrysanthemum,/turf/simulated/floor/wood,/area/nativitas/command/wing/north)
 "VW" = (/obj/machinery/alarm{dir = 4; pixel_x = -23},/turf/simulated/floor/plating,/area/nativitas/engineering/atmos)
@@ -887,7 +886,7 @@
 "WI" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/wood,/area/nativitas/command/other/meeting)
 "WP" = (/obj/machinery/power/apc{dir = 4; name = "_East APC"; pixel_x = 27; pixel_y = 2},/obj/structure/cable,/turf/simulated/floor/plating,/area/nativitas/research)
 "WU" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/machinery/network/mainframe,/obj/structure/cable,/turf/simulated/floor/bluegrid,/area/nativitas/command/other/mainframe)
-"WY" = (/obj/machinery/telecomms/broadcaster,/obj/structure/cable{icon_state = "0-1"; dir = 1},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
+"WY" = (/obj/machinery/telecomms/broadcaster,/obj/structure/cable{icon_state = "0-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "WZ" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/vault)
 "Xa" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/plating,/area/nativitas/engineering/power)
 "Xe" = (/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/reinforced,/area/nativitas/command/other/mainframe)
@@ -910,7 +909,7 @@
 "Yi" = (/obj/machinery/atmospherics/unary/vent_pump/on,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/nativitas/medical/storage)
 "Yq" = (/obj/machinery/computer/ship/helm{dir = 1},/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
 "Ys" = (/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
-"Yw" = (/obj/structure/cable{icon_state = "0-1"; dir = 4},/obj/machinery/power/apc/high{dir = 4; name = "east bump"; pixel_x = 24},/turf/simulated/floor/tiled/dark,/area/nativitas/security/hall)
+"Yw" = (/obj/machinery/power/apc/high{dir = 4; name = "east bump"; pixel_x = 24},/turf/simulated/floor/tiled/dark,/area/nativitas/security/hall)
 "YE" = (/obj/machinery/door/airlock/glass/sol{name = "SolGov West Wing"; dir = 4},/obj/machinery/door/firedoor/autoset,/turf/simulated/floor/reinforced,/area/nativitas/command/wing/north)
 "YF" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/nativitas/command/wing/west)
 "YJ" = (/obj/machinery/door/airlock/glass,/turf/simulated/floor/plating,/area/exoplanet/kleibkhar)
@@ -1015,43 +1014,43 @@ aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdp
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEiGNENENENENENElmbEbEbEbEbEuyNENENENENENEiGNENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENtNENENENEcSajnuQgAveQZJfEezZrcSNENENENENtNENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENEajxXgpgpgpgpcxHxUdGTlyaCDIGTWrfYcxRNRNRNRNBmZrNENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENEcScScScScSNtCsjBjBjBjBzgaoHrkXeymbupkXdEAYxkaGaGaGaGctNtcScScScScSNENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENEcScScSijijijijfStcjBWsIblJjBGOkXOOiwVldfmLkXROaGaGEKwuOLTmPBcccccccccScSNENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENEdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENEcScSijijErijijijfSLQjBuaVeTZjBaoPepPsRtyZYXgYSAYWgCIpWiCBBeRPBcccccccccccScSNENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENEcScScScScSNtCsjBjBjBjBKOaoHrkXeymbupkXdEAYxkaGaGaGaGctNtcScScScScSNENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENEcScScSijijijijfStcjBWsIblJjBGOkXOOiwVldfmLkXROaGaGEKTZOLTmPBcccccccccScSNENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENEdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENEcScSijijErijijijfSjgjBuaVeLQjBaoPepPsRtyZYXgYSAYWgCIpWiCBBeRPBcccccccccccScSNENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENEcScScScScScScScScScSNtGpjBYQYQmnhrfqbhlWtFUKAByLAYAYkMMHaGiIiIOuPBkakakakakakacScScScSNENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENEcScScScScScScScSWhsMVfsnalyScmbNhVNtcSHMcUqeZhfBAYAYAYlOodlOAYAYAYPRWfLVLDCoPRMpKmuccRwEWYqicFfVepcScScScScScScScSNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENEcScSEPEPaJaKxxcSKZMTapcEcEaplYbkxiLeXecSfBfBfBTHfBESkkpeZWpUZWdKjofnPRGqPRPRPRPRpNKmKmcRrApKpKpKkdkdMCkamfQOKSaVsqcScSNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEcScScSaQEPEPoqaMifcSRLNKJtKKqrqMbrSYJGGWpmLxrqgtZDJaJBWIkKAVwhhfwhkzkzACcHiUKmhsIawzViWZWZaAIdfJDndeKmKmpNkajNaTjvaVwQbvcScScSNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEcSxxxxxxEPEPxxfcEPcSFglpdVVCVCdVdtbkurDHICcScScScSlFSPFulFDKZWBEZWiLYTcaeBYTcScScScSKmKmKmcRKmKmKmKmKmKmmFkaaHAzlSaVYiUAjnbvcSNENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENEcScSnHnHnHnHnHxxfcEPcScSlGWUeKeKnUeKJwFIgicScSNENEcScdatVHMJpeZWBEZWdKZTZTZTZTcSNENEcScSKmsvcRrVrVrVrVrVrVkakajJMdjJaViNUAUALbcScSNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEcScScSsEFpfdbDFpnHaaffaanHcScScScScScScScScScScSNENEcncSuVuVuVuVuVoOBEcPAhAhAhAhAhcSjEdpNEcScScScScSkakakakakakarSyutfBblxIrvIrKUAsqcScScSNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEcScScSaQEPEPoqaMifcSRLNKJtKKqrqMbrSYJGGWpmLxaNgtZDJaJBWIkKAVwhhfwhkzkzACcHiUKmhsQEwzViWZWZaAIdfJDndeKmKmpNkajNaTjvaVwQbvcScScSNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEcSxxxxxxEPEPxxfcEPcSFglpdVVCVCdVdtbkurDHICcScScScSlFSPFulFDKZWomZWiLYTcaeBYTcScScScSKmKmKmcRKmKmKmKmKmKmmFkaaHAzlSaVYiUAjnbvcSNENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENEcScSnHnHnHnHnHxxfcEPcScSlGWUeKeKnUeKJwFIgicScSNENEcScdatbQMJpeZWomZWdKZTZTZTZTcSNENEcScSKmsvcRrVrVrVrVrVrVkakajJMdjJaViNUAUALbcScSNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEcScScSsEFpfdbDFpnHaaffaanHcScScScScScScScScScScSNENEcncSuVuVuVuVuVoOomcPAhAhAhAhAhcSjEdpNEcScScScScSkakakakakakarSyutfBblxIrvIrKUAsqcScScSNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEcSsOJusEsEfgIXFpafZOfQZOadDffhcJAUcSGdcSNENENENEdpdpcnyMvGVxHgtPtPtPjztPtPtPbuRzehNFjEdpdpNENENENEcSGdcSsFHYHYMlYeXTcNuPaVaVaVaVaVHoHoHocSNENEdpdpdpdpNENENENEdpdpdpdpdpdpdpdpNENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENENENENENENEdpdpdpdpNEcScSSnSnJusEfifjfkfmfofrYsRPAUftbcAUcScSNEdpdpdpdpdpdpcnJsPHKhEJZWZWZWnXZWZWZWDSBoXtbjjENEdpdpdpdpNENEcScSsFsFKNsFZaXTyPcTDmBVIktOeClQdHaEcScSNEdpdpdpNENENENENENENEdpdpdpdpdpNEagagNENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpbebebeALaRbedLicbebebFLGicALaRdpdpdpdpNEcSRQdipVSnsEsEmHFpafZOfvfofwfxfyaYLYcSNENEdpdpdpdpdpdpcnGihGDCtEtEaUZWPXaUZWtEtEbxeaBPjENEdpdpdpdpdpdpNEcSwnDocyakPNOSEEyWSgIheGqyeCODGjoEDlcSNEdpdpdpNENEGzGzNEGzNEdpdpdpdpdpNEGzagNEGzGzNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpNEbeicdLcQaRbedLIVbebebFDXbnDXaRNEdpdpdpNEcSpVRQpVSnSnJudAsEJuYsfQZORPLYLYnvAUcSNEdpdpdpdpdpdpNEcncncScStECRdmTrTKkVaeUCtEcScSjEjEdpdpdpdpdpdpdpNEcSgkoxYfsFrSXTaDGgBprbCQXSeCcAPGdBbicSNEdpdpdpNENEGzNEGzGzNENEdpdpdpdpNEGzagNEGzGzGzNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEbedLbecQaRbebeiJbebebFDXbnDXaRNENEdpdpNEcSdDRQmxfzpVSnJusJJuZOfQYsadAUAULYAUcSNEdpdpdpdpdpdpNENENENEcSyTBsGxZeVRcbamdlGYcSNENEdpdpdpdpdpdpdpdpNEcSaZVwcvaZararryzEarIMIMIMIMAajddBqmcSNEdpdpNENENEGzNEGzNENENEdpdpdpdpNEGzNENEGzNENEGzGzNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEbedLbecQaRbebeiJbebebFDXbnDXaRNENEdpdpNEcSdDRQmxfzpVSnJusJJuZOfQYsadAUAULYAUcSNEdpdpdpdpdpdpNENENENEcSyTBsGxZeVRcbamdlZWcSNENEdpdpdpdpdpdpdpdpNEcSaZVwcvaZararryzEarIMIMIMIMAajddBqmcSNEdpdpNENENEGzNEGzNENENEdpdpdpdpNEGzNENEGzNENEGzGzNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEicbebecQaRbebeiJdLbebFDXbnDXaRNENEdpNENEcStVpVTlpVRQSnJuJuJuZOfQZOadadAUAUAUcSNEdpdpdpdpdpdpdpdpdpNEcSoOcZZWVnElVnZWcZcPcSNEdpdpdpdpdpdpdpdpdpNEcSCEirNTpDarOGXMzfarWwrtWwJFcLbHPlXjcSNENEdpNENENENEGzGzGzNENEdpdpdpNEagGzNENEGzGzGzGzNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFDXbzFVaRbebeiJdLbebFDXbnDXaRNENENENENEcSpVRQwJpVRQpVSnSnUcYsfQYsTaadaddFLYcSNENEdpdpdpdpdpdpNENENEcSZWtEuEaycGlHmdtEZWcSNENEdpdpdpNENEdpNENENEcSQbUJOeVXarHuzGhdarvfiejSZuecpphlKjcSNENENENENEGzGzGzGzGzNENEdpdpdpNENEGzNENEGzGzGzGzGzNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFcjcguoaRdLdLiJbebebFcjzHuoaRbeUVUVUVUVcSSnelXGelSnSnSndIYsYsfQYskedJadadadcScncncncncncncncncScScScSUmtEZWXmRnPkZWtEUmcScScScScncncncncncncncncSjQjQcwAMararyKararIMIMIMIMDyPVdBDycSUVUVUVUVKfedededededKfKfdsdsKfKfbtedKfKfedededededNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFcjcguoaRdLdLiJbebebFcjzHuoaRbeUVUVUVUVcSSnelXGelSnSnSndIYsYsfQYskedJadadadcScncncncncncncncncScScScSUmtEZWXmJcPkZWtEUmcScScScScncncncncncncncncSjQjQcwAMararyKararIMIMIMIMDyPVdBDycSUVUVUVUVKfedededededKfKfdsdsKfKfbtedKfKfedededededNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEbeiciJicbedLdLiJbebebeiciJicbeicWESHWESHjbYsZOfQZOZOdMZOYsIJYsfQYsYsYsYsZMOpwZLdLdLdLdLdLdLdLdwZRlYEipZWacZWRcnXRcZWacZWiWbLmjdNUUUUUUUUUUUUUUUUdNvlzFMarPrPrPwkdPaiCUCUCUdPCUHRXArPjbSHWESHWEedKfededbmKfKfKfKfKfKfKfKfedKfKfxHedededKfNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpazeORxeOeOeOeOtAeOeOeOeOzricicictlSHOCSHNqZOZOKwfCfCfCfCfCYFkufDhucBbMIRkJbOjsbObObObObObObObOjsTYiFjDMvgxMvyIPshwMvbBMvZkiFqoEAdGdGdGdGdGdGdGdGEAdGDgTtcIcfcIwwcIPWQeLrcIQeQeonMPCUNqSHOCSHtledededededededededededededededededededededNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEdpbeiciJicbedLdLiJbebebeiciJicbeicWESHWESHjbZOYsTJZOYsYsYsYsPqPdcpiPeWYsYsZMOpnxJpJpJpJpJpJpJpJpnxvzYEZWZWjtZWOtZWiVZWdkZWZWbLhPdQpqpqpqpqpqpqpqpqdQvlzFrPrPMarPrPdSrPrPvwCUdTrPHRNarPjbSHWESHWEedKfededrjedKfKfKfKfedbtedKfededrjedKfKfKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFcDanasaRbebeiJdLbebFcDanasaRNEUVUVUVUVcSbZbZfQbZbZEqCVtmYsYseXeYfatmaFaFaFcScncncncncncncncncScScScSRMdUOJOtZWiVRMdUOJcScScScScncncncncncncncncSqVqVqVqVbVDiPFPFCUrPrPozozozhvbdozcSUVUVUVUVKfGwhmYJhmYJhmGwKfKfedKfKfGwhmYJhmYJhmGwKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFbfbzaOaRbebeiJbebebFbfbzaOaRNENENENENEcSdaZOfQLitiZOCVCVdWYsfbYsdWaFaFdXddcSNENENENENENENENENENENEcScScScSJOaucrcScScScSNENENENENENENENENENENEcSeIdYeIqVcKANUawaCUrPCUxYbPbPkLpwhgcSNENENENEKfIldCmomoRIdCgvKfdsedKfKfIldCmomoRIdCgvKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFbfbzaOaRbedLiJbebebFbfbzaOaRNEdpdpNEcScSdaYsfQYsZOYsVFCVCVYsfbYsaFaFdhqlDZjENENENENEdpdpdpNENENENENENENEcSrxbKbacSNENENENENENENENENENENENENENEcSbQjicOqVchaLaLwarPCUCUxYdcbPfswmFEcScSNENENEKfhmhmYJhmeshmhmKfdseddsKfhmhmYJhmeshmhmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFbfbzaOaRbedLiJbebebFbfbzaOaRNEdpdpNEcScSdaYsfQYsZOYsVFCVCVYsfbYsaFaFdhqlDZjENENENENEdpdpdpNENENENENENENEcSrxbKbacSNENENENENENENENENENENENENENEcSRnjicOqVchaLaLwarPCUCUxYdcbPfswmFEcScSNENENEKfhmhmYJhmeshmhmKfdseddsKfhmhmYJhmeshmhmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFbfbzaOaRbedLiJbebebFbfbzaOaRdpdpdpdpcSdaZOYsNNbbbbfGCVaBaBYsfbYsaFdhqlbSOAjENENENEdpdpdpdpdpdpNENENENECkCklqaXbqCkCkNENENENEdpdpdpdpdpNENENENEcSdZxObAciFcYwtgtgtgtgtgozIwiRSravFEbPcSNEdpNEKfhmrzGzmIyyXRhmKfdseddsdshmrzGzmIyyXRhmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFbfbzaOaRbebeiJbebebFbfbzaOaRdpdpdpdpcSeeZOZOdzZOYsCVaBRhaBZOfbYsdhbScobSJgjENENEdpdpdpdpdpdpdpdpNENEqDCkZslqaXbqZsCkjHNENEdpdpdpdpdpdpdpNENENEcSbQeThSqVefaLtgSqxdmWtgHWckjZNyflFEaScSNEdpdpKfhmrzGzGzIlhthmKfdseddsdshmrzGzGzIlhthmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFbfbzaOaRbebeiJbebebFbfbzaOaRdpdpdpdpcSeeZOZOdzZOYsCVaBRhaBZOfbYsdhbScobSJgjENENEdpdpdpdpdpdpdpdpNENEqDCkZslqaXbqZsCkjHNENEdpdpdpdpdpdpdpNENENEcSRneThSqVefaLtgSqxdmWtgHWckjZNyflFEaScSNEdpdpKfhmrzGzGzIlhthmKfdseddsdshmrzGzGzIlhthmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFdjicNkaRdubeiJdLbebFdjicNkaRNEdpdpNEcSdaZOYszkLwCVaBbIxEawCLSTfCbgbGDzXlkTcSNENEdpdpdpdpdpdpdpdpNENECkcqaXeFzzqAaXblCkNENEdpdpdpdpdpdpdpdpNENEcSceegceqVahAScVgOwteitgejtdbPzQflFEemcSNEdpdpKfhmrzGzGzGzwYhmKfdseddsdshmrzGzGzGzwYhmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbebebebebeduduiJbebebebebebebeNEdpNEcScSCVdadaaIdaCVabVbUxaBDaCDZOWGqlvFWPcScSNEdpdpdpdpdpdpdpdpdpNENECkenaXzzzzzzaXeoCkNENEdpdpdpdpdpdpdpdpdpNEcScSqVqVqVyvaLtgbpxdmWtgoztdozSWSxcuozcScSdpdpKfhmhmWtYqGyhmhmKfdsedKfKfhmhmWtYqGyhmhmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFLGicALaRduduiJbebebFLGicALaRNEdpNEcSOwaBaBaBaBaBaBtvcScScSFBcSaFaFeqbSbScSNENEdpdpdpdpdpdpdpdpdpNENECkcqaXaXzzaXaXblCkNENEdpdpdpdpdpdpdpdpdpNENEcSwXwXGUchaLtgtgtgtgtgfpmNfphQBWcYfpfpcSNEdpKfJzhmbXbXbXhmbJKfKfedKfKfJzhmbXbXbXhmbJKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEdpbFDXbnDXaRbeduiJdLbebFDXbnDXaRdpdpNEcSUvIthWIterItRhtvcSdqeVdRcSbSbSbSbSczcSNENEdpdpdpdpdpdpdpdpdpNENECkCkZsaXaXaXZsCkCkNENEdpdpdpdpdpdpdpdpdpNENEcSeudOIBgYexGZjLkiuhGZjenwTLuljRWDVgfpcSNEdpdsKfKfKfKfKfKfKfKfKfedKfKfKfKfKfKfKfKfKfKfdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFDXbnDXaRbebeiJbebebFDXbnDXaRNEdpdpcSbRbRbRbRbRbRRhzIcSEvoIVvcSbSbSqlqlcscSNENEdpdpdpdpdpdpdpdpdpNENENECkCkaXaXaXCkCkNENENENEdpdpdpdpdpdpdpdpNENEcSwaaLtKDYfFbYekhoeAGZeENIjedgruzWjeeHcSNEdpdsKfdsdsdsKfKfKfKfbtededbtKfKfKfKfdsdsdsdsdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFDXbnDXaRbedLiJbebebFDXbnDXaRNEdpdpcSbyKsCBKsLmEBowxTcSjgoIQEcSeqqlbSqlqlcSNEdpdpdpdpdpdpdpdpdpdpNENENENEqXboboboqXNENENENENEdpdpdpdpdpdpdpdpdpNEcSiYiYaWUpiYGZDvkiuhGZomjejehQBWcYjefpcSNEdpdsdsdsKfKfKfbtbtedededededededKfKfdsdsdsdsdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFDXbnDXaRbedLiJbebebFDXbnDXaRNEdpdpcSbyKsCBKsLmEBowxTcSzgoIGYcSeqqlbSqlqlcSNEdpdpdpdpdpdpdpdpdpdpNENENENEqXboboboqXNENENENENEdpdpdpdpdpdpdpdpdpNEcSiYiYaWUpiYGZDvkiuhGZTqjejehQBWcYjefpcSNEdpdsdsdsKfKfKfbtbtedededededededKfKfdsdsdsdsdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFDXbnDXaRbedLiJbebebFDXbnDXaRNEdpNEcSeJbRRhMIcXZwcXeLcScScScScSdhbSbSbSqlcSNEdpdpdpdpdpdpdpdpdpdpNENENENENEGzagGzNENEjhNENENENEdpdpdpdpdpdpdpdpNEcSBdQvevUqSLGZGZGZGZGZVWfpfphQVsVsjefpcSNENEdsdsKfKfedededededbtededbtededededbtKfKfdsdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpNENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFcjzHuoaRbebeiJbebebFcjzHuoaRNENENEcSbRBafAmZrUNYVOlsXaXaXaclaFdhfubSqlqlcSNENEdpdpdpdpdpdpdpdpdpNENEjhNEGzGzagGzGzNENENENENENEdpdpdpdpdpdpdpdpNEcSeMmrfeXoeNQxewaPaPaPqaaPaPfXzCzCeZjecSNEdpdsdsKfKfededKfbtbtbtedKfbtKfKfedededKfKfKfdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpNENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEdpbeiciJicbebebeiJbebebeiciJicbeNENENEcSbRRhRhdndnRZXaQySRXacldnaFaFmgqlbScScSNENEdpdpdpdpdpdpdpdpNEAlNENEGzGzGzGzGzagagagGzNENENEdpdpdpdpdpdpdpdpNEcScSYUdbglQxQxfWfpfpfpfpfpjecCeDsdtQGucSNENEKfKfKfedrjedKfKfKfKfedbtedKfKfedrjKfKfKfKfdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpNENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNEdpbTeOlLeOeOeOeObseOeOeOeOwMeOeOeOeOeOcxhkvkXabCQybCIpQyXaIppJdnRhaFcScScScSNENENEdpdpdpdpdpdpdpdpNENENENEagNENEGzagagUTGzNEAlNENEdpdpdpdpdpdpdpdpdpNEcScScSQxQxewZZJTTLTLikJYXkGPcWcWcMcScSNENEKfGwhmYJhmYJhmGwKfKfedKfKfGwhmYJhmYJhmGwKfdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
-aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbeiciJicbebebeiJbebebeiciJicbeNEdpNENEcSRhRhRhaNRhpldnYVplWqdnRhRhcSNENENENENEdpdpdpdpdpdpdpdpdpNENENEGzagAlNENEagNENEagUTagNENEdpdpdpdpdpdpdpdpdpNENENEcScSePooeDaPaPaPbUeweDaPoFcWeScSNENENEKfIldCmomoRIdCgvKfKfededKfIldCmomoRIdCgvKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
+aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbeiciJicbebebeiJbebebeiciJicbeNEdpNENEcSRhRhRhBERhpldnYVplWqdnRhRhcSNENENENENEdpdpdpdpdpdpdpdpdpNENENEGzagAlNENEagNENEagUTagNENEdpdpdpdpdpdpdpdpdpNENENEcScSePooeDaPaPaPbUeweDaPoFcWeScSNENENEKfIldCmomoRIdCgvKfKfededKfIldCmomoRIdCgvKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFcDanasaRbebeiJdLbebFcDanasaRdpdpdpNEcSiZXaXaeUXaBnbCbCBnXahxcScScSNENENENEdpdpdpdpdpdpdpdpdpdpNENENENEagjhNENEGzNENENENEGzNENEdpdpdpdpdpdpdpdpdpNENENENEcScScSooaPaPbwaPbUooaPaPoFbWcSNENENEKfhmhmYJhmeshmhmKfKfedKfKfhmhmYJhmeshmhmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFbfbzaOaRbebeiJdLbebFbfbzaOaRdpdpdpNEcScScScScScScScScScScScScSNENENENEdpdpdpdpdpdpdpdpdpdpdpdpNENENENEGzGzNEjhNENENEjhNENENENEdpdpdpdpdpdpdpdpdpdpNENENENENEcScScScScScScScScScScScScSNENENEKfhmrzGzmIyyXRhmKfededdsdshmrzGzmIyyXRhmKfNEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
 aqaqaqaqaqaqaqdodpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENEbFbfbzaOaRbebeiJbebebFbfbzaOaRdpdpNENENENENENENEdpNENEdpdpdpNENENENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENEAlNENENENENENEdpdpdpdpdpdpdpdpdpdpdpNENENENENENENENENEagagNENENENENENENEdpdpKfhmrzGzGzIlhthmKfededdsdshmrzGzGzIlhthmKfNENEdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdpdoaqaqaqaqaqaqaq
