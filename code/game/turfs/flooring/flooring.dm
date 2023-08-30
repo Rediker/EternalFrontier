@@ -128,6 +128,11 @@
 	icon_base = "purple"
 	build_type = /obj/item/stack/tile/carpetpurple
 
+/decl/flooring/carpet/purple/diamond
+	name = "purple diamond carpet"
+	icon_base = "purple_diamond"
+	build_type = /obj/item/stack/tile/carpetpurplediamond
+
 /decl/flooring/carpet/orange
 	name = "orange carpet"
 	icon_base = "orange"
