@@ -31,12 +31,12 @@
 
 /obj/item/stamp/solgov/approved
 	name = "SolGov Stamp"
-	desc = "A stamp belonging to a SolGov desk clerk, to officially approve or stamp papers. If you have this, you should probably return it. It's blue and yellow, denoating SolGov colors."
+	desc = "A stamp belonging to a SolGov desk clerk, to officially approve or stamp papers. If you have this, you should probably return it. It's blue and yellow, denoting SolGov colors."
 	icon_state = "stamp-sgapproved"
 
 /obj/item/stamp/solgov/denied
 	name = "SolGov Denied Stamp"
-	desc = "A stamp belonging to a SolGov desk clerk, to officially deny or stamp papers. If you have this, you should probably return it. It's blue and yellow, denoating SolGov colors."
+	desc = "A stamp belonging to a SolGov desk clerk, to officially deny or stamp papers. If you have this, you should probably return it. It's blue and yellow, denoting SolGov colors."
 	icon_state = "stamp-sgdenied"
 
 /obj/item/stamp/captain
