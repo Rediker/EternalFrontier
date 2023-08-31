@@ -345,7 +345,6 @@
 /obj/item/stack/tile/carpetpurplediamond/fifty
 	amount = 50
 
-
 /obj/item/stack/tile/carpetorange
 	name = "orange carpet"
 	desc = "A piece of orange carpet."
