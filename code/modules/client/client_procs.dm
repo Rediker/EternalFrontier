@@ -405,6 +405,7 @@ var/global/list/localhost_addresses = list(
 		'html/search.js',
 		'html/panels.css',
 		'html/spacemag.css',
+		'html/images/solgov.png',
 		'html/images/loading.gif',
 		'html/images/talisman.png'
 		)
