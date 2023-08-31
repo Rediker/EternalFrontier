@@ -135,7 +135,7 @@
 
 /decl/flooring/carpet/purplediamond
 	name = "purple diamond carpet"
-	icon_base = "purple_diamond"
+	icon_base = "purplediamond"
 	build_type = /obj/item/stack/tile/carpetpurplediamond
 
 /decl/flooring/carpet/orange
