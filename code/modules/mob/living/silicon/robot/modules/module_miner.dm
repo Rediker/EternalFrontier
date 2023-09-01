@@ -2,7 +2,7 @@
 	name = "miner robot module"
 	display_name = "Miner"
 	software = list(
-		/datum/computer_file/program/supply
+	//	/datum/computer_file/program/supply
 	)
 	channels = list(
 		"Supply" = TRUE,

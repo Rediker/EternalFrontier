@@ -21,7 +21,7 @@
 	)
 	software = list(
 		/datum/computer_file/program/wordprocessor,
-		/datum/computer_file/program/supply
+	//	/datum/computer_file/program/supply
 	)
 	emag = /obj/item/stamp/chameleon
 	synths = list(/datum/matter_synth/package_wrap)
