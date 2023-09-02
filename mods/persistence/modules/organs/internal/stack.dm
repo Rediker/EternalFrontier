@@ -64,7 +64,7 @@ var/global/list/cortical_stacks = list()
 /obj/item/organ/internal/stack/getToxLoss()
 	return 0
 
-/obj/item/organ/internal/stack/do_install(mob/living/carbon/human/target, obj/item/organ/external/affected, in_place, update_icon, detached)
+/* /obj/item/organ/internal/stack/do_install(mob/living/carbon/human/target, obj/item/organ/external/affected, in_place, update_icon, detached)
 	. = ..()
 	//Since language list gets reset all the time, its better to do this here!
 	if(owner && !(status & ORGAN_CUT_AWAY))
@@ -79,7 +79,7 @@ var/global/list/cortical_stacks = list()
 		owner.remove_language(/decl/language/cortical)
 		verbs -= /obj/item/organ/internal/stack/proc/change_cortical_alias
 	. = ..()
-
+*/  // goodbye cortical chat
 /obj/item/organ/internal/stack/on_add_effects()
 	. = ..()
 	QDEL_NULL(backup)
@@ -116,7 +116,7 @@ var/global/list/cortical_stacks = list()
 		last_alias_change = world.time
 
 /**Override to handle cortical chat. Ideally should be a section in base update language to check for language given from organs. */
-/mob/living/carbon/human/update_languages()
+/* /mob/living/carbon/human/update_languages()
 	. = ..()
 	//Now check if we should install cortical chat language
 	var/obj/item/organ/internal/stack/stack = get_organ(BP_STACK, /obj/item/organ/internal/stack)
@@ -128,7 +128,7 @@ var/global/list/cortical_stacks = list()
 			stack.verbs |= /obj/item/organ/internal/stack/proc/change_cortical_alias
 			if(!stack.cortical_alias)
 				stack.cortical_alias = Gibberish(name, 100)
-
+*/ // bye bye cortical
 SAVED_VAR(/obj/item/organ/internal/stack, stackmob)
 SAVED_VAR(/obj/item/organ/internal/stack, backup)
 SAVED_VAR(/obj/item/organ/internal/stack, cortical_alias)
