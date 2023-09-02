@@ -11,7 +11,7 @@
 	)
 	software = list(
 		/datum/computer_file/program/wordprocessor,
-		/datum/computer_file/program/supply
+	//	/datum/computer_file/program/supply
 	)
 
 /obj/item/robot_module/clerical/butler

@@ -7,7 +7,6 @@
 	icon_vend = "theater-vend"
 	icon_deny = "theater-deny"
 	products = list(
-		/obj/structure/flora/pottedplant = 2,
 		/obj/item/flashlight/lamp = 2,
 		/obj/item/flashlight/lamp/green = 2,
 		/obj/item/chems/drinks/jar = 1,

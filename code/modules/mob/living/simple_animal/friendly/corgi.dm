@@ -43,6 +43,12 @@
 	icon_state = "sheet-corgi"
 	material = /decl/material/solid/skin/fur/orange
 
+/mob/living/simple_animal/corgi/beepsky
+	name = "Lieutenant B"
+	desc = "B is typically silent about his past. It's assumed he must be a veteran of combat of some sort. Or maybe he's just a robot. He's taken up a hobby of cleaning, but isn't too good at it."
+	icon = 'icons/mob/simple_animal/pet_beepsky.dmi'
+	gender = MALE
+
 //IAN! SQUEEEEEEEEE~
 /mob/living/simple_animal/corgi/Ian
 	name = "Ian"

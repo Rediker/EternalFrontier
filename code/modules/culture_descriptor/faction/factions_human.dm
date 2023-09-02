@@ -17,6 +17,6 @@
 
 /decl/cultural_info/faction/human_independent
 	name = "Independent Humanity"
-	description = "Unalighed humans are comparatively rare in comparison to the billions that fall under the rule of either the Terrans or SolGov. You operated for an organization that was not aligned to either side."
+	description = "Unaligned humans are comparatively rare in comparison to the billions that fall under the rule of either the Terrans or SolGov. You operated for an organization that was not aligned to either side."
 	subversive_potential = 0
 	economic_power = null

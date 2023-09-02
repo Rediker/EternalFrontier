@@ -1,3 +1,12 @@
+/*
+
+//##########################
+//### NOTE FROM CRIMSON: ###
+//##########################
+
+// this contains bay/neb supply shuttle programs or their own cargo programs.
+// these are NOT the ones unleashed uses and them being there is just confusing to players.
+
 #define SUPPLY_LIST_ID_CART 1
 #define SUPPLY_LIST_ID_REQUEST 2
 #define SUPPLY_LIST_ID_DONE 3
@@ -418,3 +427,4 @@
 #undef SUPPLY_LIST_ID_CART
 #undef SUPPLY_LIST_ID_REQUEST
 #undef SUPPLY_LIST_ID_DONE
+*/

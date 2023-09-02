@@ -13,13 +13,16 @@
 	)
 	return spawnable_choices
 
-/obj/random/pottedplant
+// commented out potted plant randomization spawns. this isn't really needed in general, but in case we need to put it back in, just update the icons.
+
+/* /obj/random/pottedplant
 	name = "random potted plant"
 	desc = "This is a random potted plant."
 	icon = 'icons/obj/structures/potted_plants.dmi'
 	icon_state = "plant-26"
 	spawn_nothing_percentage = 0
 
-/obj/random/pottedplant/spawn_choices()
+ /obj/random/pottedplant/spawn_choices()
 	var/static/list/spawnable_choices = subtypesof(/obj/structure/flora/pottedplant) - list(/obj/structure/flora/pottedplant/unusual)
 	return spawnable_choices
+*/

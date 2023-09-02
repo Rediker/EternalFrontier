@@ -38,9 +38,9 @@
 
 /obj/machinery/computer/modular/telescreen/preset/supply_public
 	default_software = list(
-		/datum/computer_file/program/supply,
+	//	/datum/computer_file/program/supply,
 	)
-	autorun_program = /datum/computer_file/program/supply
+	// autorun_program = /datum/computer_file/program/supply
 
 /obj/machinery/computer/modular/telescreen/preset/civilian
 	default_software = list(

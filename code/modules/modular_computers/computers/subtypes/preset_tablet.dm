@@ -53,3 +53,28 @@
 		/datum/computer_file/program/records,
 		/datum/computer_file/program/wordprocessor
 	)
+
+/obj/item/modular_computer/tablet/solgov/preset
+	default_hardware = list(
+		/obj/item/stock_parts/computer/processor_unit/small,
+		/obj/item/stock_parts/computer/tesla_link,
+		/obj/item/stock_parts/computer/hard_drive/solgov,
+		/obj/item/stock_parts/computer/network_card/advanced,
+		/obj/item/stock_parts/computer/nano_printer,
+		/obj/item/stock_parts/computer/card_slot,
+		/obj/item/stock_parts/computer/battery_module,
+		/obj/item/stock_parts/computer/scanner/paper,
+		/obj/item/stock_parts/computer/drive_slot
+	)
+/obj/item/modular_computer/tablet/solgov/consul/preset
+	default_hardware = list(
+		/obj/item/stock_parts/computer/processor_unit/small,
+		/obj/item/stock_parts/computer/tesla_link,
+		/obj/item/stock_parts/computer/hard_drive/solgov,
+		/obj/item/stock_parts/computer/network_card/advanced,
+		/obj/item/stock_parts/computer/nano_printer,
+		/obj/item/stock_parts/computer/card_slot,
+		/obj/item/stock_parts/computer/battery_module,
+		/obj/item/stock_parts/computer/scanner/paper,
+		/obj/item/stock_parts/computer/drive_slot
+	)

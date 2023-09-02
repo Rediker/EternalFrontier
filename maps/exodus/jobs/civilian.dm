@@ -147,7 +147,7 @@
 	)
 	skill_points = 18
 	software_on_spawn = list(
-		/datum/computer_file/program/supply,
+	//	/datum/computer_file/program/supply,
 		/datum/computer_file/program/deck_management,
 		/datum/computer_file/program/reports
 	)
@@ -183,7 +183,7 @@
 		SKILL_PILOT    = SKILL_MAX
 	)
 	software_on_spawn = list(
-		/datum/computer_file/program/supply,
+	//	/datum/computer_file/program/supply,
 		/datum/computer_file/program/deck_management,
 		/datum/computer_file/program/reports
 	)
