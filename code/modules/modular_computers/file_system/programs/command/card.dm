@@ -9,6 +9,7 @@
 	size = 8
 	write_access = list(access_change_ids)
 	category = PROG_COMMAND
+	available_on_network = FALSE // unleashed does not use this program. confusing to players. uses the account management program.
 
 /datum/nano_module/program/card_mod
 	name = "ID card modification program"
