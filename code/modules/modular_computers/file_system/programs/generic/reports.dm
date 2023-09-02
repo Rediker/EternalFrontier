@@ -7,7 +7,7 @@
 	nanomodule_path = /datum/nano_module/program/reports
 	extended_desc = "A general paperwork viewing and editing utility."
 	size = 2
-	available_on_network = 1
+	available_on_network = FALSE // unleashed does not have reports. this is for servers with centralized paperwork for stuff. that is not persistence.
 	usage_flags = PROGRAM_ALL
 	category = PROG_OFFICE
 
