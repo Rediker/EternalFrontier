@@ -8,7 +8,7 @@
 	size = 12
 	read_access = list(access_bridge)
 	requires_access_to_run = 0
-	available_on_network = 1
+	available_on_network = FALSE // unleashed does not have AIs. and if someone somehow is in an intellicard they've already broken the game to where admin intervention is already necessary.
 	nanomodule_path = /datum/nano_module/program/computer_aidiag/
 	var/restoring = 0
 
