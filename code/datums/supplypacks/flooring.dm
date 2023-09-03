@@ -1,7 +1,7 @@
 /decl/hierarchy/supply_pack/flooring
 	name = "Flooring"
 
-/decl/hierarchy/supply_pack/flooring/carpetbrown
+/* /decl/hierarchy/supply_pack/flooring/carpetbrown //old carpets. need to be repathed.
 	name = "Brown carpet"
 	contains = list(/obj/item/stack/tile/carpet/fifty)
 	containername = "brown carpet crate"
@@ -45,7 +45,7 @@
 	name = "Red carpet"
 	contains = list(/obj/item/stack/tile/carpetred/fifty)
 	containername = "red carpet crate"
-
+*/
 /decl/hierarchy/supply_pack/flooring/linoleum
 	name = "Linoleum"
 	contains = list(/obj/item/stack/tile/linoleum/fifty)
