@@ -5,6 +5,30 @@
 	siemens_coefficient = 0.9
 	body_parts_covered = 0
 
+/obj/item/clothing/head/tiara
+	name = "silver framed tanzanite tiara"
+	desc = "A delicate, yet sturdy, tiara. A hefty silver frame holds in place a grand tanzanite gem, found naturally on Earth on a remote island: Tasmania. This tiara's elegance deflects harmful auras, keeping its wearer a bit safer. This must belong to absolute royalty! It's very heavy."
+	icon = 'icons/clothing/head/tiara.dmi'
+	item_flags = ITEM_FLAG_THICKMATERIAL
+	body_parts_covered = SLOT_HEAD
+	armor = list(
+		ARMOR_MELEE = ARMOR_MELEE_RESISTANT,
+		ARMOR_BULLET = ARMOR_BALLISTIC_RESISTANT,
+		ARMOR_LASER = ARMOR_LASER_HANDGUNS,
+		ARMOR_ENERGY = ARMOR_ENERGY_SMALL,
+		ARMOR_BOMB = ARMOR_BOMB_PADDED
+		)
+	flags_inv = HIDEEARS|BLOCK_HEAD_HAIR
+	cold_protection = SLOT_HEAD
+	min_cold_protection_temperature = HELMET_MIN_COLD_PROTECTION_TEMPERATURE
+	heat_protection = SLOT_HEAD
+	max_heat_protection_temperature = HELMET_MAX_HEAT_PROTECTION_TEMPERATURE
+	siemens_coefficient = 0.7
+	w_class = ITEM_SIZE_NORMAL
+	material = /decl/material/solid/metal/plasteel
+	matter = list(/decl/material/solid/gemstone/diamond = MATTER_AMOUNT_REINFORCEMENT)
+	protects_against_weather = TRUE
+
 /obj/item/clothing/head/hairflower
 	name = "hair flower pin"
 	icon = 'icons/clothing/head/hairflower/red.dmi'
