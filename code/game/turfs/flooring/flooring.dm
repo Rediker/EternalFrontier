@@ -89,6 +89,8 @@
 	can_engrave = FALSE
 	footstep_type = /decl/footsteps/asteroid
 
+// carpet should really be put into another file sooner or later. just adding like 3x the amount there was originally. ~ crimsonerva
+
 /decl/flooring/carpet
 	name = "brown carpet"
 	desc = "Comfy and fancy carpeting."
@@ -103,7 +105,144 @@
 	wall_smooth = SMOOTH_NONE
 	space_smooth = SMOOTH_NONE
 
-/decl/flooring/carpet/blue
+// ### ############ ###
+// ### PLAIN CARPET ###
+// ### ############ ###
+
+/decl/flooring/carpet/plain
+	name = "plain carpet"
+	icon_base = "plain"
+	build_type = /obj/item/stack/tile/carpet/plain
+
+/decl/flooring/carpet/plain/red
+	name = "plain red carpet"
+	icon_base = "plain_red"
+	build_type = /obj/item/stack/tile/carpet/plain/red
+
+/decl/flooring/carpet/plain/orange
+	name = "plain orange carpet"
+	icon_base = "plain_orange"
+	build_type = /obj/item/stack/tile/carpet/plain/orange
+
+/decl/flooring/carpet/plain/yellow
+	name = "plain yellow carpet"
+	icon_base = "plain_yellow"
+	build_type = /obj/item/stack/tile/carpet/plain/yellow
+
+/decl/flooring/carpet/plain/green
+	name = "plain green carpet"
+	icon_base = "plain_green"
+	build_type = /obj/item/stack/tile/carpet/plain/green
+
+/decl/flooring/carpet/plain/blue
+	name = "plain blue carpet"
+	icon_base = "plain_blue"
+	build_type = /obj/item/stack/tile/carpet/plain/blue
+
+/decl/flooring/carpet/plain/indigo
+	name = "plain indigo carpet"
+	icon_base = "plain_indigo"
+	build_type = /obj/item/stack/tile/carpet/plain/indigo
+
+/decl/flooring/carpet/plain/violet
+	name = "plain violet carpet"
+	icon_base = "plain_purple"
+	build_type = /obj/item/stack/tile/carpet/plain/violet
+
+// ### ############## ###
+// ### DIAMOND CARPET ###
+// ### ############## ###
+
+/decl/flooring/carpet/diamond
+	name = "diamond carpet"
+	icon_base = "diamond"
+	build_type = /obj/item/stack/tile/carpet/diamond
+
+/decl/flooring/carpet/diamond/red
+	name = "red diamond carpet"
+	icon_base = "diamond_red"
+	build_type = /obj/item/stack/tile/carpet/diamond/red
+
+/decl/flooring/carpet/diamond/orange
+	name = "orange diamond carpet"
+	icon_base = "diamond_orange"
+	build_type = /obj/item/stack/tile/carpet/diamond/orange
+
+/decl/flooring/carpet/diamond/yellow
+	name = "yellow diamond carpet"
+	icon_base = "diamond_yellow"
+	build_type = /obj/item/stack/tile/carpet/diamond/yellow
+
+/decl/flooring/carpet/diamond/green
+	name = "green diamond carpet"
+	icon_base = "diamond_green"
+	build_type = /obj/item/stack/tile/carpet/diamond/green
+
+/decl/flooring/carpet/diamond/blue
+	name = "blue diamond carpet"
+	icon_base = "diamond_blue"
+	build_type = /obj/item/stack/tile/carpet/diamond/blue
+
+/decl/flooring/carpet/diamond/indigo
+	name = "indigo diamond carpet"
+	icon_base = "diamond_indigo"
+	build_type = /obj/item/stack/tile/carpet/diamond/indigo
+
+/decl/flooring/carpet/diamond/violet
+	name = "violet diamond carpet"
+	icon_base = "diamond_violet"
+	build_type = /obj/item/stack/tile/carpet/diamond/violet
+
+// ### ############# ###
+// ### SWIRLY CARPET ###
+// ### ############# ###
+
+/decl/flooring/carpet/swirly
+	name = "swirly carpet"
+	icon_base = "swirly"
+	build_type = /obj/item/stack/tile/carpet/swirly
+
+/decl/flooring/carpet/swirly/red
+	name = "swirly red carpet"
+	icon_base = "swirly_red"
+	build_type = /obj/item/stack/tile/carpet/swirly/red
+
+/decl/flooring/carpet/swirly/orange
+	name = "swirly orange carpet"
+	icon_base = "swirly_orange"
+	build_type = /obj/item/stack/tile/carpet/swirly/orange
+
+/decl/flooring/carpet/swirly/yellow
+	name = "swirly yellow carpet"
+	icon_base = "swirly_yellow"
+	build_type = /obj/item/stack/tile/carpet/swirly/yellow
+
+/decl/flooring/carpet/swirly/green
+	name = "swirly green carpet"
+	icon_base = "swirly_green"
+	build_type = /obj/item/stack/tile/carpet/swirly/green
+
+/decl/flooring/carpet/swirly/blue
+	name = "blue carpet"
+	icon_base = "swirly_blue"
+	build_type = /obj/item/stack/tile/carpet/swirly/blue
+
+/decl/flooring/carpet/swirly/indigo
+	name = "indigo carpet"
+	icon_base = "swirly_indigo"
+	build_type = /obj/item/stack/tile/carpet/swirly/indigo
+
+/decl/flooring/carpet/swirly/violet
+	name = "violet carpet"
+	icon_base = "swirly_violet"
+	build_type = /obj/item/stack/tile/carpet/swirly/violet
+
+
+// ### ############### ###
+// ### OLD CARPET CODE
+// ### ############### ###
+
+/* /decl/flooring/carpet/blue
 	name = "blue carpet"
 	icon_base = "blue1"
 	build_type = /obj/item/stack/tile/carpetblue
@@ -152,6 +291,7 @@
 	name = "red carpet"
 	icon_base = "red"
 	build_type = /obj/item/stack/tile/carpetred
+*/
 
 /decl/flooring/linoleum
 	name = "linoleum"
