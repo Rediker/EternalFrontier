@@ -283,94 +283,67 @@
  * Carpets
  */
 /obj/item/stack/tile/carpet
-	name = "brown carpet"
-	singular_name = "brown carpet"
-	desc = "A piece of brown carpet."
-	icon_state = "tile_carpetbrown"
+	name = "carpet"
+	singular_name = "carpet"
+	desc = "A piece of carpet."
+	icon_state = "tile_carpet"
 
-/obj/item/stack/tile/carpet/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/plain
+	name = "plain carpet"
+	singular_name = "plain carpet"
 
-/obj/item/stack/tile/carpetblue
-	name = "blue carpet"
-	desc = "A piece of blue and gold carpet."
-	singular_name = "blue carpet"
-	icon_state = "tile_carpetblue"
+/obj/item/stack/tile/carpet/plain/red
 
-/obj/item/stack/tile/carpetblue/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/plain/orange
 
-/obj/item/stack/tile/carpetblue2
-	name = "pale blue carpet"
-	desc = "A piece of blue and pale blue carpet."
-	singular_name = "pale blue carpet"
-	icon_state = "tile_carpetblue2"
+/obj/item/stack/tile/carpet/plain/yellow
 
-/obj/item/stack/tile/carpetblue2/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/plain/green
 
-/obj/item/stack/tile/carpetblue3
-	name = "sea blue carpet"
-	desc = "A piece of blue and green carpet."
-	singular_name = "sea blue carpet"
-	icon_state = "tile_carpetblue3"
+/obj/item/stack/tile/carpet/plain/blue
 
-/obj/item/stack/tile/carpetblue3/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/plain/indigo
 
-/obj/item/stack/tile/carpetmagenta
-	name = "magenta carpet"
-	desc = "A piece of magenta carpet."
-	singular_name = "magenta carpet"
-	icon_state = "tile_carpetmagenta"
+/obj/item/stack/tile/carpet/plain/violet
 
-/obj/item/stack/tile/carpetmagenta/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/diamond
+	name = "diamond carpet"
+	singular_name = "diamond carpet"
 
-/obj/item/stack/tile/carpetpurple
-	name = "purple carpet"
-	desc = "A piece of purple carpet."
-	singular_name = "purple carpet"
-	icon_state = "tile_carpetpurple"
+/obj/item/stack/tile/carpet/diamond/red
 
-/obj/item/stack/tile/carpetpurple/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/diamond/orange
 
-/obj/item/stack/tile/carpetpurplediamond
-	name = "purple diamond carpet"
-	desc = "A piece of purple diamond carpet."
-	singular_name = "purple diamond carpet"
-	icon_state = "tile_carpetpurplediamond"
+/obj/item/stack/tile/carpet/diamond/yellow
 
-/obj/item/stack/tile/carpetpurplediamond/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/diamond/green
 
-/obj/item/stack/tile/carpetorange
-	name = "orange carpet"
-	desc = "A piece of orange carpet."
-	singular_name = "orange carpet"
-	icon_state = "tile_carpetorange"
+/obj/item/stack/tile/carpet/diamond/blue
 
-/obj/item/stack/tile/carpetorange/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/diamond/indigo
 
-/obj/item/stack/tile/carpetgreen
-	name = "green carpet"
-	desc = "A piece of green carpet."
-	singular_name = "green carpet"
-	icon_state = "tile_carpetgreen"
+/obj/item/stack/tile/carpet/diamond/violet
 
-/obj/item/stack/tile/carpetgreen/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/swirly
+	name = "swirly carpet"
+	singular_name = "swirly carpet"
 
-/obj/item/stack/tile/carpetred
-	name = "red carpet"
-	desc = "A piece of red carpet."
-	singular_name = "red carpet"
-	icon_state = "tile_carpetred"
+/obj/item/stack/tile/carpet/swirly/red
 
-/obj/item/stack/tile/carpetred/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/swirly/orange
+
+/obj/item/stack/tile/carpet/swirly/yellow
+
+/obj/item/stack/tile/carpet/swirly/green
+
+/obj/item/stack/tile/carpet/swirly/blue
+
+/obj/item/stack/tile/carpet/swirly/indigo
+
+/obj/item/stack/tile/carpet/swirly/violet
+
+/obj/item/stack/tile/carpet/swirly/magenta
+
 
 /obj/item/stack/tile/pool
 	name = "pool tiling"

@@ -237,6 +237,12 @@
 	icon_base = "swirly_violet"
 	build_type = /obj/item/stack/tile/carpet/swirly/violet
 
+/decl/flooring/carpet/swirly/magenta
+	name = "magenta carpet"
+	icon_base = "swirly_magenta"
+	build_type = /obj/item/stack/tile/carpet/swirly/magenta
+
+
 
 // ### ############### ###
 // ### OLD CARPET CODE
