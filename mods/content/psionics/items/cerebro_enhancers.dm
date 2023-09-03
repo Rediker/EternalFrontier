@@ -14,7 +14,7 @@
 
 /obj/item/clothing/head/helmet/space/psi_amp/lesser
 	name = "psionic amplifier"
-	desc = "A crown-of-thorns cerebro-energetic enhancer that interfaces directly with the brain, isolating and strengthening psionic signals. It kind of looks like a tiara having sex with an industrial robot."
+	desc = "A crown-of-thorns cerebro-energetic enhancer that interfaces directly with the brain, isolating and strengthening psionic signals."
 	icon_state = ICON_STATE_WORLD
 	icon = 'icons/clothing/head/amp.dmi'
 	flags_inv = 0
