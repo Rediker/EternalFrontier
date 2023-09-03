@@ -57,7 +57,7 @@
 	desc = "A long silky sleeveless gown with a flared hem."
 	icon = 'icons/clothing/under/dresses/dress_gown.dmi'
 
-/obj/item/clothing/under/skirt_c/dress/long/consul
+/obj/item/clothing/under/skirt_c/dress/consul
 	name = "regal wrap gown"
 	desc = "A long, amethyst gown with a central flair and frilled cups, filled with a mysterious aura."
 	icon = 'icons/clothing/under/dresses/dress_consul.dmi'
