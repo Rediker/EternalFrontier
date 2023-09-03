@@ -102,7 +102,7 @@
 		/datum/computer_file/program/camera_monitor,
 		/datum/computer_file/program/records,
 		/datum/computer_file/program/email_client,
-		/datum/computer_file/program/supply,
+	//	/datum/computer_file/program/supply,
 		/datum/computer_file/program/wordprocessor
 	)
 
@@ -111,7 +111,7 @@
 		/datum/computer_file/program/reports,
 		/datum/computer_file/program/records,
 		/datum/computer_file/program/email_client,
-		/datum/computer_file/program/supply,
+	//	/datum/computer_file/program/supply,
 		/datum/computer_file/program/docking
 	)
 
@@ -129,9 +129,9 @@
 
 /obj/machinery/computer/modular/preset/supply_public
 	default_software = list(
-		/datum/computer_file/program/supply
+	//	/datum/computer_file/program/supply
 	)
-	autorun_program = /datum/computer_file/program/supply
+	// autorun_program = /datum/computer_file/program/supply
 
 /obj/machinery/computer/modular/preset/full/ert
 	default_software = list(

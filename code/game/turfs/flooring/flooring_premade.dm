@@ -81,45 +81,130 @@
 	icon_state = "brown"
 	initial_flooring = /decl/flooring/carpet
 
-/turf/simulated/floor/carpet/blue
-	name = "blue carpet"
-	icon_state = "blue1"
-	initial_flooring = /decl/flooring/carpet/blue
+/turf/simulated/floor/carpet/plain
+	name = "plain carpet"
+	icon_state = "plain"
+	initial_flooring = /decl/flooring/carpet/plain/
 
-/turf/simulated/floor/carpet/blue2
-	name = "pale blue carpet"
-	icon_state = "blue2"
-	initial_flooring = /decl/flooring/carpet/blue2
+/turf/simulated/floor/carpet/plain/red
+	name = "plain red carpet"
+	icon_state = "plain_red"
+	initial_flooring = /decl/flooring/carpet/plain/red
 
-/turf/simulated/floor/carpet/blue3
-	name = "sea blue carpet"
-	icon_state = "blue3"
-	initial_flooring = /decl/flooring/carpet/blue3
+/turf/simulated/floor/carpet/plain/orange
+	name = "plain orange carpet"
+	icon_state = "plain_orange"
+	initial_flooring = /decl/flooring/carpet/plain/orange
 
-/turf/simulated/floor/carpet/magenta
-	name = "magenta carpet"
-	icon_state = "magenta"
-	initial_flooring = /decl/flooring/carpet/magenta
+/turf/simulated/floor/carpet/plain/yellow
+	name = "plain yellow carpet"
+	icon_state = "plain_yellow"
+	initial_flooring = /decl/flooring/carpet/plain/yellow
 
-/turf/simulated/floor/carpet/purple
-	name = "purple carpet"
-	icon_state = "purple"
-	initial_flooring = /decl/flooring/carpet/purple
+/turf/simulated/floor/carpet/plain/green
+	name = "plain green carpet"
+	icon_state = "plain_green"
+	initial_flooring = /decl/flooring/carpet/plain/green
 
-/turf/simulated/floor/carpet/orange
-	name = "orange carpet"
-	icon_state = "orange"
-	initial_flooring = /decl/flooring/carpet/orange
+/turf/simulated/floor/carpet/plain/blue
+	name = "plain blue carpet"
+	icon_state = "plain_blue"
+	initial_flooring = /decl/flooring/carpet/plain/blue
 
-/turf/simulated/floor/carpet/green
-	name = "green carpet"
-	icon_state = "green"
-	initial_flooring = /decl/flooring/carpet/green
+/turf/simulated/floor/carpet/plain/indigo
+	name = "plain indigo carpet"
+	icon_state = "plain_indigo"
+	initial_flooring = /decl/flooring/carpet/plain/indigo
 
-/turf/simulated/floor/carpet/red
-	name = "red carpet"
-	icon_state = "red"
-	initial_flooring = /decl/flooring/carpet/red
+/turf/simulated/floor/carpet/plain/violet
+	name = "plain violet carpet"
+	icon_state = "plain_violet"
+	initial_flooring = /decl/flooring/carpet/plain/violet
+
+/turf/simulated/floor/carpet/diamond
+	name = "diamond carpet"
+	icon_state = "diamond"
+	initial_flooring = /decl/flooring/carpet/diamond
+
+/turf/simulated/floor/carpet/diamond/red
+	name = "red diamond carpet"
+	icon_state = "diamond_red"
+	initial_flooring = /decl/flooring/carpet/diamond/red
+
+/turf/simulated/floor/carpet/diamond/orange
+	name = "orange diamond carpet"
+	icon_state = "diamond_orange"
+	initial_flooring = /decl/flooring/carpet/diamond/orange
+
+/turf/simulated/floor/carpet/diamond/yellow
+	name = "yellow diamond carpet"
+	icon_state = "diamond_yellow"
+	initial_flooring = /decl/flooring/carpet/diamond/yellow
+
+/turf/simulated/floor/carpet/diamond/green
+	name = "green diamond carpet"
+	icon_state = "diamond_green"
+	initial_flooring = /decl/flooring/carpet/diamond/green
+
+/turf/simulated/floor/carpet/diamond/blue
+	name = "blue diamond carpet"
+	icon_state = "diamond_blue"
+	initial_flooring = /decl/flooring/carpet/diamond/blue
+
+/turf/simulated/floor/carpet/diamond/indigo
+	name = "indigo diamond carpet"
+	icon_state = "diamond_indigo"
+	initial_flooring = /decl/flooring/carpet/diamond/indigo
+
+/turf/simulated/floor/carpet/diamond/violet
+	name = "violet diamond carpet"
+	icon_state = "diamond_violet"
+	initial_flooring = /decl/flooring/carpet/diamond/violet
+
+/turf/simulated/floor/carpet/swirly
+	name = "swirly carpet"
+	icon_state = "swirly"
+	initial_flooring = /decl/flooring/carpet/swirly
+
+/turf/simulated/floor/carpet/swirly/red
+	name = "swirly red carpet"
+	icon_state = "swirly_red"
+	initial_flooring = /decl/flooring/carpet/swirly/red
+
+/turf/simulated/floor/carpet/swirly/orange
+	name = "swirly orange carpet"
+	icon_state = "swirly_orange"
+	initial_flooring = /decl/flooring/carpet/swirly/orange
+
+/turf/simulated/floor/carpet/swirly/yellow
+	name = "swirly yellow carpet"
+	icon_state = "swirly_yellow"
+	initial_flooring = /decl/flooring/carpet/swirly/yellow
+
+/turf/simulated/floor/carpet/swirly/green
+	name = "swirly green carpet"
+	icon_state = "swirly_green"
+	initial_flooring = /decl/flooring/carpet/swirly/green
+
+/turf/simulated/floor/carpet/swirly/blue
+	name = "swirly blue carpet"
+	icon_state = "swirly_blue"
+	initial_flooring = /decl/flooring/carpet/swirly/blue
+
+/turf/simulated/floor/carpet/swirly/indigo
+	name = "swirly indigo carpet"
+	icon_state = "swirly_indigo"
+	initial_flooring = /decl/flooring/carpet/swirly/indigo
+
+/turf/simulated/floor/carpet/swirly/violet
+	name = "swirly violet carpet"
+	icon_state = "swirly_violet"
+	initial_flooring = /decl/flooring/carpet/swirly/violet
+
+/turf/simulated/floor/carpet/swirly/magenta
+	name = "swirly magenta carpet"
+	icon_state = "swirly_magenta"
+	initial_flooring = /decl/flooring/carpet/swirly/magenta
 
 /turf/simulated/floor/reinforced
 	name = "reinforced floor"

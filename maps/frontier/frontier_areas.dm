@@ -179,7 +179,7 @@
 	icon_state = "com_office_hos"
 
 /area/nativitas/command/office/important/hop
-	name = "Nativitas High Cardinal Office"
+	name = "Nativitas Dean Office"
 	icon_state = "com_office_hop"
 
 /area/nativitas/command/other/meeting

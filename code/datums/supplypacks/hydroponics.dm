@@ -74,7 +74,7 @@
 	containername = "hydroponics tray crate"
 	access = access_hydroponics
 
-/decl/hierarchy/supply_pack/hydroponics/pottedplant
+/* /decl/hierarchy/supply_pack/hydroponics/pottedplant // needs to be replaced with new ingredients
 	name = "Deco - Potted plants"
 	num_contained = 1
 	contains = list(/obj/structure/flora/pottedplant,
@@ -107,3 +107,4 @@
 	containertype = /obj/structure/closet/crate/large/hydroponics
 	containername = "potted plant crate"
 	supply_method = /decl/supply_method/randomized
+*/

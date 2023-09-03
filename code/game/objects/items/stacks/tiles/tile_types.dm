@@ -283,85 +283,111 @@
  * Carpets
  */
 /obj/item/stack/tile/carpet
-	name = "brown carpet"
-	singular_name = "brown carpet"
-	desc = "A piece of brown carpet."
-	icon_state = "tile_carpetbrown"
+	name = "carpet"
+	singular_name = "carpet"
+	desc = "A piece of carpet."
+	icon_state = "tile_carpet"
 
-/obj/item/stack/tile/carpet/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/plain
+	name = "plain carpet"
+	singular_name = "plain carpet"
 
-/obj/item/stack/tile/carpetblue
-	name = "blue carpet"
-	desc = "A piece of blue and gold carpet."
-	singular_name = "blue carpet"
-	icon_state = "tile_carpetblue"
+/obj/item/stack/tile/carpet/plain/red
+	name = "plain red carpet"
+	singular_name = "plain red carpet"
 
-/obj/item/stack/tile/carpetblue/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/plain/orange
+	name = "plain orange carpet"
+	singular_name = "plain orange carpet"
 
-/obj/item/stack/tile/carpetblue2
-	name = "pale blue carpet"
-	desc = "A piece of blue and pale blue carpet."
-	singular_name = "pale blue carpet"
-	icon_state = "tile_carpetblue2"
+/obj/item/stack/tile/carpet/plain/yellow
+	name = "plain yellow carpet"
+	singular_name = "plain yellow carpet"
 
-/obj/item/stack/tile/carpetblue2/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/plain/green
+	name = "plain green carpet"
+	singular_name = "plain green carpet"
 
-/obj/item/stack/tile/carpetblue3
-	name = "sea blue carpet"
-	desc = "A piece of blue and green carpet."
-	singular_name = "sea blue carpet"
-	icon_state = "tile_carpetblue3"
+/obj/item/stack/tile/carpet/plain/blue
+	name = "plain blue carpet"
+	singular_name = "plain blue carpet"
 
-/obj/item/stack/tile/carpetblue3/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/plain/indigo
+	name = "plain indigo carpet"
+	singular_name = "plain indigo carpet"
 
-/obj/item/stack/tile/carpetmagenta
-	name = "magenta carpet"
-	desc = "A piece of magenta carpet."
-	singular_name = "magenta carpet"
-	icon_state = "tile_carpetmagenta"
+/obj/item/stack/tile/carpet/plain/violet
+	name = "plain violet carpet"
+	singular_name = "plain violet carpet"
 
-/obj/item/stack/tile/carpetmagenta/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/diamond
+	name = "diamond carpet"
+	singular_name = "diamond carpet"
 
-/obj/item/stack/tile/carpetpurple
-	name = "purple carpet"
-	desc = "A piece of purple carpet."
-	singular_name = "purple carpet"
-	icon_state = "tile_carpetpurple"
+/obj/item/stack/tile/carpet/diamond/red
+	name = "red diamond carpet"
+	singular_name = "red diamond carpet"
 
-/obj/item/stack/tile/carpetpurple/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/diamond/orange
+	name = "orange diamond carpet"
+	singular_name = "orange diamond carpet"
 
-/obj/item/stack/tile/carpetorange
-	name = "orange carpet"
-	desc = "A piece of orange carpet."
-	singular_name = "orange carpet"
-	icon_state = "tile_carpetorange"
+/obj/item/stack/tile/carpet/diamond/yellow
+	name = "yellow diamond carpet"
+	singular_name = "yellow diamond carpet"
 
-/obj/item/stack/tile/carpetorange/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/diamond/green
+	name = "green diamond carpet"
+	singular_name = "green diamond carpet"
 
-/obj/item/stack/tile/carpetgreen
-	name = "green carpet"
-	desc = "A piece of green carpet."
-	singular_name = "green carpet"
-	icon_state = "tile_carpetgreen"
+/obj/item/stack/tile/carpet/diamond/blue
+	name = "blue diamond carpet"
+	singular_name = "blue diamond carpet"
 
-/obj/item/stack/tile/carpetgreen/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/diamond/indigo
+	name = "indigo diamond carpet"
+	singular_name = "indigo diamond carpet"
 
-/obj/item/stack/tile/carpetred
-	name = "red carpet"
-	desc = "A piece of red carpet."
-	singular_name = "red carpet"
-	icon_state = "tile_carpetred"
+/obj/item/stack/tile/carpet/diamond/violet
+	name = "violet diamond carpet"
+	singular_name = "violet diamond carpet"
 
-/obj/item/stack/tile/carpetred/fifty
-	amount = 50
+/obj/item/stack/tile/carpet/swirly
+	name = "swirly carpet"
+	singular_name = "swirly carpet"
+
+/obj/item/stack/tile/carpet/swirly/red
+	name = "swirly red carpet"
+	singular_name = "swirly red carpet"
+
+/obj/item/stack/tile/carpet/swirly/orange
+	name = "swirly orange carpet"
+	singular_name = "swirly orange carpet"
+
+/obj/item/stack/tile/carpet/swirly/yellow
+	name = "swirly yellow carpet"
+	singular_name = "swirly yellow carpet"
+
+/obj/item/stack/tile/carpet/swirly/green
+	name = "swirly green carpet"
+	singular_name = "swirly green carpet"
+
+/obj/item/stack/tile/carpet/swirly/blue
+	name = "swirly blue carpet"
+	singular_name = "swirly blue carpet"
+
+/obj/item/stack/tile/carpet/swirly/indigo
+	name = "swirly indigo carpet"
+	singular_name = "swirly indigo carpet"
+
+/obj/item/stack/tile/carpet/swirly/violet
+	name = "swirly violet carpet"
+	singular_name = "swirly violet carpet"
+
+/obj/item/stack/tile/carpet/swirly/magenta
+	name = "swirly magenta carpet"
+	singular_name = "swirly magenta carpet"
+
 
 /obj/item/stack/tile/pool
 	name = "pool tiling"
