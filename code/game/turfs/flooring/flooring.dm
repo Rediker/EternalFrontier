@@ -146,7 +146,7 @@
 
 /decl/flooring/carpet/plain/violet
 	name = "plain violet carpet"
-	icon_base = "plain_purple"
+	icon_base = "plain_violet"
 	build_type = /obj/item/stack/tile/carpet/plain/violet
 
 // ### ############## ###
