@@ -17,7 +17,7 @@
 		ARMOR_ENERGY = ARMOR_ENERGY_SMALL,
 		ARMOR_BOMB = ARMOR_BOMB_PADDED
 		)
-	flags_inv = HIDEEARS|BLOCK_HEAD_HAIR
+	flags_inv = null
 	cold_protection = SLOT_HEAD
 	min_cold_protection_temperature = HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	heat_protection = SLOT_HEAD
