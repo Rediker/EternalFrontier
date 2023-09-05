@@ -28,7 +28,7 @@
 	max_storage_space = DEFAULT_LARGEBOX_STORAGE
 	material = /decl/material/solid/leather/synth
 
-/obj/item/storage/wooden
+/obj/item/storage/wooden/jewlery
 	name = "jewelry box"
 	desc = "A vintage jewelry box with violet flowers painted atop."
 	icon = 'icons/obj/items/storage/box.dmi'
