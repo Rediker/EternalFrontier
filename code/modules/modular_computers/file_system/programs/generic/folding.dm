@@ -1,3 +1,4 @@
+/*
 #define MINIMUM_SCIENCE_INTERVAL 450
 #define MAXIMUM_SCIENCE_INTERVAL 900
 #define MINIMUM_FOLDING_EVENT_INTERVAL 50
@@ -118,3 +119,4 @@
 		ui.auto_update_layout = 1
 		ui.set_initial_data(data)
 		ui.open()
+*/

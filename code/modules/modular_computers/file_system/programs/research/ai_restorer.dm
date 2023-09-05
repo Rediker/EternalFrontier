@@ -1,4 +1,4 @@
-/datum/computer_file/program/aidiag
+/* /datum/computer_file/program/aidiag
 	filename = "aidiag"
 	filedesc = "AI Maintenance Utility"
 	program_icon_state = "generic"
@@ -128,3 +128,4 @@
 		ui.set_initial_data(data)
 		ui.open()
 		ui.set_auto_update(1)
+*/

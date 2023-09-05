@@ -1,4 +1,4 @@
-/datum/computer_file/program/camera_monitor
+/*/datum/computer_file/program/camera_monitor
 	filename = "cammon"
 	filedesc = "Camera Monitoring"
 	nanomodule_path = /datum/nano_module/program/camera_monitor
@@ -241,3 +241,4 @@
 	if(current_camera)
 		var/datum/camera_device = current_camera.resolve()
 		camera_device.remove_visual(M)
+*/

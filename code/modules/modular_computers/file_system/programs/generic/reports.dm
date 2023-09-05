@@ -1,3 +1,4 @@
+/*
 #define REPORTS_VIEW      1
 #define REPORTS_DOWNLOAD  2
 
@@ -186,3 +187,4 @@
 
 #undef REPORTS_VIEW
 #undef REPORTS_DOWNLOAD
+*/
