@@ -1,4 +1,4 @@
-/*/datum/computer_file/report
+/datum/computer_file/report
 	filename = "report"
 	filetype = "RPT"
 	var/title = "Generic Report"                           //The name of this report type.
@@ -178,4 +178,3 @@ Overriden so that read access is required to have write access
 		return
 	for(var/datum/report_field/field in fields)
 		field.set_access(read_access, write_access, TRUE)
-*/

@@ -1,4 +1,4 @@
-/*/datum/computer_file/program/email_administration
+/datum/computer_file/program/email_administration
 	filename = "emailadmin"
 	filedesc = "Email Administration Utility"
 	extended_desc = "This program may be used to administrate the local emailing service."
@@ -127,4 +127,3 @@
 	if(href_list["viewaccount"])
 		current_account = network.find_account_by_login(href_list["viewaccount"], get_access(user))
 		return TOPIC_REFRESH
-*/
