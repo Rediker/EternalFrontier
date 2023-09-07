@@ -13,7 +13,7 @@
 	obj_flags         = OBJ_FLAG_HOLLOW
 	material          = /decl/material/solid/paper
 	attack_verb       = list("delivered a hit", "expedited on", "shipped at", "went postal on")
-	base_parry_chance = 40 //Boxes tend to be good at parrying
+//	base_parry_chance = 40 //Boxes tend to be good at parrying <--- This makes no sense whatsoever??
 	///A text note attached to the parcel that shows on examine
 	var/attached_note
 	///The first part of the icon_state names

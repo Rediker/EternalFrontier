@@ -35,6 +35,22 @@
 	has_safety = FALSE
 	self_recharge = TRUE
 
+/obj/item/gun/energy/laser/lasercannon
+	name = "laser cannon"
+	desc = "the Martian Arms 'laser cannon', might be the most advanced energy rifle produced by the company in hopes to reach a broder audience. The laser cannons has a influx atomic generator to consume as little power as possible while still having a hefty charge. Tier: <font color=#a840b1><font size=2>Rare"
+	icon_state = "lasercannon"
+	icon = 'icons/obj/guns/laser_cannon.dmi'
+	icon_state = ICON_STATE_WORLD
+	origin_tech = "{'combat':4,'materials':3,'powerstorage':3}"
+	slot_flags = SLOT_LOWER_BODY|SLOT_BACK
+	one_hand_penalty = 6 //large and heavy
+	w_class = ITEM_SIZE_HUGE
+	projectile_type = /obj/item/projectile/beam/heavylaser
+	charge_cost = 40
+	max_shots = 6
+	accuracy = 2
+	fire_delay = 20
+
 /obj/item/gun/energy/get_hardpoint_maptext()
 	return "[round(power_supply.charge / charge_cost)]/[max_shots]"
 

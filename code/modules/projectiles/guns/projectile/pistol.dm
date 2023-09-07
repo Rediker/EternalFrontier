@@ -1,10 +1,11 @@
 /obj/item/gun/projectile/pistol
-	name = "pistol"
+	name = "Hesco-2 pistol"
 	icon = 'icons/obj/guns/pistol.dmi'
+	desc = "The HexGuard Hesco V2 is a very common pistol mass produced in the Terran systems. Tier: <font color=#bebebe><font size=2>Common"
 	load_method = MAGAZINE
-	caliber = CALIBER_PISTOL_SMALL
-	magazine_type = /obj/item/ammo_magazine/pistol
-	allowed_magazines = /obj/item/ammo_magazine/pistol
+	caliber = CALIBER_PISTOL
+	magazine_type = /obj/item/ammo_magazine/bigpistol
+	allowed_magazines = /obj/item/ammo_magazine/bigpistol
 	accuracy_power = 7
 	safety_icon = "safety"
 	ammo_indicator = TRUE
@@ -22,9 +23,23 @@
 	else
 		icon_state = base_state
 
+/obj/item/gun/projectile/pistol/holdout/slay
+	name = "P-3 Whisper (slay)"
+	desc = "The HexGuard P3 Whisper. This one seems to be heavily modded with a pink grip and glitter to it. Tier: <font color=#a840b1><font size=2>Rare"
+	icon = 'icons/obj/guns/holdout_pistol_slay.dmi'
+	item_state = null
+	ammo_indicator = FALSE
+	w_class = ITEM_SIZE_SMALL
+	caliber = CALIBER_PISTOL_SMALL
+	silenced = 0
+	fire_delay = 4
+	origin_tech = "{'combat':2,'materials':2,'esoteric':8}"
+	magazine_type = /obj/item/ammo_magazine/pistol/small
+	allowed_magazines = /obj/item/ammo_magazine/pistol/small
+
 /obj/item/gun/projectile/pistol/holdout
-	name = "holdout pistol"
-	desc = "The Lumoco Arms P3 Whisper. A small, easily concealable gun."
+	name = "P-3 Whisper"
+	desc = "The HexGuard P3 Whisper. A small, easily concealable gun. Tier: <font color=#bebebe><font size=2>Common"
 	icon = 'icons/obj/guns/holdout_pistol.dmi'
 	item_state = null
 	ammo_indicator = FALSE

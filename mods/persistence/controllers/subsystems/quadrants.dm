@@ -4,6 +4,8 @@ SUBSYSTEM_DEF(quadrants)
 	priority = SS_PRIORITY_QUADRANTS
 	var/list/all_quadrants = list()
 	var/list/wanted_quadrants = list() // list(/datum/overmap_quadrant/example, /datum/overmap_quadrant/faljourcorridor)
+	var/obj/effect/overmap/event/meteor/planet_meteor
+
 
 /atom/proc/get_quadrant()
 	var/obj/effect/overmap/visitable/curr_sector = global.overmap_sectors["[z]"]
@@ -28,6 +30,7 @@ SUBSYSTEM_DEF(quadrants)
 /datum/controller/subsystem/quadrants/Initialize()
 	all_quadrants = list()
 #ifndef UNIT_TEST
+	planet_meteor = new()
 	for(var/x in subtypesof(/datum/overmap_quadrant))
 		var/datum/overmap_quadrant/quadrant = new x()
 		all_quadrants |= quadrant

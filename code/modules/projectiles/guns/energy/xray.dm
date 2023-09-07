@@ -18,3 +18,16 @@
 		/decl/material/solid/metal/uranium = MATTER_AMOUNT_TRACE
 	)
 
+/obj/item/gun/energy/xray/pistol
+	name = "Smart laser pistol XK3"
+	desc = "The SmartInc XK 3 is a high-power laser gun capable of emitting concentrated x-ray blasts, that are able to penetrate laser-resistant armor much more readily than standard photonic beams. Tier: <font color=#a840b1><font size=2>Rare"
+	icon = 'icons/obj/guns/xraypistol.dmi'
+	icon_state = ICON_STATE_WORLD
+	slot_flags = SLOT_LOWER_BODY|SLOT_BACK
+	origin_tech = "{'combat':5,'materials':3,'magnets':2,'esoteric':2}"
+	projectile_type = /obj/item/projectile/beam/xray/midlaser
+	one_hand_penalty = 0
+	w_class = ITEM_SIZE_LARGE
+	charge_cost = 15
+	max_shots = 5
+	combustion = 0

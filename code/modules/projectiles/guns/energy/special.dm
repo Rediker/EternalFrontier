@@ -205,7 +205,7 @@
 
 /obj/item/gun/energy/lasrevolver
 	name = "roller blaster"
-	desc = "The Martian Arms 'Roller blaster' was a experimental dispersive laser weapon which, instead of firing a focused beam, scan over a target rapidly with the goal of setting it ablaze."
+	desc = "The Martian Arms 'Roller blaster' was a experimental dispersive laser weapon which, instead of firing a focused beam, scan over a target rapidly with the goal of setting it ablaze. Tier: <font color=green><font size=2>Uncommon"
 	icon = 'mods/persistence/icons/obj/guns/tier1/lasrevolver.dmi'
 	icon_state = ICON_STATE_WORLD
 	safety_icon = "safety"
@@ -217,3 +217,14 @@
 	)
 	projectile_type = /obj/item/projectile/beam/incendiary_laser
 	max_shots = 6
+
+
+/obj/item/gun/energy/hellblazer
+	name = "HELLBLAZER"
+	desc = "A gun of sorts with pulsing crystals, it seems very alien. Tier: <font color=red><font size=2>Exotic"
+	icon = 'icons/obj/guns/hellblazer.dmi'
+	icon_state = ICON_STATE_WORLD
+	safety_icon = "safety"
+	origin_tech = "{'combat':7,'magnets':4,'esoteric':4}"
+	projectile_type = /obj/item/projectile/beam/hellblazer
+	max_shots = 30

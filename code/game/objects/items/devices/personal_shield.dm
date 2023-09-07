@@ -11,6 +11,10 @@
 	if(uses && !shield)
 		shield = new(user,src)
 
+/obj/aura/personal_shield/removed()
+	to_chat(user,SPAN_WARNING("\The [src] goes offline!"))
+	..()
+
 /obj/item/personal_shield/proc/take_charge()
 	if(!--uses)
 		QDEL_NULL(shield)
