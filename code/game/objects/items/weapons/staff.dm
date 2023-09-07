@@ -47,9 +47,6 @@
 	var/stunforce = 10
 
 /obj/item/staff/scepter/apply_hit_effect(mob/living/target, mob/living/user, var/hit_zone)
-	if(isrobot(target))
-		return ..()
-
 	var/agony = agonyforce
 	var/stun = stunforce
 	var/obj/item/organ/external/affecting = null
@@ -57,15 +54,10 @@
 		var/mob/living/carbon/human/H = target
 		affecting = GET_EXTERNAL_ORGAN(H, hit_zone)
 	if(user && user.a_intent == I_HURT)
-		. = ..()
-		if(.)
-			return
-
-		//whacking someone causes a much poorer electrical contact than deliberately prodding them.
-		stun *= 1
-		agony *= 1	//whacking someone causes a much poorer contact than prodding them.
-
-		//we can't really extract the actual hit zone from ..(), unfortunately. Just act like they attacked the area they intended to.
+		stun   = 10
+		agony  = 30
+		stunforce = 10
+		agonyforce = 30
 		playsound(loc, 'sound/weapons/bejeweled.ogg', 50, 1, -1)
 
 	//stun effects
