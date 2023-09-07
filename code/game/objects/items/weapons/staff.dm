@@ -42,7 +42,7 @@
 	w_class = ITEM_SIZE_NORMAL
 	attack_verb = list("culturally bejeweled", "cultivatively glamorized", "sophisticatedly instructed")
 	material = /decl/material/solid/metal/gold
-	hitsound = 'sound/weapons/bejeweled'
+	hitsound = 'sound/weapons/bejeweled.ogg'
 	var/agonyforce = 50
 	var/stunforce = 10
 
@@ -66,13 +66,11 @@
 		agony *= 1	//whacking someone causes a much poorer contact than prodding them.
 
 		//we can't really extract the actual hit zone from ..(), unfortunately. Just act like they attacked the area they intended to.
-		playsound(loc, 'sound/weapons/bejeweled', 50, 1, -1)
+		playsound(loc, 'sound/weapons/bejeweled.ogg', 50, 1, -1)
 
 	//stun effects
-	if(status)
 		target.stun_effect_act(stun, agony, hit_zone, src)
 		msg_admin_attack("[key_name(user)] stunned [key_name(target)] with the [src].")
-		deductcharge(hitcost)
 
 		if(ishuman(target))
 			var/mob/living/carbon/human/H = target
