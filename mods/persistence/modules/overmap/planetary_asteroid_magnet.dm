@@ -1,25 +1,25 @@
-#define ASTEROID_SIZE 7
+#define ASTEROID_SIZE 4
 #define MAX_OBJS 10
 #define MAX_MOBS 5
 #define OBJ_PROB 20
 #define MOB_PROB 30
 
-/obj/machinery/asteroid_magnet
-	name = "asteroid magnet"
+/obj/machinery/asteroid_magnet/planet
+	name = "planetary asteroid magnet"
 	desc = "A massive solenoid used to attract asteroids and other such material from nearby fields for mineral acquisition."
 	icon = 'icons/obj/machines/power/fusion.dmi'
 	icon_state = "injector0"
 	density = 1
-	idle_power_usage = 0.1 KILOWATTS // Displays etc. Actual attraction of the asteroid takes far more.
-	active_power_usage = 25 KILOWATTS
-	construct_state = /decl/machine_construction/default/panel_closed
+	idle_power_usage = 0 KILOWATTS // Displays etc. Actual attraction of the asteroid takes far more.
+	active_power_usage = 0 KILOWATTS
+	construct_state = /decl/machine_construction/default/panel_closed/computer/no_deconstruct
 	uncreated_component_parts = null
-	stat_immune = 0
-	base_type = /obj/machinery/asteroid_magnet
+	stat_immune = BROKEN | NOPOWER | MAINT | EMPED | NOSCREEN | NOINPUT
+	base_type = /obj/machinery/asteroid_magnet/planet
+	anchored = 1
+	dir = SOUTH
 
-	var/attraction_progress = 0 // Progress towards attracting an asteroid.
-
-/obj/machinery/asteroid_magnet/ui_interact(var/mob/user, ui_key = "main", var/datum/nanoui/ui = null, var/force_open = 1)
+/obj/machinery/asteroid_magnet/planet/ui_interact(var/mob/user, ui_key = "main", var/datum/nanoui/ui = null, var/force_open = 1)
 	var/list/data = list()
 	var/obj/effect/overmap/event/meteor/asteroid = get_asteroid()
 	if(istype(asteroid))
@@ -44,21 +44,9 @@
 		ui.set_initial_data(data)
 		ui.open()
 
-/obj/machinery/asteroid_magnet/OnTopic(var/mob/user, var/href_list, var/datum/topic_state/state)
 
-	if(href_list["toggle_attract"])
-		if(use_power == POWER_USE_ACTIVE)
-			update_use_power(POWER_USE_IDLE)
-		if(use_power == POWER_USE_IDLE)
-			update_use_power(POWER_USE_ACTIVE)
-		return TOPIC_REFRESH
-
-/obj/machinery/asteroid_magnet/interface_interact(var/mob/user)
-	ui_interact(user)
-	return TRUE
-
-/obj/machinery/asteroid_magnet/Process()
-	if(stat & (BROKEN|NOPOWER) || use_power == POWER_USE_IDLE)
+/obj/machinery/asteroid_magnet/planet/Process()
+	if(use_power == POWER_USE_IDLE)
 		return
 
 	var/obj/effect/overmap/event/meteor/asteroid = get_asteroid()
@@ -69,14 +57,14 @@
 				visible_message(SPAN_DANGER("\The [src] flashes numerous errors!"))
 			update_use_power(POWER_USE_IDLE)
 			return
-		attraction_progress += 5
+		attraction_progress += 2
 	else
 		attraction_progress = 0
 		visible_message(SPAN_WARNING("\The [src] flashes an 'Out of range' error!"))
 		update_use_power(POWER_USE_IDLE)
 		return
 
-/obj/machinery/asteroid_magnet/proc/generate_asteroid(var/obj/effect/overmap/event/meteor/asteroid)
+/obj/machinery/asteroid_magnet/planet/generate_asteroid(var/obj/effect/overmap/event/meteor/asteroid)
 	if(!asteroid)
 		return FALSE
 	var/turf/center_turf = get_ranged_target_turf(get_turf(src), dir, ASTEROID_SIZE+1) // +1 for the sake of not enveloping the asteroid magnet.
@@ -84,15 +72,7 @@
 		return FALSE
 
 //	asteroid.spent = TRUE
-	var/class_type
-	var/datum/overmap_quadrant/quadrant = get_quadrant()
-
-	if(asteroid.comet)
-		class_type = quadrant.get_comet()
-	else
-		class_type = quadrant.get_asteroid()
-
-	var/decl/asteroid_class/class = GET_DECL(class_type)
+	var/decl/asteroid_class/class = GET_DECL(/decl/asteroid_class/asteroid/ironlow)
 	if(!class)
 		return FALSE
 	var/decl/strata/asteroid/asteroid_strata = pick(class.possible_stratas)
@@ -105,10 +85,6 @@
 	var/list/mob_types = class.mob_types
 	var/max_mobs = class.max_mobs
 
-	var/obj/effect/overmap/visitable/curr_sector = global.overmap_sectors["[z]"]
-	if(!curr_sector) return FALSE
-	if(!length(outer_types) || !length(inner_types))
-		return FALSE
 
 	for(var/mob/living/M in range(10, src))
 		shake_camera(M, 10, 5)
@@ -124,7 +100,7 @@
 
 	for(var/turf/T in target_turfs)
 
-		if(!istype(T, /turf/space) || !istype(get_area(T), /area/space))
+		if(T.density || !istype(get_area(T), /area/exoplanet))
 			continue // No dropping asteroids in the middle of a room.
 
 		var/dist = get_dist(center_turf, T) // Determine how far away the turf is from the center. Nearer tiles have much a much lower chance of being empty.
@@ -138,12 +114,8 @@
 		// This doesn't play nicely with a switch statement.
 		if(det >= out_lb && det <= out_ub)
 			T.ChangeTurf(pick(outer_types))
-			if(!istype(T, /turf/space))
-				curr_sector.gen_asteroid_turfs |= T
 		else if(det >= in_lb && det <= in_ub)
 			T.ChangeTurf(pick(inner_types))
-			if(!istype(T, /turf/space))
-				curr_sector.gen_asteroid_turfs |= T
 		if(length(mob_types) && !T.density && num_mobs < max_mobs && prob(MOB_PROB)) // Only spawn mobs on non-dense turfs.
 			num_mobs++
 			var/mob_type = pickweight(mob_types)
@@ -154,49 +126,15 @@
 				num_objs++
 				var/obj_type = pickweight(object_types)
 				new obj_type(T)
-	if(num_mobs < max_mobs)
-		var/turf/T = get_random_edge_turf(pick(global.cardinal),TRANSITIONEDGE + 2, z)
-		for(var/x = num_mobs, x < max_mobs, x++)
-			var/mob_type = pickweight(mob_types)
-			var/mob/M = new mob_type(T)
-			M.throw_at(center_turf, 250, 10)
+
 	playsound(src, 'sound/effects/metalscrape3.ogg', 50, 2)
 	visible_message(SPAN_NOTICE("There's a terrible sound of screeching metal as \the [src] attracts a neaby asteroid!"))
-	quadrant.raise_asteroid_host()
 	return TRUE
 
 
-/obj/machinery/asteroid_magnet/proc/get_asteroid()
-	var/obj/effect/overmap/visitable/curr_sector = global.overmap_sectors["[z]"]
-	if(!curr_sector)
-		return "Could not find orientation in space!"
-//	if(!istype(curr_sector) || istype(curr_sector, /obj/effect/overmap/visitable/ship/landable))
-//		return "Cannot attract an asteroid from this location!"
-	if(!curr_sector.is_still())
-		return "Cannot attract an asteroid while the sector is in motion!"
-	var/found_spent = FALSE // Let players know that the asteroid field has been spent.
-	for(var/obj/effect/overmap/event/meteor/M in SSmapping.overmap_event_handler.hazard_by_turf[get_turf(curr_sector)])
-		if(!M.spent)
-			return M // Return the first unspent asteroid field found in the same tile as the ship/station that the asteroid magnet is attached to.
-		else
-			found_spent = TRUE
+/obj/machinery/asteroid_magnet/planet/get_asteroid()
+	return SSquadrants.planet_meteor
 
-	return found_spent ? "Asteroid field has already been exhausted!" : "Could not detect asteroid!"
-
-/obj/item/stock_parts/circuitboard/asteroid_magnet
-	name = "circuitboard (asteroid magnet)"
-	board_type = "machine"
-	build_path = /obj/machinery/asteroid_magnet
-	origin_tech = "{'magnets':2}"
-	req_components = list(
-		/obj/item/stock_parts/capacitor = 1,
-		/obj/item/stock_parts/micro_laser = 1
-	)
-	additional_spawn_components = list(
-		/obj/item/stock_parts/console_screen = 1,
-		/obj/item/stock_parts/keyboard = 1,
-		/obj/item/stock_parts/power/apc/buildable = 1
-	)
 
 #undef ASTEROID_SIZE
 #undef MAX_OBJS

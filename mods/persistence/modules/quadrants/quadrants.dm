@@ -19,6 +19,7 @@
 	var/host_ticks = 0
 	var/list/adjacent_quadrants = list()
 
+
 /obj/effect/overmap/event/meteor/quadrant
 	color = "#ff9900"
 	icon_state = "meteor1"

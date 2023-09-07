@@ -10,6 +10,17 @@
 	var/objs_inside_only = FALSE
 	var/max_mobs = 5
 	var/comet = 0
+
+/decl/asteroid_class/asteroid/ironlow
+	name = "Low Density Orbital Asteroid"
+	outer_types = list(/turf/exterior/wall/asteroid)
+	inner_types = list(/turf/exterior/wall/random/asteroid)
+	mob_types = list(/mob/living/simple_animal/hostile/glutslug, /mob/living/simple_animal/hostile/greed)
+	possible_stratas = list(
+		/decl/strata/asteroid/ironlow
+	)
+	max_mobs = 2
+
 /decl/asteroid_class/asteroid/ironcarbon
 	name = "Low Density Asteroid"
 	outer_types = list(/turf/exterior/wall/asteroid, /turf/space)

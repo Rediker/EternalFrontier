@@ -90,7 +90,7 @@
 	var/list/beam_segments	//assoc list of datum/point or datum/point/vector, start = end. Used for hitscan effect generation.
 	var/datum/point/beam_index
 	var/turf/hitscan_last	//last turf touched during hitscanning.
-
+	should_save = 0
 /obj/item/projectile/Initialize()
 	damtype = damage_type //TODO unify these vars properly
 	if(!hitscan)

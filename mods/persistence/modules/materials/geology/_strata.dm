@@ -42,6 +42,23 @@
 /decl/strata/asteroid/is_valid_exoplanet_strata()
 	return FALSE
 
+/decl/strata/asteroid/ironlow
+	name = "low yield orbiting rock"
+	base_materials = list(/decl/material/solid/stone/asteroid)
+	ores_sparse = list(
+		/decl/material/solid/hematite = 10,
+		/decl/material/solid/magnetite = 30,
+		/decl/material/solid/pyrite = 10,
+		/decl/material/solid/cinnabar = 2,
+		/decl/material/solid/phosphorite = 5
+	)
+	ores_rich = list(
+		/decl/material/solid/metal/gold = 2,
+		/decl/material/solid/metal/silver = 1,
+		/decl/material/solid/magnetite = 25,
+		/decl/material/solid/cinnabar = 5
+	)
+
 /decl/strata/asteroid/iron
 	name = "iron-rich spaceborne rock"
 	base_materials = list(/decl/material/solid/stone/asteroid)
@@ -50,13 +67,13 @@
 		/decl/material/solid/magnetite = 60,
 		/decl/material/solid/pyrite = 20,
 		/decl/material/solid/cinnabar = 5,
-		/decl/material/solid/phosphorite = 10,
+		/decl/material/solid/phosphorite = 10
 	)
 	ores_rich = list(
 		/decl/material/solid/metal/gold = 5,
 		/decl/material/solid/metal/silver = 3,
 		/decl/material/solid/magnetite = 50,
-		/decl/material/solid/cinnabar = 10,
+		/decl/material/solid/cinnabar = 10
 	)
 
 /decl/strata/asteroid/carbon
