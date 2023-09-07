@@ -99,10 +99,9 @@
 	var/num_mobs = 0
 
 	for(var/turf/T in target_turfs)
-
 		if(T.density || !istype(get_area(T), /area/exoplanet))
 			continue // No dropping asteroids in the middle of a room.
-
+		var/switch_type = T.type
 		var/dist = get_dist(center_turf, T) // Determine how far away the turf is from the center. Nearer tiles have much a much lower chance of being empty.
 		var/det = max(0, dist + rand(-1, 1))
 		var/out_ub = ASTEROID_SIZE
@@ -116,6 +115,9 @@
 			T.ChangeTurf(pick(outer_types))
 		else if(det >= in_lb && det <= in_ub)
 			T.ChangeTurf(pick(inner_types))
+		if(istype(T, /turf/exterior/wall))
+			var/turf/exterior/wall/wT = T
+			wT.floor_type = switch_type
 		if(length(mob_types) && !T.density && num_mobs < max_mobs && prob(MOB_PROB)) // Only spawn mobs on non-dense turfs.
 			num_mobs++
 			var/mob_type = pickweight(mob_types)
