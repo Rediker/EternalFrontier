@@ -7,17 +7,11 @@
 	if(!desc)
 		desc = "Before I came here, I worked as a \a [name]."
 
-/decl/hierarchy/chargen/role/xenohunter
-	ID = "xenohunter"
-	name = "Xeno Hunter"
-	desc = "You have major skills in combat that make you a perfect choice for hunting the dangerous fauna of the Frontier. You also posess basic skills in piloting and EVA."
-	skills = list(
-		SKILL_WEAPONS = 2,
-		SKILL_COMBAT = 2,
-		SKILL_PILOT = 1,
-		SKILL_EVA	= 1
-	)
-	text_book_type = /obj/item/book/manual/xenohunter
+/decl/hierarchy/chargen/role/unemployed
+	ID = "unemployed"
+	name = "Unemployed"
+	desc = "You are an unemployed shmuck. You have no refined skills in particular. Maybe you came to the frontier to seek new opportunities; only you know."
+	remaining_points_offset = 40
 
 /decl/hierarchy/chargen/role/shipmaster
 	ID = "shipmaster"
@@ -33,7 +27,7 @@
 
 /decl/hierarchy/chargen/role/agent
 	ID = "agent"
-	name = "Special Agent"
+	name = "Private Detective"
 	desc = "You have a wide variety of special talents that make you capable of espionage or investigation. Proficent as a detective or spy as needed."
 	skills = list(
 		SKILL_COMPUTER = 3, // extra better skills because these ones usually req expert and are not as useful for primaries
@@ -43,7 +37,6 @@
 		SKILL_SCIENCE = 1
 	)
 	text_book_type = /obj/item/book/manual/agent
-
 
 /decl/hierarchy/chargen/role/civilengineer
 	ID = "civilengineer"
@@ -60,7 +53,7 @@
 
 /decl/hierarchy/chargen/role/inventor
 	ID = "inventor"
-	name = "Inventor Mechanic"
+	name = "Inventor"
 	desc = "You have a brilliant mind capable of inventing and assembling grand designs; You also have basic skill in how to pilot a ship and work on engines."
 	skills = list(
 		SKILL_SCIENCE = 2,
@@ -70,25 +63,25 @@
 	)
 	text_book_type = /obj/item/book/manual/inventor
 
-/decl/hierarchy/chargen/role/chemist
-	ID = "chemist"
-	name = "Chemical Genius"
-	desc = "You have a rare aptitude for chemistry and medicine which makes you a valuable commidity in the Frontier. You also have basic botanical and research ability."
+/decl/hierarchy/chargen/role/surgeon
+	ID = "surgeon"
+	name = "Surgeon"
+	desc = "You have a capable hand at surgery and medicine plus basic experience in Chemistry and EVA operation. As a Frontier Surgeon you will fight to keep your patients alive and clone those who cant be saved."
 	skills = list(
-		SKILL_CHEMISTRY = 2,
+		SKILL_ANATOMY = 3,
 		SKILL_MEDICINE = 2,
 		SKILL_SCIENCE	= 1,
-		SKILL_BOTANY = 1
+		SKILL_EVA = 1
 	)
 	text_book_type = /obj/item/book/manual/chemist
 
 /decl/hierarchy/chargen/role/doctor
 	ID = "doctor"
-	name = "Frontier Surgeon"
-	desc = "You have a capable hand at surgery and medicine plus basic experience in Chemistry and EVA operation. As a Frontier Surgeon you will fight to keep your patients alive and clone those who cant be saved."
+	name = "Doctor"
+	desc = "You are capable of saving lives and prescribing drugs. Maybe on the frontier you will get a break."
 	skills = list(
 		SKILL_ANATOMY = 2,
-		SKILL_MEDICINE = 2,
+		SKILL_MEDICINE = 3,
 		SKILL_CHEMISTRY	= 1,
 		SKILL_EVA = 1
 	)
@@ -108,8 +101,8 @@
 	text_book_type = /obj/item/book/manual/diplomat
 
 /decl/hierarchy/chargen/role/farmingchef
-	ID = "farmingchef"
-	name = "Farming Chef"
+	ID = "hydroponicist"
+	name = "Hydroponicist"
 	desc = "Your skill in both botany and cooking gives you potential as a farming chef. Feed the hungry masses and your hungry pockets."
 	skills = list(
 		SKILL_COOKING = 2,
@@ -119,7 +112,7 @@
 	)
 	text_book_type = /obj/item/book/manual/farmingchef
 
-/decl/hierarchy/chargen/role/brawler
+/*decl/hierarchy/chargen/role/brawler
 	ID = "brawler"
 	name = "Brawler"
 	desc = "You have a talent for close quarters combat that makes you a fierce competitor in any martial arts match, perhaps even a champion. If you can't quite find work doing that, you could always sign aboard a mining crew."
@@ -129,6 +122,7 @@
 		SKILL_WEAPONS = 1
 	)
 	text_book_type = /obj/item/book/manual/brawler
+*/                                                        ///////Sorry brawler///////
 
 /decl/hierarchy/chargen/role/soldier
 	ID = "soldier"

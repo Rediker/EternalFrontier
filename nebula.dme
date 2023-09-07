@@ -3672,6 +3672,7 @@
 #include "mods\persistence\modules\chargen\storage\chargen_boxes.dm"
 #include "mods\persistence\modules\chargen\storage\industrial_boxes.dm"
 #include "mods\persistence\modules\chargen\storage\science_boxes.dm"
+#include "mods\persistence\modules\chargen\storage\starter_kits.dm"
 #include "mods\persistence\modules\chargen\vending\botany.dm"
 #include "mods\persistence\modules\chargen\vending\industrial.dm"
 #include "mods\persistence\modules\chargen\vending\infini_vendor.dm"

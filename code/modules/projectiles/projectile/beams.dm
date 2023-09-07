@@ -115,11 +115,21 @@
 	impact_type = /obj/effect/projectile/impact/pulse
 
 /obj/item/projectile/beam/pulse/destroy
-	name = "destroyer pulse"
-	damage = 100 //badmins be badmins I don't give a fuck
+	name = "strong plasma bolt"
+	damage = 100 //pretty op but then again, it's pure plasma
 	armor_penetration = 100
 
 /obj/item/projectile/beam/pulse/destroy/on_hit(var/atom/target, var/blocked = 0)
+	if(isturf(target))
+		target.explosion_act(2)
+	..()
+
+/obj/item/projectile/beam/pulse/plasma
+	name = "plasma bolt"
+	damage = 70
+	armor_penetration = 65
+
+/obj/item/projectile/beam/pulse/plasma/on_hit(var/atom/target, var/blocked = 0)
 	if(isturf(target))
 		target.explosion_act(2)
 	..()
@@ -384,3 +394,27 @@
 	muzzle_type = /obj/effect/projectile/muzzle/laser/blue
 	tracer_type = /obj/effect/projectile/tracer/laser/blue
 	impact_type = /obj/effect/projectile/impact/laser/blue
+
+/obj/item/projectile/beam/hellblazer
+	name = "scattered laser blast"
+	icon_state = "beam_incen"
+	fire_sound='sound/weapons/scan.ogg'
+	damage = 25
+	agony = 8
+	eyeblur = 8
+	sharp = FALSE
+	damage_flags = 0
+	life_span = 8
+	penetration_modifier = 0.2
+
+	muzzle_type = /obj/effect/projectile/muzzle/incen
+	tracer_type = /obj/effect/projectile/tracer/incen
+	impact_type = /obj/effect/projectile/impact/incen
+
+/obj/item/projectile/beam/hellblazer/on_hit(var/atom/target, var/blocked = 0)
+	..()
+	if(isliving(target))
+		var/mob/living/L = target
+		L.adjust_fire_stacks(rand(2,4))
+		if(L.fire_stacks >= 3)
+			L.IgniteMob()

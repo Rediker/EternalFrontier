@@ -149,8 +149,8 @@
 	fire_sound = 'sound/weapons/blaster.ogg'
 	armor_penetration = 10
 	life_span = 4
-	damage = 5
-	agony = 70
+	damage = 35
+	agony = 60
 	damage_type = BURN
 	vacuum_traversal = 0
 	var/min_dizziness_amt = 60

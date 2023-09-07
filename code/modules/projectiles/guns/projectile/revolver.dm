@@ -92,6 +92,19 @@
 	one_hand_penalty = 0
 	force = 5
 
+/obj/item/gun/projectile/revolver/maxwell
+	name = "Malorian revolver"
+	desc = "A very expensive revolver plated with gold and walnut tree, it has a magnetic pull system to shoot faster. Tier: <font color=#a840b1><font size=2>Rare"
+	icon = 'mods/persistence/icons/obj/guns/tier1/maxwell.dmi'
+	origin_tech = "{'combat':2,'engineering':2,'materials':2}"
+	caliber = CALIBER_PISTOL
+	ammo_type = /obj/item/ammo_casing/pistol
+	max_shells = 6
+	fire_delay = 10
+	accuracy = 2
+	one_hand_penalty = 0
+	force = 5
+
 /obj/item/gun/projectile/revolver/k7
 	name = "K-7 Revolver"
 	desc = "The K-7 is a rare Martian Arms revolver mostly seen by outlaws and frontier worlds, it has a magnetic trigger system which allows it to fire faster. The cylinder also fit 8 rounds. Chambered in 10mm rounds. Tier: <font color=red><font size=2>Exotic"

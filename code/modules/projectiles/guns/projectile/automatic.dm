@@ -266,7 +266,7 @@
 
 /obj/item/gun/projectile/automatic/sts337
 	name = "STS-337 Stormrider"
-	desc = "The STS-337 is a high-tech rifle produced by Shellguard as the martian service rifle. Tier: <font color=green><font size=2>Uncommon"
+	desc = "The STS-337 is a high-tech rifle produced by Hexguard as the solgov service rifle. Tier: <font color=green><font size=2>Uncommon"
 	icon = 'icons/obj/guns/sts337.dmi'
 	icon_state = "world"
 	w_class = ITEM_SIZE_HUGE
@@ -303,6 +303,45 @@
 	else
 		icon_state = "world-empty"
 
+/obj/item/gun/projectile/automatic/ar25
+	name = "AR-25 assault rifle"
+	desc = "The Hexguard AR-25 is a full steel rifle produced to be a affordable rifle while still maintaining a decent quality. Tier: <font color=#bebebe><font size=2>Common"
+	icon = 'icons/obj/guns/ar25.dmi'
+	icon_state = "world"
+	w_class = ITEM_SIZE_HUGE
+	force = 10
+	caliber = CALIBER_RIFLE
+	origin_tech = "{'combat':8,'materials':3}"
+	ammo_type = /obj/item/ammo_casing/rifle
+	slot_flags = SLOT_BACK
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/sts337
+	allowed_magazines = /obj/item/ammo_magazine/sts337
+	accuracy = 2
+	accuracy_power = 5
+	one_hand_penalty = 4
+	bulk = GUN_BULK_RIFLE
+	burst_delay = 1
+	mag_insert_sound = 'sound/weapons/guns/interaction/batrifle_magin.ogg'
+	mag_remove_sound = 'sound/weapons/guns/interaction/batrifle_magout.ogg'
+	material = /decl/material/solid/metal/steel
+	matter = list(
+		/decl/material/solid/metal/silver = MATTER_AMOUNT_REINFORCEMENT,
+		/decl/material/solid/gemstone/diamond = MATTER_AMOUNT_TRACE
+	)
+	firemodes = list(
+		list(mode_name="semi auto",      burst=1,    fire_delay=2, use_launcher=null, one_hand_penalty=8,  burst_accuracy=null,            dispersion=null),
+		list(mode_name="burst",      burst=2,    fire_delay=1,    burst_delay=1,     use_launcher=null,   one_hand_penalty=7,             burst_accuracy = list(0,-1,-1), dispersion=list(0.0, 0.6, 1.0))
+	)
+
+
+/obj/item/gun/projectile/automatic/ar25/on_update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "world"
+	else
+		icon_state = "world-empty"
+
 /obj/item/gun/projectile/automatic/sts410
 	name = "STS-410 Stonevix"
 	desc = "The STS-410 is a newer version of the older STS. The 410 version have a better ammo capacity and better camoflauge colors for the rifle. Tier: <font color=#a840b1><font size=2>Rare"
@@ -317,7 +356,7 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/rifle
 	allowed_magazines = /obj/item/ammo_magazine/rifle
-	accuracy = 1
+	accuracy = 3
 	accuracy_power = 9
 	one_hand_penalty = 4
 	bulk = GUN_BULK_RIFLE

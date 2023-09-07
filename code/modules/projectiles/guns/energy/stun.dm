@@ -30,7 +30,7 @@
 	recharge_time = 10 //Time it takes for shots to recharge (in ticks)
 
 /obj/item/gun/energy/plasmastun
-	name = "plasma ma21 projector"
+	name = "plasma 21 projector"
 	desc = "The SmartInc MA21 Plasma is a weapon that uses a laser pulse to ionise the local atmosphere, creating a disorienting pulse of plasma and deafening shockwave as the wave expands. Tier: <font color=#a840b1><font size=2>Rare"
 	icon = 'icons/obj/guns/plasma_stun.dmi'
 	icon_state = ICON_STATE_WORLD
@@ -39,6 +39,30 @@
 	max_shots = 12
 	projectile_type = /obj/item/projectile/energy/plasmastun
 	combustion = 0
+	indicator_color = COLOR_VIOLET
+
+/obj/item/gun/energy/plasmabreak
+	name = "Smart Plasma MK1"
+	desc = "The SmartInc PMK1 is a weapon that uses ultra heated plasma to create a massive energy bolt, the pmk1 is to be feared. Tier: <font color=#cd7c29><font size=2>Legendary"
+	icon = 'icons/obj/guns/plasmapusler.dmi'
+	icon_state = ICON_STATE_WORLD
+	origin_tech = "{'combat':3,'materials':2,'powerstorage':3}"
+	fire_delay = 60
+	max_shots = 3
+	projectile_type = /obj/item/projectile/beam/pulse/destroy
+	combustion = 1
+	indicator_color = COLOR_VIOLET
+
+/obj/item/gun/energy/plasmacharger
+	name = "Plasma Charger pistol"
+	desc = "The SmartInc plasma charger is a advanced weapon that uses plasma generator to create a deadly bolt of plasma, this gun is usually only used by special forces. Tier: <font color=red><font size=2>Exotic"
+	icon = 'icons/obj/guns/plasmacharger.dmi'
+	icon_state = ICON_STATE_WORLD
+	origin_tech = "{'combat':3,'materials':2,'powerstorage':3}"
+	fire_delay = 60
+	max_shots = 12
+	projectile_type = /obj/item/projectile/beam/pulse/plasma
+	combustion = 1
 	indicator_color = COLOR_VIOLET
 
 /obj/item/gun/energy/confuseray

@@ -70,7 +70,7 @@
 
 /obj/item/gun/energy/lasercannon
 	name = "laser cannon"
-	desc = "the Martian Arms 'laser cannon', might be the most advanced energy rifle produced by the company in hopes to reach a broder audience. The laser cannons has a influx atomic generator to consume as little power as possible while still having a hefty charge. Tier: <font color=green><font size=2>Uncommon "
+	desc = "the Martian Arms 'laser cannon', might be the most advanced energy rifle produced by the company in hopes to reach a broder audience. The laser cannons has a influx atomic generator to consume as little power as possible while still having a hefty charge. Tier: <font color=#a840b1><font size=2>Rare"
 	icon_state = "lasercannon"
 	icon = 'icons/obj/guns/laser_cannon.dmi'
 	icon_state = ICON_STATE_WORLD

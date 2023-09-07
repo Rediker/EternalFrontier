@@ -58,5 +58,8 @@
 /obj/item/paper/marooned/note09
 	info = "Day ???. I'm not getting better. I can barely move now, and even if I try to eat something, I just puke it out. Guess this is it. I am not going to lie here and puke to death, I'm an officer dammit. I'd write something profound, if I could. Damn that obelisk. Glory to Magnitka."
 
+/obj/item/paper/lawbook/solgov
+	info = ""
+
 /obj/machinery/computer/dummy
 	construct_state = null
