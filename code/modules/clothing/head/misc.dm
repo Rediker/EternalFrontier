@@ -10,7 +10,6 @@
 	desc = "A delicate, yet sturdy, tiara. A hefty silver frame holds in place a grand tanzanite gem, found naturally on Earth on a remote island: Tasmania. This tiara's elegance deflects harmful auras, keeping its wearer a bit safer. This must belong to absolute royalty! It's very heavy."
 	icon = 'icons/clothing/head/tiara.dmi'
 	item_flags = ITEM_FLAG_THICKMATERIAL
-	body_parts_covered = SLOT_HEAD
 	armor = list(
 		ARMOR_MELEE = ARMOR_MELEE_RESISTANT,
 		ARMOR_BULLET = ARMOR_BALLISTIC_RESISTANT,
