@@ -45,6 +45,7 @@
 	hitsound = 'sound/weapons/bejeweled.ogg'
 	var/agonyforce = 50
 	var/stunforce = 10
+	attack_cooldown = 6 // if its higher than 6 for some reason you can use it on the floor while incapacitated?
 
 /obj/item/staff/scepter/apply_hit_effect(mob/living/target, mob/living/user, var/hit_zone)
 	var/agony = agonyforce
@@ -59,7 +60,8 @@
 		stunforce = 10
 		agonyforce = 30
 		playsound(loc, 'sound/weapons/bejeweled.ogg', 50, 1, -1)
-
+		attack_verb = list("culturally bejeweled", "cultivatively glamorized", "sophisticatedly instructed")
+		target.visible_message("<span class='danger'>[target] has been culturally bejeweled, glamorized, royally blessed, and sophisticatedly instructed on mannerisms with [src]!</span>")
 	//stun effects
 		target.stun_effect_act(stun, agony, hit_zone, src)
 		msg_admin_attack("[key_name(user)] stunned [key_name(target)] with the [src].")
