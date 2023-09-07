@@ -8,8 +8,8 @@ Small, little HP, poisonous.
 	icon = 'icons/mob/simple_animal/slug.dmi'
 	response_harm = "stomps on"
 	destroy_surroundings = 1
-	health = 15
-	maxHealth = 15
+	health = 5
+	maxHealth = 5
 	speed = 0
 	move_to_delay = 0
 	minbodytemp = 0
@@ -19,7 +19,7 @@ Small, little HP, poisonous.
 	mob_size = MOB_SIZE_MINISCULE
 	can_escape = TRUE
 	pass_flags = PASS_FLAG_TABLE
-	natural_weapon = /obj/item/natural_weapon/bite
+	natural_weapon = /obj/item/natural_weapon/bite/weak
 	holder_type = /obj/item/holder/glutslug
 	faction = "Hostile Fauna"
 	unrelenting = 1
