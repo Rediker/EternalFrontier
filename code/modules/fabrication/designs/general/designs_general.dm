@@ -1,5 +1,5 @@
-/datum/fabricator_recipe/charge_stick
-	path = /obj/item/charge_stick/copper
+//datum/fabricator_recipe/charge_stick
+//	path = /obj/item/charge_stick/copper
 
 /datum/fabricator_recipe/bucket
 	path = /obj/item/chems/glass/bucket

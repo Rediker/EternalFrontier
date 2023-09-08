@@ -26,17 +26,17 @@
 /datum/fabricator_recipe/protolathe/weapon/confuseray
 	path = /obj/item/gun/energy/confuseray
 
-/datum/fabricator_recipe/protolathe/weapon/nuclear_gun
-	path = /obj/item/gun/energy/gun/nuclear
+//datum/fabricator_recipe/protolathe/weapon/nuclear_gun
+//	path = /obj/item/gun/energy/gun/nuclear
 
 /datum/fabricator_recipe/protolathe/weapon/lasercannon
 	path = /obj/item/gun/energy/lasercannon
 
-/datum/fabricator_recipe/protolathe/weapon/grenadelauncher
-	path = /obj/item/gun/launcher/grenade
+//datum/fabricator_recipe/protolathe/weapon/grenadelauncher
+//	path = /obj/item/gun/launcher/grenade
 
-/datum/fabricator_recipe/protolathe/weapon/flechette
-	path = /obj/item/gun/magnetic/railgun/flechette
+//datum/fabricator_recipe/protolathe/weapon/flechette
+//	path = /obj/item/gun/magnetic/railgun/flechette
 
 /datum/fabricator_recipe/protolathe/weapon/radpistol
 	path = /obj/item/gun/energy/toxgun
@@ -46,6 +46,7 @@
 
 /datum/fabricator_recipe/protolathe/weapon/wt550
 	path = /obj/item/gun/projectile/automatic/smg
+	uses = 3
 
-/datum/fabricator_recipe/protolathe/weapon/bullpup
-	path = /obj/item/gun/projectile/automatic/assault_rifle
+//datum/fabricator_recipe/protolathe/weapon/bullpup
+//	path = /obj/item/gun/projectile/automatic/assault_rifle
