@@ -111,3 +111,30 @@
 		icon_state = "world"
 	else
 		icon_state = "world-empty"
+
+
+/obj/item/gun/projectile/pistol/smartgun
+	name = "Mercury smart pistol"
+	desc = "The Mercury SmartInc pistol. A handgun with a advanced microchip algorithm point system or (MAPS) for short, allows the user to land accurate hits on the target without aiming much. Can be chambered in a bunch of calibers due to it's automatic conversion kit built in. Tier: <font color=#a840b1><font size=2>Rare"
+	icon = 'mods/persistence/icons/obj/guns/tier1/smartpistol.dmi'
+	item_state = null
+	ammo_indicator = FALSE
+	w_class = ITEM_SIZE_SMALL
+	caliber = CALIBER_PISTOL
+	fire_delay = 1
+	accuracy = 15
+	accuracy_power = 16
+	origin_tech = "{'combat':2,'materials':2,'esoteric':8}"
+	magazine_type = /obj/item/ammo_magazine/bigpistol
+	allowed_magazines = /obj/item/ammo_magazine/bigpistol
+	firemodes = list(
+		list(mode_name="semi auto",      burst=1,    fire_delay=2, use_launcher=null, one_hand_penalty=8,  burst_accuracy=null,            dispersion=null),
+		list(mode_name="burst",      burst=2,    fire_delay=1,    burst_delay=1,     use_launcher=null,   one_hand_penalty=7,             burst_accuracy = list(0,-1,-1), dispersion=list(0.0, 0.6, 1.0))
+	)
+
+/obj/item/gun/projectile/pistol/smartgun/on_update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "world"
+	else
+		icon_state = "world-empty"

@@ -936,3 +936,22 @@
 	remaining_stock = 1
 	container_type = /obj/item/parcel
 	min_sec_level = 4
+
+                      ////////////////combat weaponry//////////////
+/datum/beacon_import/ct45
+	provided_items = list(/obj/item/gun/projectile/pistol/ct45 = 1)
+	name = "CT-45 pistol"
+	cost = 1200
+	desc = "The CT-45 pistol. A handgun with a steel slide and wooden grip. Chambered in 10mm. Tier: <font color=green><font size=2>Uncommon."
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+	min_sec_level = 4
+
+/datum/beacon_import/ct9
+	provided_items = list(/obj/item/gun/projectile/pistol/simple = 1)
+	name = "CT-9 pistol"
+	cost = 900
+	desc = "The CT9 is a small reliable pistol manufactured by HexGuard. This one in particular is chambered in 10mm rounds. Tier: <font color=#bebebe><font size=2>Common."
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+	min_sec_level = 4
