@@ -4,6 +4,8 @@ var/global/list/default_strata_type_by_z = list()
 var/global/list/default_material_by_strata_and_z = list()
 var/global/list/natural_walls = list()
 
+SAVED_VAR(/turf/exterior/wall, floor_type)
+
 /turf/exterior/wall
 	name = "wall"
 	icon = 'icons/turf/walls/_previews.dmi'

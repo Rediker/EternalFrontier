@@ -3777,6 +3777,7 @@
 #include "mods\persistence\modules\overmap\created_sectors.dm"
 #include "mods\persistence\modules\overmap\overmap.dm"
 #include "mods\persistence\modules\overmap\overmap_shuttle.dm"
+#include "mods\persistence\modules\overmap\planetary_asteroid_magnet.dm"
 #include "mods\persistence\modules\overmap\sectors.dm"
 #include "mods\persistence\modules\overmap\star.dm"
 #include "mods\persistence\modules\overmap\stellar_anchor.dm"
