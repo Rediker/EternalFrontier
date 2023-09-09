@@ -331,6 +331,8 @@ var/global/list/admin_verbs_mod = list(
 	/datum/admins/proc/sendFax,
 	/datum/admins/proc/paralyze_mob,
 	/datum/admins/proc/view_persistent_data
+	/client/proc/cmd_admin_delete,		//delete an instance/object/mob/etc,
+	/client/proc/admin_ghost,			//allows us to ghost/reenter body at will,
 )
 
 /client/proc/add_admin_verbs()
