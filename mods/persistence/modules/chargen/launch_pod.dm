@@ -45,8 +45,12 @@
 
 	var/obj/starter_book = user.mind.role.text_book_type
 	if(starter_book)
-		to_chat(user, SPAN_NOTICE("You have brought with you a textbook related to your specialty. It will tell you secrets of the Frontier that can help someone with your skillset."))
+		to_chat(user, SPAN_NOTICE("You have brought with you a starter kit and textbook related to your specialty. It will tell you secrets of the Frontier that can help someone with your skillset."))
 		user.equip_to_storage(new starter_book(user))
+
+	var/obj/starter_kit = user.mind.role.starter_kit_type
+	if(starter_book)
+		user.equip_to_storage(new starter_kit(user))
 
 	// Find the starting network, and create the crew record + user account for convenience.
 

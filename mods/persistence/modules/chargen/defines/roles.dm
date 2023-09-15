@@ -1,6 +1,7 @@
 /decl/hierarchy/chargen/role // WHY was this system so complicated before i got here??
 	abstract_type = /decl/hierarchy/chargen/role	// DONT MAKE LIFE SO HARD ON YOURSELF!
 	var/text_book_type = /obj/item/book/skill/organizational/literacy/basic	// DESIGN AROUND PLAYERS AND YOURSELF, NOT YOUR INITIAL IDEA
+	var/starter_kit_type = /obj/item/chargen_box/starterkits/engineering
 
 /decl/hierarchy/chargen/role/Initialize()
 	. = ..()
@@ -24,6 +25,7 @@
 		SKILL_ENGINES = 1
 	)
 	text_book_type = /obj/item/book/manual/shipmaster
+	starter_kit_type = /obj/item/chargen_box/starterkits/engineering
 
 /decl/hierarchy/chargen/role/agent
 	ID = "agent"
@@ -50,6 +52,7 @@
 		SKILL_EVA = 1
 	)
 	text_book_type = /obj/item/book/manual/civilengineer
+	starter_kit_type = /obj/item/chargen_box/starterkits/engineering
 
 /decl/hierarchy/chargen/role/inventor
 	ID = "inventor"
@@ -62,6 +65,7 @@
 		SKILL_ENGINES = 1
 	)
 	text_book_type = /obj/item/book/manual/inventor
+	starter_kit_type = /obj/item/chargen_box/starterkits/engineering
 
 /decl/hierarchy/chargen/role/surgeon
 	ID = "surgeon"
@@ -73,7 +77,8 @@
 		SKILL_SCIENCE	= 1,
 		SKILL_EVA = 1
 	)
-	text_book_type = /obj/item/book/manual/chemist
+	text_book_type = /obj/item/book/manual/doctor
+	starter_kit_type = /obj/item/chargen_box/starterkits/surgeon
 
 /decl/hierarchy/chargen/role/doctor
 	ID = "doctor"
@@ -86,6 +91,7 @@
 		SKILL_EVA = 1
 	)
 	text_book_type = /obj/item/book/manual/doctor
+	starter_kit_type = /obj/item/chargen_box/starterkits/doctor
 
 /decl/hierarchy/chargen/role/diplomat
 	ID = "diplomat"
@@ -111,6 +117,7 @@
 		SKILL_HAULING = 1
 	)
 	text_book_type = /obj/item/book/manual/farmingchef
+	starter_kit_type = /obj/item/chargen_box/starterkits/botany
 
 /*decl/hierarchy/chargen/role/brawler
 	ID = "brawler"
