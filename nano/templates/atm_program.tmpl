@@ -56,6 +56,16 @@
 		<hr>
 		<div class='item'>
 			<div class='itemLabel'>
+				Withdrawal Limit:
+			</div>
+			<div class='itemContent'>
+				{{:data.current_withdrawal}} / {{:data.withdrawal_limit}}
+			</div>
+		</div>
+		{{:helper.link('Withdrawal', null, {'withdrawal' : 1}, null)}}
+		<hr>
+		<div class='item'>
+			<div class='itemLabel'>
 				Transaction Fee:
 			</div>
 			<div class='itemContent'>
