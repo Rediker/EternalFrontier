@@ -47,12 +47,22 @@
 		<hr>
 		<div class='item'>
 			<div class='itemLabel'>
+				Withdrawal Limit:
+			</div>
+			<div class='itemContent'>
+				{{:data.current_withdrawal}} / {{:data.withdrawal_limit}}
+			</div>
+		</div>
+		<hr>
+		<div class='item'>
+			<div class='itemLabel'>
 				Transaction Fee:
 			</div>
 			<div class='itemContent'>
 				{{:data.transaction_fee}}
 			</div>
 		</div>
+		{{:helper.link('Withdrawal', null, {'withdrawal' : 1}, null)}}
 		{{if data.pending_mods}}
 			<br><hr>
 			<h2>Account modifications</h2>
