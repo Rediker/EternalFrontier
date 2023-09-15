@@ -50,10 +50,6 @@
 /obj/item/staff/scepter/apply_hit_effect(mob/living/target, mob/living/user, var/hit_zone)
 	var/agony = agonyforce
 	var/stun = stunforce
-	var/obj/item/organ/external/affecting = null
-	if(ishuman(target))
-		var/mob/living/carbon/human/H = target
-		affecting = GET_EXTERNAL_ORGAN(H, hit_zone)
 	if(user && user.a_intent == I_HURT)
 		stun   = 10
 		agony  = 30

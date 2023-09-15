@@ -20,6 +20,51 @@
 	maximum_temperature = (40 CELSIUS) + 100
 	obj_result = /obj/item/chems/food/sliceable/cheesewheel
 
+
+// this has no better category but uses a different path ~ Crimsonerva
+/decl/chemical_reaction/productionenzyme // make sure this is able to be produced, there's no way to obtain any prior to this PR except for admin spawns.
+	name = "universal enzyme"
+	result = /decl/material/liquid/enzyme
+	required_reagents = list(
+		/decl/material/solid/bone = 1, // available from gibbing monkeys, or any humanoid for that matter, just grind their bones
+		/decl/material/solid/potassium = 1, // available from starter planet mining "potash", grind potassium bars (from smelter)
+		/decl/material/liquid/drink/milk = 1 // available from biogenerator
+	)
+	result_amount = 5 // starts with a bit more in order to give startups a little bit more
+	mix_message = "The solution gives off a whiff of yeast."
+
+// this has no better category but uses a different path ~ Crimsonerva
+/decl/chemical_reaction/productionenzyme2 // need a way to produce more once you have some; most recipes will now consume it
+	name = "universal enzyme replication"
+	result = /decl/material/liquid/enzyme
+	required_reagents = list(
+		/decl/material/liquid/fertilizer  = 1, // biogenerator "EZ-nutriment"
+		/decl/material/liquid/drink/milk = 1 // available from biogenerator
+	)
+	catalysts = list(/decl/material/liquid/enzyme = 1) // yeast grows, would get weird if it consumed itself
+	result_amount = 2 // catalyst counts as 1
+	mix_message = "The solution gives off a whiff of warm yeast."
+
+/decl/chemical_reaction/proteinproduction // need a way to produce more once you have some; most recipes will now consume it
+	name = "protein production"
+	result = /decl/material/liquid/nutriment/protein
+	required_reagents = list(
+		/decl/material/solid/meat  = 1 // grinding meat slabs
+	)
+	catalysts = list(/decl/material/liquid/enzyme = 1)
+	result_amount = 2 // catalyst counts as 1
+	mix_message = "The solution gives off beef and pork whiffs."
+
+/decl/chemical_reaction/meatproduction // need a way to produce more once you have some; most recipes will now consume it
+	name = "meat production"
+	obj_result = /obj/item/chems/food/meat
+	required_reagents = list(
+		/decl/material/solid/meat  = 3,  // grinding meat slabs
+		/decl/material/solid/bone  = 3   // grinding bones
+	)
+	result_amount = 2 // catalyst counts as 1
+	mix_message = "The solution gives off industrial smells."
+
 /decl/chemical_reaction/recipe/food/rawmeatball
 	name = "Raw Meatball"
 	required_reagents = list(/decl/material/liquid/nutriment/protein = 3, /decl/material/liquid/nutriment/flour = 5)
