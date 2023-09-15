@@ -1,6 +1,6 @@
 #define ASTEROID_SIZE 4
 #define MAX_OBJS 10
-#define MAX_MOBS 5
+#define MAXI_MOBS 0
 #define OBJ_PROB 20
 #define MOB_PROB 30
 
@@ -83,7 +83,7 @@
 	var/list/inner_types = class.inner_types // Minerals, open turfs etc.
 	var/list/object_types = class.object_types
 	var/list/mob_types = class.mob_types
-	var/max_mobs = class.max_mobs
+	var/maxi_mobs = 0
 
 
 	for(var/mob/living/M in range(10, src))
@@ -118,7 +118,7 @@
 		if(istype(T, /turf/exterior/wall))
 			var/turf/exterior/wall/wT = T
 			wT.floor_type = switch_type
-		if(length(mob_types) && !T.density && num_mobs < max_mobs && prob(MOB_PROB)) // Only spawn mobs on non-dense turfs.
+		if(length(mob_types) && !T.density && num_mobs < maxi_mobs && prob(MOB_PROB)) // Only spawn mobs on non-dense turfs.
 			num_mobs++
 			var/mob_type = pickweight(mob_types)
 			new mob_type(T)
@@ -140,6 +140,6 @@
 
 #undef ASTEROID_SIZE
 #undef MAX_OBJS
-#undef MAX_MOBS
+#define MAXI_MOBS
 #undef OBJ_PROB
 #undef MOB_PROB

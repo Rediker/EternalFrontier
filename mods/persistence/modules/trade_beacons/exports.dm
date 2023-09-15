@@ -526,7 +526,7 @@
 
 
 
-////////// bad bad no good bad bad
+////////// bad bad no good bad bad <- Drugs
 /datum/beacon_export/liquid_material/amphetamines
 	required_items = list("amphetamines" = 80)
 	cost = 151
@@ -590,6 +590,7 @@
 	desc = "You don't want to get in to this awful stuff.. best leave it with us."
 	remaining_stock = 1
 	max_sec_level = -3
+
 /datum/beacon_export/liquid_material/bluespice
 	required_items = list("bluespice" = 100)
 	cost = 800
@@ -597,6 +598,8 @@
 	desc = "This is a powerful stimulant that makes a person capable of taking on the world. We'll gladly take it off your hands."
 	remaining_stock = 1
 	max_sec_level = -5
+
+//////////////////////materials////////////////////////////
 
 /datum/beacon_export/solid_material/nebu_crminal_mid
 	required_items = list("nebu" = 3)
@@ -689,7 +692,7 @@
 
 /datum/beacon_export/solid_material/gold
 	required_items = list("gold" = 15)
-	cost = 20
+	cost = 60
 	name = "10 gold ingots"
 	desc = "Gold has many industrial uses around the frontier and can be sold easily."
 	remaining_stock = 2
@@ -729,9 +732,16 @@
 	desc = "A large order for copper, a common material found in frontier asteroids."
 	remaining_stock = 2
 
+/datum/beacon_export/solid_material/sandstone
+	required_items = list("sandstone" = 60)
+	cost = 10
+	name = "60 sandstone bricks"
+	desc = "Sandstone is a very common material, usually found in asteroids."
+	remaining_stock = 10
+
 /datum/beacon_export/solid_material/silver
 	required_items = list("silver" = 15)
-	cost = 18
+	cost = 30
 	name = "15 silver ingots"
 	desc = "Silver is rare and useful in the frontier. This price sucks, but maybe it's the best you can do."
 	remaining_stock = 2
@@ -745,14 +755,14 @@
 
 /datum/beacon_export/solid_material/aluminium
 	required_items = list("aluminium" = 35)
-	cost = 30
+	cost = 24
 	name = "35 aluminium ingots"
 	desc = "Aluminium is a smelting product of bauxite and used in a variety of colonial manufacturing applications."
 	remaining_stock = 2
 
 /datum/beacon_export/solid_material/titanium
-	required_items = list("titanium" = 25)
-	cost = 25
+	required_items = list("titanium" = 15)
+	cost = 40
 	name = "25 titanium ingots"
 	desc = "Titanium is a rare and extremely strong metal."
 	remaining_stock = 2
@@ -765,7 +775,7 @@
 	remaining_stock = 2
 
 
-
+/////////////////////food////////////////////////
 
 /datum/beacon_export/food_export/spaget
 	required_items = list(/obj/item/chems/food/pastatomato = 5)

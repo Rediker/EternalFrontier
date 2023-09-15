@@ -248,10 +248,21 @@
 		/datum/beacon_import/clothing/storage/backpack/dufflebag/generic = 40, // fun
 		/datum/beacon_import/clothing/storage/backpack/satchel/generic = 40, // fun
 		/datum/beacon_import/clothing/storage/backpack/satchel/pocketbook/generic = 40, // fun
-		/datum/beacon_import/clothing/storage/backpack/messenger = 40 // fun
+		/datum/beacon_import/clothing/storage/backpack/messenger = 40, // fun
+		/datum/beacon_import/gerena/pda = 100,
+		/datum/beacon_import/gerena/firstaidregular = 100,
+		/datum/beacon_import/gerena/firstaidadv = 20,
+		/datum/beacon_import/gerena/mre = 100,
+		/datum/beacon_import/gerena/toolbox = 100
 	)
 	possible_exports = list(
-		/datum/beacon_export/solid_material/phoron_low = 100
+		/datum/beacon_export/solid_material/phoron_low = 100,
+		/datum/beacon_export/liquid_material/brutemed = 20,
+		/datum/beacon_export/liquid_material/antiburn = 20,
+		/datum/beacon_export/liquid_material/antirads = 20,
+		/datum/beacon_export/liquid_material/stimulants = 20,
+		/datum/beacon_export/food_export/loaded_steak = 20,
+		/datum/beacon_export/solid_material/sandstone = 100
 	)
 /obj/effect/overmap/trade_beacon/huntershall // border territory
 	name = "Hunters Hall"

@@ -173,6 +173,42 @@
 	desc = "A single smartfridge circuit. The smartfridge can be customzied into many different machines, including a drying rack. You are getting ripped off at this price."
 	remaining_stock = 2
 
+//////////////////////////////////essentials/////////////////////////////////
+/datum/beacon_import/gerena/pda
+	provided_items = list(/obj/item/modular_computer/pda = 1)
+	name = "PDA"
+	cost = 102
+	desc = "A very compact computer, designed to keep its user always connected."
+	remaining_stock = 20
+
+/datum/beacon_import/gerena/firstaidregular
+	provided_items = list(/obj/item/storage/firstaid/regular = 1)
+	name = "First aid kit (regular)"
+	cost = 160
+	desc = "It's an emergency medical kit for those serious boo-boos."
+	remaining_stock = 10
+
+/datum/beacon_import/gerena/firstaidadv
+	provided_items = list(/obj/item/storage/firstaid/adv = 1)
+	name = "advanced first-aid kit"
+	cost = 624
+	desc = "Contains advanced medical treatments."
+	remaining_stock = 2
+
+/datum/beacon_import/gerena/mre
+	provided_items = list(/obj/item/storage/mre = 1)
+	name = "MRE"
+	cost = 100
+	desc = "A vacuum-sealed bag containing a day's worth of nutrients for an adult in strenuous situations. There is no visible expiration date on the package."
+	remaining_stock = 20
+
+/datum/beacon_import/gerena/toolbox
+	provided_items = list(/obj/item/storage/toolbox/mechanical = 1)
+	name = "toolbox"
+	cost = 89
+	desc = "Bright blue toolboxes like these are one of the most common sights in maintenance corridors on virtually every ship in the galaxy."
+	remaining_stock = 4
+/////////////////////////////////materials///////////////////////////////////
 /datum/beacon_import/moonlight/nebu_basic
 	provided_items = list(/obj/item/stack/material/ingot/mapped/nebu/five = 1)
 	name = "Five finely crafted nebu ingots."

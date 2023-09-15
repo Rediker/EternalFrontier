@@ -10,6 +10,7 @@
 	var/objs_inside_only = FALSE
 	var/max_mobs = 5
 	var/comet = 0
+	var/maxi_mobs = 0
 
 /decl/asteroid_class/asteroid/ironlow
 	name = "Low Density Orbital Asteroid"
