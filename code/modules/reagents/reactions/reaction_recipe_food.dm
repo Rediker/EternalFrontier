@@ -55,15 +55,12 @@
 	result_amount = 2 // catalyst counts as 1
 	mix_message = "The solution gives off beef and pork whiffs."
 
-/decl/chemical_reaction/meatproduction // need a way to produce more once you have some; most recipes will now consume it
+/decl/chemical_reaction/recipe/food/meatslab // need a way to produce more once you have some; most recipes will now consume it
 	name = "meat production"
-	obj_result = /obj/item/chems/food/meat
-	required_reagents = list(
-		/decl/material/solid/meat  = 3,  // grinding meat slabs
-		/decl/material/solid/bone  = 3   // grinding bones
-	)
-	result_amount = 2 // catalyst counts as 1
+	required_reagents = list(/decl/material/solid/meat = 3, /decl/material/solid/bone  = 3)
+	result_amount = 2
 	mix_message = "The solution gives off industrial smells."
+	obj_result = /obj/item/chems/food/meat
 
 /decl/chemical_reaction/recipe/food/rawmeatball
 	name = "Raw Meatball"
