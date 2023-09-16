@@ -256,13 +256,13 @@
 		/datum/beacon_import/gerena/toolbox = 100
 	)
 	possible_exports = list(
-		/datum/beacon_export/solid_material/phoron_low = 100,
-		/datum/beacon_export/liquid_material/brutemed = 20,
-		/datum/beacon_export/liquid_material/antiburn = 20,
-		/datum/beacon_export/liquid_material/antirads = 20,
-		/datum/beacon_export/liquid_material/stimulants = 20,
-		/datum/beacon_export/food_export/loaded_steak = 20,
-		/datum/beacon_export/solid_material/sandstone = 100
+///datum/beacon_export/solid_material/phoron_low = 100,
+///datum/beacon_export/liquid_material/brutemed = 20,
+///datum/beacon_export/liquid_material/antiburn = 20,
+///datum/beacon_export/liquid_material/antirads = 20,
+///datum/beacon_export/liquid_material/stimulants = 20,
+///datum/beacon_export/food_export/loaded_steak = 20,
+//datum/beacon_export/solid_material/sandstone = 100
 	)
 /obj/effect/overmap/trade_beacon/huntershall // border territory
 	name = "Hunters Hall"
