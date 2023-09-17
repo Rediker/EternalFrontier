@@ -1849,6 +1849,31 @@
 	container_type = /obj/item/parcel
 	recolorable = 1
 
+/datum/beacon_import/clothing/accessory/storage/pcarrier // military
+	provided_items = list(/obj/item/clothing/suit/armor/pcarrier = 1)
+	name = "plate carrier"
+	desc =  "A lightweight plate carrier vest. It can be equipped with armor plates, but provides no protection of its own."
+	cost = 160
+	remaining_stock = 3
+	container_type = /obj/item/parcel
+	recolorable = 1
+
+/datum/beacon_import/clothing/accessory/storage/merc // military
+	provided_items = list(/obj/item/clothing/accessory/armor/plate/merc = 1)
+	name = "heavy armor plate"
+	desc =  "A diamond-reinforced titanium armor plate, providing state of of the art protection. Attaches to a plate carrier."
+	cost = 140
+	remaining_stock = 2
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/clothing/accessory/storage/platemedium // military
+	provided_items = list(/obj/item/clothing/accessory/armor/plate/medium = 1)
+	name = "medium armor plate"
+	desc =  "A plasteel-reinforced synthetic armor plate, providing good protection. Attaches to a plate carrier."
+	cost = 80
+	remaining_stock = 3
+	container_type = /obj/item/parcel
+
 /datum/beacon_import/clothing/accessory/knifeharness  // cult
 	provided_items = list(/obj/item/clothing/accessory/storage/knifeharness = 1)
 	name = "knife harness"

@@ -191,14 +191,21 @@
 /datum/beacon_import/gerena/firstaidadv
 	provided_items = list(/obj/item/storage/firstaid/adv = 1)
 	name = "advanced first-aid kit"
-	cost = 624
+	cost = 432
+	desc = "Contains advanced medical treatments."
+	remaining_stock = 2
+
+/datum/beacon_import/gerena/firstaidcombat
+	provided_items = list(/obj/item/storage/firstaid/combat = 1)
+	name = "combat medical kit"
+	cost = 672
 	desc = "Contains advanced medical treatments."
 	remaining_stock = 2
 
 /datum/beacon_import/gerena/mre
 	provided_items = list(/obj/item/storage/mre = 1)
 	name = "MRE"
-	cost = 100
+	cost = 20
 	desc = "A vacuum-sealed bag containing a day's worth of nutrients for an adult in strenuous situations. There is no visible expiration date on the package."
 	remaining_stock = 20
 
@@ -971,23 +978,179 @@
 	desc = "This incredibly advanced single use device can tame one of the crazed creatures of the Frontier."
 	remaining_stock = 1
 	container_type = /obj/item/parcel
-	min_sec_level = 4
 
                       ////////////////combat weaponry//////////////
 /datum/beacon_import/ct45
 	provided_items = list(/obj/item/gun/projectile/pistol/ct45 = 1)
 	name = "CT-45 pistol"
 	cost = 1200
-	desc = "The CT-45 pistol. A handgun with a steel slide and wooden grip. Chambered in 10mm. Tier: <font color=green><font size=2>Uncommon."
-	remaining_stock = 1
+	desc = "The CT-45 pistol. A handgun with a steel slide and wooden grip. Chambered in 10mm. Tier: <font color=green><font size=2>Uncommon"
+	remaining_stock = 2
 	container_type = /obj/item/parcel
-	min_sec_level = 4
 
 /datum/beacon_import/ct9
 	provided_items = list(/obj/item/gun/projectile/pistol/simple = 1)
 	name = "CT-9 pistol"
-	cost = 900
-	desc = "The CT9 is a small reliable pistol manufactured by HexGuard. This one in particular is chambered in 10mm rounds. Tier: <font color=#bebebe><font size=2>Common."
+	cost = 925
+	desc = "The CT9 is a small reliable pistol manufactured by HexGuard. This one in particular is chambered in 9mm rounds. Tier: <font color=#bebebe><font size=2>Common"
+	remaining_stock = 2
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/smartgun
+	provided_items = list(/obj/item/gun/projectile/pistol/smartgun = 1)
+	name = "Mercury smart pistol"
+	cost = 2200
+	desc = "The Mercury SmartInc pistol. A handgun with a advanced microchip algorithm point system or (MAPS) for short, allows the user to land accurate hits on the target without aiming much. Can be chambered in a bunch of calibers due to it's automatic conversion kit built in. Tier: <font color=#a840b1><font size=2>Rare"
 	remaining_stock = 1
 	container_type = /obj/item/parcel
-	min_sec_level = 4
+
+/datum/beacon_import/holdout
+	provided_items = list(/obj/item/gun/projectile/pistol/holdout = 1)
+	name = "P-3 Whisper"
+	cost = 900
+	desc = "The HexGuard P3 Whisper. A small, easily concealable gun. Tier: <font color=#bebebe><font size=2>Common"
+	remaining_stock = 3
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/blade
+	provided_items = list(/obj/item/gun/projectile/revolver/blade = 1)
+	name = "BLADER Revolver"
+	cost = 3246
+	desc = "The Blader is a rare SmartInc revolver using extremely powerful bullets to penetrate most targets. The cylinder also fit 10 rounds. Chambered in 15mm rounds. Tier: <font color=red><font size=2>Exotic"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/k7
+	provided_items = list(/obj/item/gun/projectile/revolver/k7 = 1)
+	name = "K-7 Revolver"
+	cost = 1263
+	desc = "The K-7 is a rare Martian Arms revolver mostly seen by outlaws and frontier worlds, it has a magnetic trigger system which allows it to fire faster. The cylinder also fit 8 rounds. Chambered in 10mm rounds. Tier: <font color=red><font size=2>Exotic"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/matax
+	provided_items = list(/obj/item/gun/projectile/revolver/matax = 1)
+	name = "Matax 12 revolver"
+	cost = 877
+	desc = "A martian revolver of ancient design intended for use by ground police forces and for civilian self-defense. The Matax model is known as a reliable weapon galaxy-wide, though its use of pistol rounds leaves it lacking in stopping power. Chambered in .32 rounds. Tier: <font color=#bebebe><font size=2>Common"
+	remaining_stock = 2
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/maxwell
+	provided_items = list(/obj/item/gun/projectile/revolver/maxwell = 1)
+	name = "Malorian revolver"
+	cost = 3268
+	desc = "A very expensive revolver plated with gold and walnut tree, it has a magnetic pull system to shoot faster. Tier: <font color=#a840b1><font size=2>Rare"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/mx2
+	provided_items = list(/obj/item/gun/projectile/revolver/mx2 = 1)
+	name = "MX-2 Revolver"
+	cost = 1426
+	desc = "The MX-2 is a heavy HexGuard revolver that has a smooth wooden grip with a stainless steel body. The cylinder also fit 6 rounds. Chambered in 15mm rounds. Tier: <font color=green><font size=2>Uncommon"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+
+/datum/beacon_import/ar25
+	provided_items = list(/obj/item/gun/projectile/automatic/ar25 = 1)
+	name = "AR-25 assault rifle"
+	cost = 1524
+	desc = "The Hexguard AR-25 is a full steel rifle produced to be a affordable rifle while still maintaining a decent quality. Tier: <font color=#bebebe><font size=2>Common"
+	remaining_stock = 2
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/sts337
+	provided_items = list(/obj/item/gun/projectile/automatic/sts337 = 1)
+	name = "STS-337 Stormrider"
+	cost = 2224
+	desc = "The STS-337 is a mid-tech rifle produced by Hexguard as the Terran service rifle. Tier: <font color=green><font size=2>Uncommon"
+	remaining_stock = 2
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/sts410
+	provided_items = list(/obj/item/gun/projectile/automatic/sts410 = 1)
+	name = "STS-410 Stonevix"
+	cost = 2721
+	desc = "The STS-410 is a newer version of the older STS. The 410 version have a better ammo capacity and better camoflauge colors for the rifle. Tier: <font color=#a840b1><font size=2>Rare"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/sts556
+	provided_items = list(/obj/item/gun/projectile/automatic/sts556 = 1)
+	name = "STS-556 Longrifle"
+	cost = 3215
+	desc = "STS-556 is a automatic rifle used mostly by military forces. It is made of carbon steel. Tier: <font color=#a840b1><font size=2>Rare"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/xraypistol
+	provided_items = list(/obj/item/gun/energy/xray/pistol = 1)
+	name = "Smart laser pistol XK3"
+	cost = 2620
+	desc = "The SmartInc XK 3 is a high-power laser gun capable of emitting concentrated x-ray blasts, that are able to penetrate laser-resistant armor much more readily than standard photonic beams. Tier: <font color=#a840b1><font size=2>Rare"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/xray
+	provided_items = list(/obj/item/gun/energy/xray = 1)
+	name = "Smart laser carbine XK2"
+	cost = 3300
+	desc = "The SmartInc XK 2 is a high-power laser gun capable of emitting concentrated x-ray blasts, that are able to penetrate laser-resistant armor much more readily than standard photonic beams. Tier: <font color=#a840b1><font size=2>Rare"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/blazer
+	provided_items = list(/obj/item/gun/energy/incendiary_laser = 1)
+	name = "Blazer revolver"
+	cost = 2111
+	desc = "The SmartInc 'Blazer' was the first of a class of dispersive laser weapons which, instead of firing a focused beam, scan over a target rapidly with the goal of setting it ablaze. Tier: <font color=#a840b1><font size=2>Rare"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/energygun
+	provided_items = list(/obj/item/gun/energy/gun = 1)
+	name = "energy gun"
+	cost = 1200
+	desc = "Another bestseller of SmartInc, the LAEP90 Perun is a versatile energy based sidearm, capable of switching between low, medium and high power projectile settings. In other words: stun, shock or kill."
+	remaining_stock = 2
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/plasmacharger
+	provided_items = list(/obj/item/gun/energy/plasmacharger = 1)
+	name = "Plasma Charger pistol"
+	cost = 5620
+	desc = "The SmartInc plasma charger is a advanced weapon that uses plasma generator to create a deadly bolt of plasma, this gun is usually only used by special forces. Tier: <font color=red><font size=2>Exotic"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/enerygysword
+	provided_items = list(/obj/item/energy_blade/cutlass = 1)
+	name = "energy sword"
+	cost = 2700
+	desc = "SmartInc enerygy sword, this sword uses pure energy to cut through organic material, use with caution. Tier: <font color=#a840b1><font size=2>Rare"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/vibro
+	provided_items = list(/obj/item/sword/katana/vibro = 1)
+	name = "CTAC katana"
+	cost = 2682
+	desc = "A high-tech CTAC katana with a very sharp titanium blade"
+	remaining_stock = 1
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/bigpistol
+	provided_items = list(/obj/item/ammo_magazine/bigpistol = 3)
+	name = "3x 10mm pistol magazines"
+	cost = 200
+	remaining_stock = 2
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/sts337ammo
+	provided_items = list(/obj/item/ammo_magazine/sts337 = 3)
+	name = "3x sts assault rifle magazines"
+	cost = 320
+	remaining_stock = 2
+	container_type = /obj/item/parcel
