@@ -23,6 +23,9 @@
 /datum/fabricator_recipe/engineering/airalarm_kit
 	path = /obj/item/frame/air_alarm/kit
 
+/datum/fabricator_recipe/engineering/keypad
+	path = /obj/item/weapon/airlock_electronics/keypad_electronics
+
 /datum/fabricator_recipe/engineering/firealarm_kit
 	path = /obj/item/frame/fire_alarm/kit
 

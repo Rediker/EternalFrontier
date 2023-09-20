@@ -58,7 +58,7 @@
 	return selected_import.checkImport(T)
 
 /datum/computer_file/program/trade_management/proc/takeExport()
-	if(!selected_import || !selected_beacon)
+	if(!selected_export || !selected_beacon)
 		return "Invalid connection."
 	flick("pad-beam", selected_telepad)
 	. = selected_export.takeExport()

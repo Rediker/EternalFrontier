@@ -195,6 +195,20 @@
 	desc = "Contains advanced medical treatments."
 	remaining_stock = 2
 
+/datum/beacon_import/gerena/shovel
+	provided_items = list(/obj/item/shovel = 1)
+	name = "shovel"
+	cost = 30
+	desc = "Just a regular iron shovel."
+	remaining_stock = 3
+
+/datum/beacon_import/gerena/insulated
+	provided_items = list(/obj/item/clothing/gloves/insulated = 1)
+	name = "insulated gloves"
+	cost = 126
+	desc = "a pair of insulated gloves."
+	remaining_stock = 3
+
 /datum/beacon_import/gerena/firstaidcombat
 	provided_items = list(/obj/item/storage/firstaid/combat = 1)
 	name = "combat medical kit"
@@ -215,6 +229,61 @@
 	cost = 89
 	desc = "Bright blue toolboxes like these are one of the most common sights in maintenance corridors on virtually every ship in the galaxy."
 	remaining_stock = 4
+
+/datum/beacon_import/gerena/oxygentank
+	provided_items = list(/obj/item/tank/oxygen = 1)
+	name = "oxygen tank"
+	cost = 225
+	desc = "A tank of oxygen."
+	remaining_stock = 4
+
+/datum/beacon_import/gerena/oxygentank/low
+	provided_items = list(/obj/item/tank/oxygen = 1)
+	name = "oxygen tank"
+	cost = 100
+	desc = "A tank of oxygen."
+	remaining_stock = 4
+
+/datum/beacon_import/gerena/jetpack/oxygen
+	provided_items = list(/obj/item/tank/jetpack/oxygen = 1)
+	name = "jetpack (OXYGEN)"
+	cost = 925
+	desc = "A jetpack that uses oxygen."
+	remaining_stock = 1
+
+/datum/beacon_import/gerena/ducttape
+	provided_items = list(/obj/item/duct_tape = 1)
+	name = "duct tape"
+	cost = 15
+	desc = "a roll of duct tape."
+	remaining_stock = 3
+
+/datum/beacon_import/gerena/ducttape
+	provided_items = list(/obj/item/duct_tape = 1)
+	name = "duct tape"
+	cost = 15
+	desc = "a roll of duct tape."
+	remaining_stock = 1
+
+/datum/beacon_import/gerena/ducttape
+	provided_items = list(/obj/item/duct_tape = 1)
+	name = "duct tape"
+	cost = 15
+	desc = "a roll of duct tape."
+	remaining_stock = 1
+
+/datum/beacon_import/gerena/nanoblood
+	provided_items = list(/obj/item/chems/ivbag/nanoblood = 1)
+	name = "Nanoblood"
+	cost = 175
+	desc = "NanoBlood, which can be given to any patient regardless of species without fear of rejection."
+	remaining_stock = 2
+
+/datum/beacon_import/gerena/ivdrip
+	provided_items = list(/obj/structure/iv_drip = 1)
+	name = "IV drip"
+	cost = 85
+	remaining_stock = 1
 /////////////////////////////////materials///////////////////////////////////
 /datum/beacon_import/moonlight/nebu_basic
 	provided_items = list(/obj/item/stack/material/ingot/mapped/nebu/five = 1)

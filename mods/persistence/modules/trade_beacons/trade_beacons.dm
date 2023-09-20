@@ -161,8 +161,9 @@
 		/datum/beacon_import/clothing/suit/pirate = 40, // pirate
 		/datum/beacon_import/clothing/suit/hgpirate = 40, // pirate
 		/datum/beacon_import/clothing/under/captain_fly = 40, // evil pirate
-		/datum/beacon_import/clothing/under/pirate = 40 // pirate
-
+		/datum/beacon_import/clothing/under/pirate = 40, // pirate
+		/datum/beacon_import/gerena/oxygentank/low = 100,
+		/datum/beacon_import/enerygysword = 40,
 	)
 	possible_exports = list(
 		/datum/beacon_export/liquid_material/gleam = 25,
@@ -211,6 +212,8 @@
 		/datum/beacon_import/dicta/pointdefense = 100,
 		/datum/beacon_import/dicta/shieldgenerator = 100,
 		/datum/beacon_import/steel = 100,
+		/datum/beacon_import/gerena/oxygentank = 100,
+		/datum/beacon_import/gerena/jetpack/oxygen = 80,
 		/datum/beacon_import/bluespacecrystal_low = 100
 	)
 	possible_exports = list(
@@ -242,6 +245,9 @@
 		/datum/beacon_import/clothing/under/hydroponics = 40, // fun
 		/datum/beacon_import/clothing/suit/hoodie = 40, // fun
 		/datum/beacon_import/clothing/accessory/scarf = 40, // fun
+		/datum/beacon_import/gerena/shovel = 100,
+		/datum/beacon_import/gerena/insulated = 100,
+		/datum/beacon_import/gerena/insulated = 100,
 		/datum/beacon_import/clothing/under/pj/blue = 40, // fun
 		/datum/beacon_import/clothing/under/pj = 40, // fun
 		/datum/beacon_import/clothing/under/waiter = 40, // fun
@@ -250,19 +256,19 @@
 		/datum/beacon_import/clothing/storage/backpack/satchel/pocketbook/generic = 40, // fun
 		/datum/beacon_import/clothing/storage/backpack/messenger = 40, // fun
 		/datum/beacon_import/gerena/pda = 100,
-		/datum/beacon_import/gerena/firstaidregular = 100,
-		/datum/beacon_import/gerena/firstaidadv = 20,
+		/datum/beacon_import/gerena/firstaidregular = 80,
 		/datum/beacon_import/gerena/mre = 100,
+		/datum/beacon_import/gerena/ducttape = 80,
 		/datum/beacon_import/gerena/toolbox = 100
 	)
 	possible_exports = list(
-///datum/beacon_export/solid_material/phoron_low = 100,
-///datum/beacon_export/liquid_material/brutemed = 20,
-///datum/beacon_export/liquid_material/antiburn = 20,
-///datum/beacon_export/liquid_material/antirads = 20,
-///datum/beacon_export/liquid_material/stimulants = 20,
-///datum/beacon_export/food_export/loaded_steak = 20,
-//datum/beacon_export/solid_material/sandstone = 100
+		/datum/beacon_export/solid_material/phoron_low = 100,
+		/datum/beacon_export/liquid_material/brutemed = 20,
+		/datum/beacon_export/liquid_material/antiburn = 20,
+		/datum/beacon_export/liquid_material/antirads = 20,
+		/datum/beacon_export/liquid_material/stimulants = 20,
+		/datum/beacon_export/food_export/loaded_steak = 20,
+		/datum/beacon_export/solid_material/sandstone = 100
 	)
 /obj/effect/overmap/trade_beacon/huntershall // border territory
 	name = "Hunters Hall"
@@ -630,6 +636,8 @@
 		/datum/beacon_import/clothing/storage/backpack/medic = 40, // job medic
 		/datum/beacon_import/gerena/firstaidcombat = 100,
 		/datum/beacon_import/gerena/firstaidadv = 100,
+		/datum/beacon_import/gerena/nanoblood = 80,
+		/datum/beacon_import/gerena/ivdrip = 80,
 		/datum/beacon_import/clothing/storage/backpack/medic = 100,
 		/datum/beacon_import/clothing/storage/backpack/dufflebag/med = 40, // job medic
 		/datum/beacon_import/clothing/storage/backpack/satchel/med = 100 // job medical
