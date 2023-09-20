@@ -262,11 +262,6 @@
 
 	return ac.check_area_access(user, checked_area)
 
-// area controllers can currently just delete entire areas, their contents, and break the tiles. this ends up corrupting the save;
-// so keep them out until it's patched (to players). PR fixing the issue can be found here:
-// https://github.com/PersistentSS13/Nebula/pull/472
-/*
-
 /obj/item/stock_parts/circuitboard/area_controller
 	name = "circuitboard (area control server)"
 	build_path = /obj/machinery/network/area_controller
@@ -284,7 +279,7 @@
 
 /datum/fabricator_recipe/imprinter/circuit/area_controller
 	path = /obj/item/stock_parts/circuitboard/area_controller
-*/
+
 #undef ENERGY_PER_AREA
 
 SAVED_VAR(/obj/machinery/network/area_controller, owned_areas)
