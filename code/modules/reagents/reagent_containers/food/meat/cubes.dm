@@ -69,3 +69,23 @@
 /obj/item/chems/food/monkeycube/wrapped/spidercube
 	name = "spider cube"
 	monkey_type = /obj/effect/spider/spiderling
+
+// livestock below
+
+/obj/item/chems/food/monkeycube/chick
+	name = "chick cube"
+	desc = "When someone asks, 'what came first, the chicken or the egg?', you can now confidently reply with 'the cube'. Just add water!"
+	monkey_type = /mob/living/simple_animal/chick
+	icon_state = "chickcube"
+
+/obj/item/chems/food/monkeycube/bovine
+	name = "bovine cube"
+	desc = "Wow. Cows are huge, aren't they? How'd they squish it down into this? Just add water!"
+	monkey_type = /mob/living/simple_animal/cow
+	icon_state = "bovinecube"
+
+/obj/item/chems/food/monkeycube/goat
+	name = "goat cube"
+	desc = "Baaaaah. Bah? Ba. They make very similar sounds to sheep, apparently. Just add water!"
+	monkey_type = /mob/living/simple_animal/hostile/retaliate/goat
+	icon_state = "goatcube"
