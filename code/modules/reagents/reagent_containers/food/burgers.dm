@@ -69,7 +69,7 @@
 	. = ..()
 	reagents.add_reagent(/decl/material/liquid/nutriment/protein, 3)
 
-/obj/item/chems/food/hamburger
+/obj/item/chems/food/meatburger
 	name = "hamburger"
 	desc = "The cornerstone of every nutritious breakfast, now with ham!"
 	icon = 'icons/obj/food_ingredients.dmi'
@@ -80,7 +80,7 @@
 	nutriment_amt = 3
 	bitesize = 2
 
-/obj/item/chems/food/hamburger/populate_reagents()
+/obj/item/chems/food/meatburger/populate_reagents()
 	. = ..()
 	reagents.add_reagent(/decl/material/liquid/nutriment/protein, 5)
 
@@ -129,7 +129,7 @@
 	volume = 100
 	center_of_mass = @"{'x':16,'y':11}"
 	bitesize = 0.1
-	
+
 /obj/item/chems/food/roburgerbig/populate_reagents()
 	. = ..()
 	reagents.add_reagent(/decl/material/liquid/nanitefluid, reagents.maximum_volume)
