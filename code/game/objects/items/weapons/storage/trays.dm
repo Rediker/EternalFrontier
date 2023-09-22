@@ -3,7 +3,7 @@
 /obj/item/storage/tray
 	name = "tray"
 	icon = 'icons/obj/food.dmi'
-	icon_state = "tray_material"
+	icon_state = "tray"
 	desc = "A tray to serve food on."
 	force = 4
 	throwforce = 10.0
@@ -18,7 +18,7 @@
 	use_sound = null
 	material = /decl/material/solid/cardboard
 	material_alteration = MAT_FLAG_ALTERATION_COLOR | MAT_FLAG_ALTERATION_NAME
-	
+
 	var/cooldown = 0	//Cooldown for banging the tray with a rolling pin. based on world.time. very silly
 	var/no_drop = FALSE
 
