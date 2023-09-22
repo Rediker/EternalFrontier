@@ -230,6 +230,13 @@
 	desc = "Bright blue toolboxes like these are one of the most common sights in maintenance corridors on virtually every ship in the galaxy."
 	remaining_stock = 4
 
+/datum/beacon_import/gerena/airlockbrace
+	provided_items = list(/obj/item/airlock_brace = 1)
+	name = "airlock brace"
+	cost = 140
+	desc = "A sturdy device that can be attached to an airlock to reinforce it and provide additional security."
+	remaining_stock = 2
+
 /datum/beacon_import/gerena/oxygentank
 	provided_items = list(/obj/item/tank/oxygen = 1)
 	name = "oxygen tank"
@@ -258,18 +265,11 @@
 	desc = "a roll of duct tape."
 	remaining_stock = 3
 
-/datum/beacon_import/gerena/ducttape
-	provided_items = list(/obj/item/duct_tape = 1)
-	name = "duct tape"
-	cost = 15
-	desc = "a roll of duct tape."
-	remaining_stock = 1
-
-/datum/beacon_import/gerena/ducttape
-	provided_items = list(/obj/item/duct_tape = 1)
-	name = "duct tape"
-	cost = 15
-	desc = "a roll of duct tape."
+/datum/beacon_import/gerena/bluespacemed
+	provided_items = list(/obj/item/chems/pill/bluespacemed = 1)
+	name = "bluespace serum"
+	cost = 25000
+	desc = "bluespace serum, What could this be?."
 	remaining_stock = 1
 
 /datum/beacon_import/gerena/nanoblood
@@ -278,6 +278,42 @@
 	cost = 175
 	desc = "NanoBlood, which can be given to any patient regardless of species without fear of rejection."
 	remaining_stock = 2
+
+/datum/beacon_import/syndicate/projector// syndicate
+	provided_items = list(/obj/item/chameleon = 1)
+	name = "chameleon projector"
+	cost = 1200
+	desc = "Use this to scan a small, portable object in order to disguise yourself as said object."
+	remaining_stock = 1
+	container_type = null
+	max_sec_level = -3
+
+/datum/beacon_import/syndicate/gasmask// syndicate
+	provided_items = list(/obj/item/clothing/mask/chameleon/voice = 1)
+	name = "gas mask"
+	cost = 728
+	desc = "A face-covering mask that can be connected to an air supply. It seems to house some odd electronics."
+	remaining_stock = 1
+	container_type = null
+	max_sec_level = -3
+
+/datum/beacon_import/syndicate/smuggler// syndicate
+	provided_items = list(/obj/item/storage/backpack/chameleon/sydie_kit = 1)
+	name = "smuggler backpack"
+	cost = 552
+	desc = "A leather satchel with extra space."
+	remaining_stock = 1
+	container_type = null
+	max_sec_level = -3
+
+/datum/beacon_import/syndicate/c4// syndicate
+	provided_items = list(/obj/item/plastique = 1)
+	name = "plastic explosives (C-4)"
+	cost = 612
+	desc = "Used to put holes in specific areas without too much extra hole."
+	remaining_stock = 2
+	container_type = null
+	max_sec_level = -3
 
 /datum/beacon_import/gerena/ivdrip
 	provided_items = list(/obj/structure/iv_drip = 1)
@@ -349,7 +385,7 @@
 	min_sec_level = 5
 
 /datum/beacon_import/seeds
-	container_type = /obj/item/parcel
+	container_type = (null)
 
 /datum/beacon_import/seeds/reishimycelium // halluc evil
 	provided_items = list(/obj/item/seeds/reishimycelium = 1)
@@ -1221,5 +1257,12 @@
 	provided_items = list(/obj/item/ammo_magazine/sts337 = 3)
 	name = "3x sts assault rifle magazines"
 	cost = 320
+	remaining_stock = 2
+	container_type = /obj/item/parcel
+
+/datum/beacon_import/shocktrooper
+	provided_items = list(/obj/item/ammo_magazine/mrifle = 3)
+	name = "3x shocktrooper assault rifle magazines"
+	cost = 380
 	remaining_stock = 2
 	container_type = /obj/item/parcel

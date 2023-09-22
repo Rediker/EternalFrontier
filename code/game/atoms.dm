@@ -543,6 +543,16 @@
 	else
 		transform = M
 	return transform
+//////auto mouse
+/atom/MouseMove(location, control, params)
+	..()
+	if(get_dist(usr,src) <= 10 && usr.get_preference_value(/datum/client_preference/automousemove) == PREF_YES) return usr.face_atom(src)
+	if(usr.get_preference_value(/datum/client_preference/automousemove) == PREF_NO)
+		return 0
+	if(usr.resting || usr.lying)
+		return 0
+	if(usr.facing_dir)
+		return 0
 
 // Walks up the loc tree until it finds a loc of the given loc_type
 /atom/get_recursive_loc_of_type(var/loc_type)

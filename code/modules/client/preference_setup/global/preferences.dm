@@ -217,6 +217,11 @@ var/global/list/_client_preferences_by_type
 	key = "AUTOHISS"
 	options = list(PREF_OFF, PREF_BASIC, PREF_FULL)
 
+/datum/client_preference/automousemove
+	description = "Auto Mouse Move"
+	key = "AMM"
+	options = list(PREF_NO, PREF_YES)
+
 /datum/client_preference/hardsuit_activation
 	description = "Hardsuit Module Activation Key"
 	key = "HARDSUIT_ACTIVATION"

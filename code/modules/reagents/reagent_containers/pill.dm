@@ -119,6 +119,14 @@
 /obj/item/chems/pill/adminordrazine/populate_reagents()
 	reagents.add_reagent(/decl/material/liquid/adminordrazine, 1)
 
+/obj/item/chems/pill/bluespacemed
+	name = "bluespace pill"
+	desc = "A very ver rare liquid extracted from bluespace crystals, with very effective healing capabilities."
+	icon_state = "pillA"
+
+/obj/item/chems/pill/bluespacemed/populate_reagents()
+	reagents.add_reagent(/decl/material/liquid/bluespacemed, 1)
+
 /obj/item/chems/pill/stox
 	name = "sedatives (15u)"
 	desc = "Commonly used to treat insomnia."

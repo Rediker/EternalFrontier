@@ -189,6 +189,10 @@
 		/datum/beacon_import/clothing/mask/balaclava = 40, // infil
 		/datum/beacon_import/clothing/mask/rubber/barros = 40, // infil
 		/datum/beacon_import/clothing/mask/rubber/admiral = 40, // infil
+		/datum/beacon_import/syndicate/projector = 100,
+		/datum/beacon_import/syndicate/gasmask = 100,
+		/datum/beacon_import/syndicate/smuggler = 100,
+		/datum/beacon_import/syndicate/c4 = 100,
 		/datum/beacon_import/clothing/mask/rubber/turner = 40, // infil
 		/datum/beacon_import/clothing/storage/backpack/satchel/flat = 40 // evil pirate crime
 	)
@@ -549,7 +553,7 @@
 		/datum/beacon_import/clothing/hat/tankcap = 40, // mil
 		/datum/beacon_import/clothing/glasses/hud/jensenshades = 40, // job det
 		/datum/beacon_import/clothing/gloves/forensic = 40, // job det
-		/datum/beacon_import/clothing/gloves/tactical = 40, // armor
+		/datum/beacon_import/clothing/gloves/tactical = 100, // armor
 		/datum/beacon_import/clothing/mask/bandana/camo = 40, // military
 		/datum/beacon_import/clothing/accessory/ubac = 40,
 		/datum/beacon_import/clothing/accessory/ubac/blue = 40, // military
@@ -561,7 +565,7 @@
 		/datum/beacon_import/clothing/under/security2 = 40, // military
 		/datum/beacon_import/clothing/under/tactical = 70, // military
 		/datum/beacon_import/clothing/storage/backpack/security = 40, // military
-		/datum/beacon_import/clothing/storage/backpack/rucksack = 40, // military
+		/datum/beacon_import/clothing/storage/backpack/rucksack = 100, // military
 		/datum/beacon_import/clothing/storage/backpack/rucksack/blue = 40, // military
 		/datum/beacon_import/clothing/storage/backpack/rucksack/green = 40, // military
 		/datum/beacon_import/clothing/storage/backpack/rucksack/navy = 40, // military
@@ -570,8 +574,11 @@
 		/datum/beacon_import/ct45 = 100, // military
 		/datum/beacon_import/ct9 = 100,
 		/datum/beacon_import/holdout = 100,
+		/datum/beacon_import/gerena/airlockbrace = 100,
 		/datum/beacon_import/ar25 = 40,
 		/datum/beacon_import/sts337 = 50,
+		/datum/beacon_import/vibro = 40,
+		/datum/beacon_import/shocktrooper = 100,
 		/datum/beacon_import/bigpistol = 100,
 		/datum/beacon_import/sts337ammo = 100,
 		/datum/beacon_import/sts410 = 50,
@@ -613,7 +620,7 @@
 		/datum/beacon_import/clothing/storage/backpack/satchel/chem = 40, // job chemistry
 		/datum/beacon_import/clothing/under/chemist = 40, // job chem
 		/datum/beacon_import/clothing/hat/nursehat = 40, // job medical
-		/datum/beacon_import/clothing/hat/surgical_cap = 40, // job medical
+		/datum/beacon_import/clothing/hat/surgical_cap = 100, // job medical
 		/datum/beacon_import/clothing/hat/hardhat/ems = 40, // job medical
 		/datum/beacon_import/clothing/gloves/latex = 100, // job medical
 		/datum/beacon_import/clothing/mask/surgical = 40, // job medical
@@ -638,6 +645,7 @@
 		/datum/beacon_import/gerena/firstaidadv = 100,
 		/datum/beacon_import/gerena/nanoblood = 80,
 		/datum/beacon_import/gerena/ivdrip = 80,
+		/datum/beacon_import/gerena/bluespacemed = 10,
 		/datum/beacon_import/clothing/storage/backpack/medic = 100,
 		/datum/beacon_import/clothing/storage/backpack/dufflebag/med = 40, // job medic
 		/datum/beacon_import/clothing/storage/backpack/satchel/med = 100 // job medical
@@ -646,7 +654,7 @@
 	possible_exports = list( // AVG 144 AT NEUTRAL SEC LEVEL
 		/datum/beacon_export/food_export/cake_orange = 20, // 36*2
 		/datum/beacon_export/food_export/muffin = 20, // 47*2
-		/datum/beacon_export/liquid_material/immunobooster = 20, // 26*2
+		/datum/beacon_export/liquid_material/immunobooster = 100, // 26*2
 		/datum/beacon_export/liquid_material/brutemed = 20, // 44*2
 		/datum/beacon_export/liquid_material/antiburn = 20, // 45*2
 		/datum/beacon_export/liquid_material/antirads = 20, // 48*2
@@ -654,7 +662,7 @@
 		/datum/beacon_export/liquid_material/clotting = 20, // 34*2
 		/datum/beacon_export/solid_material/titanium = 20, // 25*2
 		/datum/beacon_export/solid_material/gold = 20, // 19*2
-		/datum/beacon_export/liquid_material/sedative = 20, // 20*2,
+		/datum/beacon_export/liquid_material/sedative = 100, // 20*2,
 		/datum/beacon_export/liquid_material/dredward/antieverything = 40,
 		/datum/beacon_export/liquid_material/dredward/mentalmedication = 40,
 		/datum/beacon_export/solid_material/nebu_high = 60

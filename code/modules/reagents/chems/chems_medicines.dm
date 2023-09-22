@@ -99,6 +99,26 @@
 /decl/material/liquid/adminordrazine/affect_blood(var/mob/living/M, var/removed, var/datum/reagents/holder)
 	M.rejuvenate()
 
+/decl/material/liquid/bluespacemed
+	name = "bluespace liquid"
+	lore_text = "A very ver rare liquid extracted from bluespace crystals, with very effective healing capabilities."
+	taste_description = ""
+	color = "#c8a5dc"
+	metabolism = REM * 0.25
+	exoplanet_rarity = MAT_RARITY_NOWHERE
+	uid = "chem_adminorazine"
+	overdose = REAGENTS_OVERDOSE
+	scannable = 1
+
+	glass_name = "liquid gold"
+	glass_desc = "A very ver rare liquid extracted from bluespace crystals, with very effective healing capabilities.."
+
+/decl/material/liquid/bluespacemed/affect_touch(var/mob/living/M, var/removed, var/datum/reagents/holder)
+	affect_blood(M, removed, holder)
+
+/decl/material/liquid/bluespacemed/affect_blood(var/mob/living/M, var/removed, var/datum/reagents/holder)
+	M.rejuvenate()
+
 /decl/material/liquid/antitoxins
 	name = "antitoxins"
 	lore_text = "A mix of broad-spectrum antitoxins used to neutralize poisons before they can do significant harm."
