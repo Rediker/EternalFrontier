@@ -35,7 +35,7 @@
 		var/image/pan_overlay
 		switch(CC.appliancetype)
 			if(APPLIANCE_SKILLET)
-				pan_overlay = image('icons/obj/cooking_machines.dmi', "skillet[Clamp(length(pans)+1, 1, 4)]")
+				pan_overlay = image('icons/obj/cooking_machines.dmi', "skillet[clamp(length(pans)+1, 1, 4)]")
 			if(APPLIANCE_SAUCEPAN)
 				pan_overlay = image('icons/obj/cooking_machines.dmi', "pan[Clamp(length(pans)+1, 1, 4)]")
 			if(APPLIANCE_POT)
