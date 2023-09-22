@@ -2,8 +2,6 @@
 
 #define PUBLIC_GAME_MODE SSticker.master_mode
 
-#define Clamp(value, low, high) (value <= low ? low : (value >= high ? high : value))
-
 #define CLAMP01(x) 		(clamp(x, 0, 1))
 
 #define get_turf(A) get_step(A,0)
