@@ -39,7 +39,7 @@
 			if(APPLIANCE_SAUCEPAN)
 				pan_overlay = image('icons/obj/cooking_machines.dmi', "pan[clamp(length(pans)+1, 1, 4)]")
 			if(APPLIANCE_POT)
-				pan_overlay = image('icons/obj/cooking_machines.dmi', "pot[Clamp(length(pans)+1, 1, 4)]")
+				pan_overlay = image('icons/obj/cooking_machines.dmi', "pot[clamp(length(pans)+1, 1, 4)]")
 			else
 				continue
 		pan_overlay.color = CC.color
