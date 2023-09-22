@@ -116,11 +116,11 @@
 /datum/fabricator_recipe/engineering/sparker
 	path = /obj/item/frame/button/sparker
 
-/datum/fabricator_recipe/engineering/rcd_ammo
-	path = /obj/item/rcd_ammo
+//datum/fabricator_recipe/engineering/rcd_ammo
+//	path = /obj/item/rcd_ammo
 
-/datum/fabricator_recipe/engineering/rcd_ammo_large
-	path = /obj/item/rcd_ammo/large
+//datum/fabricator_recipe/engineering/rcd_ammo_large
+//	path = /obj/item/rcd_ammo/large
 
 /datum/fabricator_recipe/engineering/camera_frame
 	path = /obj/item/frame/camera
@@ -128,9 +128,9 @@
 /datum/fabricator_recipe/engineering/camera_frame/kit
 	path = /obj/item/frame/camera/kit
 
-/datum/fabricator_recipe/engineering/rcd
-	path = /obj/item/rcd
-	hidden = TRUE
+//datum/fabricator_recipe/engineering/rcd
+//	path = /obj/item/rcd
+//	hidden = TRUE
 
 /datum/fabricator_recipe/engineering/solars
 	path = /obj/item/solar_assembly
