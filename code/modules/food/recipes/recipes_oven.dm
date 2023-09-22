@@ -52,15 +52,6 @@
 	)
 	result = /obj/item/chems/food/sliceable/meatbread
 
-/decl/recipe/xenomeatbread
-	appliance = APPLIANCE_OVEN
-	items = list(
-		/obj/item/chems/food/dough = 2,
-		/obj/item/chems/food/xenomeat = 2,
-		/obj/item/chems/food/cheesewedge = 2,
-	)
-	result = /obj/item/chems/food/sliceable/xenomeatbread
-
 /decl/recipe/bananabread
 	appliance = APPLIANCE_OVEN
 	fruit = list("banana" = 2)
@@ -135,7 +126,7 @@
 	result = /obj/item/chems/food/cookie
 
 /decl/recipe/fortunecookie
-	appliance = APPLIANCE_OVEN|APPLIANCE_FRYER
+	appliance = APPLIANCE_OVEN | APPLIANCE_FRYER
 	reagents = list(/decl/material/liquid/nutriment/sugar = 5)
 	items = list(
 		/obj/item/chems/food/doughslice // our check_items override already handles the paper
@@ -250,16 +241,6 @@
 		/obj/item/chems/food/cheesewedge = 2,
 	)
 	result = /obj/item/chems/food/sliceable/creamcheesebread
-
-/decl/recipe/monkeysdelight
-	appliance = APPLIANCE_OVEN|APPLIANCE_MICROWAVE
-	fruit = list("banana" = 1)
-	reagents = list(/decl/material/solid/sodiumchloride = 1, /decl/material/solid/blackpepper = 1, /decl/material/liquid/nutriment/flour = 10)
-	items = list(
-		/obj/item/chems/food/monkeycube
-	)
-	reagent_mix = REAGENT_REPLACE // simplify end product
-	result = /obj/item/chems/food/monkeysdelight
 
 /decl/recipe/baguette
 	appliance = APPLIANCE_OVEN

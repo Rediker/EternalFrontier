@@ -9,8 +9,8 @@
 	can_burn_food = TRUE
 	active_power_usage = 6 KILOWATTS
 	heating_power = 6000
-	on_icon = "stove_on"
-	off_icon = "stove_off"
+	on_icon = "stove"
+	off_icon = "stove"
 
 	resistance = 5000 // Approx. 2 minutes.
 	idle_power_usage = 1 KILOWATTS

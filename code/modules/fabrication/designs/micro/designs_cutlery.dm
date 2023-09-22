@@ -39,3 +39,19 @@
 /datum/fabricator_recipe/cutlery/knife/butcher
 	name = "butcher's axe"
 	path = /obj/item/knife/kitchen/butcher
+
+/datum/fabricator_recipe/cutlery/plate
+	name = "plate"
+	path = /obj/item/chems/cooking_container/plate
+
+/datum/fabricator_recipe/cutlery/mixingbowl
+	name = "mixing bowl"
+	path = /obj/item/chems/cooking_container/plate/bowl
+
+/datum/fabricator_recipe/cutlery/mixingtray
+	name = "mixing tray"
+	path = /obj/item/chems/glass/beaker/bowl
+
+/datum/fabricator_recipe/cutlery/servingtray
+	name = "serving tray"
+	path = /obj/item/storage/tray/metal/aluminium

@@ -77,8 +77,8 @@
 	w_class = ITEM_SIZE_LARGE
 
 /obj/item/chems/glass/beaker/bowl
-	name = "mixing bowl"
-	desc = "A large mixing bowl."
+	name = "mixing tray"
+	desc = "A large mixing tray."
 	icon = 'icons/obj/items/chem/mixingbowl.dmi'
 	center_of_mass = @"{'x':16,'y':10}"
 	volume = 180
