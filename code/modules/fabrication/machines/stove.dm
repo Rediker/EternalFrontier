@@ -1,7 +1,7 @@
 /obj/machinery/appliance/cooker/stove
 	name = "stove"
 	desc = "Don't touch it!"
-	icon_state = "stove_off"
+	icon_state = "stove"
 	pass_flags = PASS_FLAG_TABLE
 	cook_type = "pan-fried"
 	appliancetype = APPLIANCE_SKILLET | APPLIANCE_SAUCEPAN | APPLIANCE_POT

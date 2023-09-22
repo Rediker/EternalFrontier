@@ -3,7 +3,7 @@
 //which can be checked against recipe requirements in order to cook recipes that require several things
 
 /obj/item/chems/cooking_container
-	icon = 'icons/obj/items/reagent_containers/cooking_container.dmi'
+	icon = 'icons/obj/kitchen.dmi'
 	var/shortname
 	var/max_space = 20//Maximum sum of w-classes of foods in this container at once
 	volume = 80//Maximum units of reagents
@@ -300,7 +300,7 @@
 	name = "serving bowl"
 	shortname = "bowl"
 	desc = "A bowl. You bowl foods... wait, what?"
-	icon_state = "mixingbowl"
+	icon_state = "bowl"
 	center_of_mass = @"{'x':17,'y':7}"
 	max_space = 30
 	matter = list(DEFAULT_WALL_MATERIAL = 300)
