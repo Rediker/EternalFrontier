@@ -352,7 +352,7 @@
 
 /obj/item/storage/box/monkeycubes
 	name = "monkey cube box"
-	desc = "Drymate brand monkey cubes. Just add water!"
+	desc = "Monkey cubes - Just add water!"
 	icon = 'icons/obj/food.dmi'
 	icon_state = "monkeycubebox"
 	can_hold = list(/obj/item/chems/food/monkeycube)

@@ -189,7 +189,7 @@
 		new /mob/living/simple_animal/chicken(src.loc)
 		qdel(src)
 
-var/global/const/MAX_CHICKENS = 50
+var/global/const/MAX_CHICKENS = 100 // this is persistence, so... yeah
 var/global/chicken_count = 0
 
 /mob/living/simple_animal/chicken

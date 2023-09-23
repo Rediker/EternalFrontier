@@ -3,7 +3,7 @@
 	desc = "Recipes for a variety of different kinds of foods and condiments."
 	guide_name = "Cooking"
 
-/decl/codex_category/recipes/Populate()
+/decl/codex_category/recipes/Initialize()
 
 	var/list/entries_to_register = list()
 
@@ -19,13 +19,14 @@
 		<li>Mix flour and protein (ground meat) to make meatballs.</li>
 		</ul>"}
 
-	var/list/all_recipe_reactions = decls_repository.get_decls_of_subtype(/decl/chemical_reaction/recipe)
-	for(var/reactiontype in all_recipe_reactions)
-		var/decl/chemical_reaction/recipe/food = all_recipe_reactions[reactiontype]
+	for(var/reactiontype in subtypesof(/decl/chemical_reaction/recipe))
+		var/decl/chemical_reaction/recipe/food = GET_DECL(reactiontype)
 		if(!food || !food.name || food.hidden_from_codex)
 			continue
+
 		var/mechanics_text
 		var/lore_text
+		var/product_name
 		var/category_name
 		if(istype(food, /decl/chemical_reaction/recipe/food))
 			var/decl/chemical_reaction/recipe/food/food_ref = food
@@ -33,41 +34,45 @@
 			if(!product)
 				continue
 			category_name = "mix recipe"
+			product_name = initial(product.name)
 			lore_text = initial(product.desc)
 			mechanics_text = "This recipe produces \a [initial(product.name)].<br>It should be performed in a mixing bowl or beaker, and requires the following ingredients:"
 		else
-			var/decl/material/product = GET_DECL(food.result)
+			var/decl/material/product = food.result
 			if(!product)
 				continue
+			product_name = initial(product.name)
 			lore_text = initial(product.lore_text)
 			if(ispath(food.result, /decl/material/liquid/drink) || ispath(food.result, /decl/material/liquid/ethanol))
 				category_name = "drink recipe"
-				mechanics_text = "This recipe produces [food.result_amount]u <span codexlink='[product.codex_name || product.name] (substance)'>[product.name]</span>.<br>It should be performed in a glass or shaker, and requires the following ingredients:"
+				mechanics_text = "This recipe produces [food.result_amount]u [initial(product.name)].<br>It should be performed in a glass or shaker, and requires the following ingredients:"
 			else
 				category_name = "condiment recipe"
-				mechanics_text = "This recipe produces [food.result_amount]u <span codexlink='[product.codex_name || product.name] (substance)'>[product.name]</span>.<br>It should be performed in a mixing bowl or beaker, and requires the following ingredients:"
+				mechanics_text = "This recipe produces [food.result_amount]u [initial(product.name)].<br>It should be performed in a mixing bowl or beaker, and requires the following ingredients:"
 
 		var/list/reactant_values = list()
 		for(var/reactant_id in food.required_reagents)
-			var/decl/material/reactant = GET_DECL(reactant_id)
-			reactant_values += "[food.required_reagents[reactant_id]]u <span codexlink='[reactant.codex_name || reactant.name] (substance)'>[reactant.name]</span>"
+			var/decl/material/reactant = reactant_id
+			reactant_values += "[food.required_reagents[reactant_id]]u [lowertext(initial(reactant.name))]"
 		mechanics_text += " [jointext(reactant_values, " + ")]"
 		var/list/catalysts = list()
 		for(var/catalyst_id in food.catalysts)
-			var/decl/material/catalyst = GET_DECL(catalyst_id)
-			catalysts += "[food.catalysts[catalyst_id]]u <span codexlink='[catalyst.codex_name || catalyst.name] (substance)'>[catalyst.name]</span>"
+			var/decl/material/catalyst = catalyst_id
+			catalysts += "[food.catalysts[catalyst_id]]u [lowertext(initial(catalyst.name))]"
 		if(catalysts.len)
-			mechanics_text += " (catalysts: [jointext(catalysts, ", ")])]"
+			mechanics_text += " [jointext(reactant_values, " + ")] (catalysts: [jointext(catalysts, ", ")])]"
 		if(food.maximum_temperature != INFINITY)
 			mechanics_text += "<br>The recipe will not succeed if the temperature is above [food.maximum_temperature]K."
 		if(food.minimum_temperature > 0)
 			mechanics_text += "<br>The recipe will not succeed if the temperature is below [food.minimum_temperature]K."
 
-		entries_to_register += new /datum/codex_entry(                  \
-		 _display_name =       "[food.name] ([category_name])",         \
-		 _associated_strings = list("[food.name] (chemical reaction)"), \
-		 _lore_text =          lore_text,                               \
-		 _mechanics_text =     mechanics_text,                          \
+		entries_to_register += new /datum/codex_entry(                     \
+		 _display_name =       "[lowertext(food.name)] ([category_name])", \
+		 _associated_strings = list(                                       \
+		 	lowertext(food.name),                                          \
+			lowertext(product_name)),                                      \
+		 _lore_text =          lore_text,                                  \
+		 _mechanics_text =     mechanics_text,                             \
 		)
 
 	var/list/all_recipes = decls_repository.get_decls_of_subtype(/decl/recipe)
@@ -79,33 +84,32 @@
 		var/mechanics_text = ""
 		if(recipe.mechanics_text)
 			mechanics_text = "[recipe.mechanics_text]<br><br>"
-		mechanics_text += "This recipe requires the following ingredients:<br>"
+		mechanics_text += "This recipe requires the following ingredients:<br><ul>"
 		var/list/ingredients = list()
 		for(var/thing in recipe.reagents)
-			var/decl/material/thing_reagent = GET_DECL(thing)
-			ingredients += "[recipe.reagents[thing]]u <span codexlink='[thing_reagent.codex_name || thing_reagent.name] (substance)'>[thing_reagent.name]</span>"
+			var/decl/material/thing_reagent = thing
+			ingredients += "<span codexlink='[initial(thing_reagent.name)]'>[recipe.reagents[thing]]u [initial(thing_reagent.name)]</span>"
 		for(var/thing in recipe.items)
 			var/atom/thing_atom = thing
 			var/count = recipe.items[thing]
-			var/thing_name = initial(thing_atom.name)
-			if(SScodex.get_entry_by_string(thing_name))
-				thing_name = "<l>[thing_name]</l>"
-			ingredients += (count > 1) ? "[count]x [thing_name]" : "\a [initial(thing_atom.name)]"
+			var/desc_str = (count > 1) ? "[count]x [initial(thing_atom.name)]" : "\a [initial(thing_atom.name)]"
+			ingredients += "<span codexlink='[initial(thing_atom.name)]'>[desc_str]</span>"
 		for(var/thing in recipe.fruit)
 			ingredients += "[recipe.fruit[thing]] [thing]\s"
+		if(recipe.coating)
+			var/decl/material/coating = recipe.coating
+			ingredients += "<span codexlink='[initial(coating.name)]'>\a [initial(coating.name)]</span> coating"
 		mechanics_text += "<ul><li>[jointext(ingredients, "</li><li>")]</li></ul>"
 		var/atom/recipe_product = recipe.result
-		mechanics_text += "<br>This recipe takes [CEILING(recipe.time/10)] second\s to cook in a microwave and creates \a [initial(recipe_product.name)]."
-		var/lore_text = recipe.lore_text
-		if(!lore_text)
-			lore_text = initial(recipe_product.desc)
-
+		var/plural = recipe.result_quantity > 1
+		mechanics_text += "<br>This recipe takes [CEILING(recipe.time/10)] second\s to cook in [recipe.get_appliances_string()] and creates [plural ? recipe.result_quantity : "a(n)"] [initial(recipe_product.name)][plural ? "s" : ""]."
 		var/recipe_name = recipe.display_name || sanitize(initial(recipe_product.name))
-		guide_html += "<h3>[capitalize(recipe_name)]</h3>Place [english_list(ingredients)] into a microwave for [CEILING(recipe.time/10)] second\s."
+		guide_html += "<h3>[capitalize(recipe_name)]</h3>Place [english_list(ingredients)] into [recipe.get_appliances_string()] for [CEILING(recipe.time/10)] second\s."
 
 		entries_to_register += new /datum/codex_entry(             \
-		 _display_name =       "[recipe_name] (microwave recipe)", \
-		 _lore_text =          lore_text,                          \
+		 _display_name =       "[recipe_name] (recipe)", \
+		 _associated_strings = list(lowertext(recipe_name)) + recipe.get_appliance_names(),       \
+		 _lore_text =          recipe.lore_text || initial(recipe_product.desc),                          \
 		 _mechanics_text =     mechanics_text,                     \
 		 _antag_text =         recipe.antag_text                   \
 		)

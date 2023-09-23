@@ -83,14 +83,22 @@
 /obj/item/knife/kitchen
 	name = "kitchen knife"
 	icon = 'icons/obj/items/weapon/knives/kitchen.dmi'
-	desc = "A general purpose chef's knife made by SpaceCook Incorporated. Guaranteed to stay sharp for years to come."
+	desc = "A general purpose kitchen knife."
 	material_alteration = MAT_FLAG_ALTERATION_COLOR
 	draw_handle = TRUE
 
 /obj/item/knife/kitchen/cleaver
-	name = "butcher's cleaver"
-	desc = "A heavy blade used to process food, especially animal carcasses."
+	name = "meat cleaver"
+	desc = "A heavy blade used to process food, especially slabs of meat."
 	icon = 'icons/obj/items/weapon/knives/cleaver.dmi'
+	armor_penetration = 5
+	material_force_multiplier = 0.18
+	attack_verb = list("cleaved", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")
+
+/obj/item/knife/kitchen/butcher
+	name = "butcher's axe"
+	desc = "A heavy blade used to process food, especially animal carcasses."
+	icon = 'icons/obj/items/weapon/knives/butcher.dmi'
 	armor_penetration = 5
 	material_force_multiplier = 0.18
 	attack_verb = list("cleaved", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut")

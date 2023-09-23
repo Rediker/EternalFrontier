@@ -2,7 +2,7 @@
 /obj/machinery/gibber
 	name = "meat grinder"
 	desc = "The name isn't descriptive enough?"
-	icon = 'icons/obj/kitchen.dmi'
+	icon = 'icons/obj/cooking_machines.dmi'
 	icon_state = "grinder"
 	density = 1
 	anchored = 1

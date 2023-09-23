@@ -12,15 +12,6 @@
 	name = "spork, aluminium"
 	path = /obj/item/kitchen/utensil/spork
 
-/datum/fabricator_recipe/cutlery/knife_aluminium
-	name = "table knife, aluminium"
-	path = /obj/item/knife/table
-
-/datum/fabricator_recipe/cutlery/foon_aluminium
-	name = "foon, aluminium"
-	path = /obj/item/kitchen/utensil/foon
-	hidden = TRUE
-
 /datum/fabricator_recipe/cutlery/fork_plastic
 	name = "fork, plastic"
 	path = /obj/item/kitchen/utensil/fork/plastic
@@ -37,7 +28,30 @@
 	name = "table knife, plastic"
 	path = /obj/item/knife/table/plastic
 
-/datum/fabricator_recipe/cutlery/foon_plastic
-	name = "foon, plastic"
-	path = /obj/item/kitchen/utensil/foon/plastic
-	hidden = TRUE
+/datum/fabricator_recipe/cutlery/knife
+	name = "kitchen knife"
+	path = /obj/item/knife/kitchen
+
+/datum/fabricator_recipe/cutlery/knife/cleaver
+	name = "meat cleaver"
+	path = /obj/item/knife/kitchen/cleaver
+
+/datum/fabricator_recipe/cutlery/knife/butcher
+	name = "butcher's axe"
+	path = /obj/item/knife/kitchen/butcher
+
+/datum/fabricator_recipe/cutlery/plate
+	name = "plate"
+	path = /obj/item/chems/cooking_container/plate
+
+/datum/fabricator_recipe/cutlery/mixingbowl
+	name = "mixing bowl"
+	path = /obj/item/chems/cooking_container/plate/bowl
+
+/datum/fabricator_recipe/cutlery/mixingtray
+	name = "mixing tray"
+	path = /obj/item/chems/glass/beaker/bowl
+
+/datum/fabricator_recipe/cutlery/servingtray
+	name = "serving tray"
+	path = /obj/item/storage/tray/metal/aluminium

@@ -167,7 +167,7 @@ MRE Stuff
 	return list(/obj/item/chems/food/slice/vegetablepizza/filled)
 
 /obj/item/storage/mrebag/menu4/WillContain()
-	return list(/obj/item/chems/food/hamburger)
+	return list(/obj/item/chems/food/meatburger)
 
 /obj/item/storage/mrebag/menu5/WillContain()
 	return list(/obj/item/chems/food/taco)

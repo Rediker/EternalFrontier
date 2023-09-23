@@ -223,6 +223,13 @@
 	glass_name = "turnip juice"
 	glass_desc = "Delicious (?) juice made from turnips."
 
+/decl/material/liquid/drink/juice/pumpkinpulp
+	name = "pumpkin pulp"
+	lore_text = "It's almost juice, but not really. Someone's been Smashing Pumpkins Today."
+	taste_description = "pumpkin"
+	color = "#d88b4c"
+	// no glass
+
 /decl/material/liquid/drink/juice/apple
 	name = "apple juice"
 	lore_text = "Delicious sweet juice made from apples."
@@ -660,6 +667,11 @@
 	glass_desc = "Tasty black tea, it has antioxidants, it's good for you!"
 	exoplanet_rarity = MAT_RARITY_NOWHERE
 	uid = "chem_drink_blacktea"
+
+/decl/material/liquid/drink/syrup_base
+	name = "simple syrup"
+	lore_text = "A rich simple syrup, made of sugar dissolved in boiling water. It's sickeningly sweet."
+	taste_description = "sweetness"
 
 /decl/material/liquid/drink/tea/black/build_presentation_name_from_reagents(var/obj/item/prop, var/supplied)
 	if(prop.reagents.has_reagent(/decl/material/liquid/drink/juice/orange))

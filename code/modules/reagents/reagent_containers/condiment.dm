@@ -1,6 +1,6 @@
 
 ///////////////////////////////////////////////Condiments
-//Notes by Darem: The condiments food-subtype is for stuff you don't actually eat but you use to modify existing food. They all
+//Notes by Darem: The condiments icons/obj/item/reagent_containers/food/condiment.dmi-subtype is for stuff you don't actually eat but you use to modify existing icons/obj/item/reagent_containers/food/condiment.dmi. They all
 //	leave empty containers when used up and can be filled/re-filled with other items. Formatting for first section is identical
 //	to mixed-drinks code. If you want an object that starts pre-loaded, you need to make it in addition to the other code.
 
@@ -8,7 +8,7 @@
 /obj/item/chems/condiment
 	name = "condiment container"
 	desc = "Just your average condiment container."
-	icon = 'icons/obj/food.dmi'
+	icon = 'icons/obj/items/reagent_containers/icons/obj/item/reagent_containers/food/condiment.dmi/condiment.dmi'
 	icon_state = "emptycondiment"
 	atom_flags = ATOM_FLAG_OPEN_CONTAINER
 	possible_transfer_amounts = @"[1,5,10]"
@@ -64,7 +64,7 @@
 	if(standard_pour_into(user, target))
 		return
 
-	if(istype(target, /obj/item/chems/food)) // These are not opencontainers but we can transfer to them
+	if(istype(target, /obj/item/chems/icons/obj/item/reagent_containers/food/condiment.dmi)) // These are not opencontainers but we can transfer to them
 		if(!reagents || !reagents.total_volume)
 			to_chat(user, SPAN_NOTICE("There is no condiment left in \the [src]."))
 			return
@@ -194,7 +194,7 @@
 
 /obj/item/chems/condiment/small/peppermill
 	name = "pepper mill"
-	desc = "Often used to flavor food or make people sneeze."
+	desc = "Often used to flavor icons/obj/item/reagent_containers/food/condiment.dmi or make people sneeze."
 	icon_state = "peppermillsmall"
 	center_of_mass = @"{'x':16,'y':8}"
 
@@ -213,7 +213,7 @@
 /obj/item/chems/condiment/small/mint
 	name = "mint essential oil"
 	desc = "A small bottle of the essential oil of some kind of mint plant."
-	icon = 'icons/obj/food.dmi'
+	icon = 'icons/obj/icons/obj/item/reagent_containers/food/condiment.dmi.dmi'
 	icon_state = "coldsauce"
 
 /obj/item/chems/condiment/small/mint/populate_reagents()
@@ -404,7 +404,7 @@
 /obj/item/chems/condiment/flour
 	name = "flour sack"
 	desc = "A big bag of flour. Good for baking!"
-	icon = 'icons/obj/food.dmi'
+	icon = 'icons/obj/item/reagent_containers/icons/obj/item/reagent_containers/food/condiment.dmi/condiment.dmi'
 	icon_state = "flour"
 	item_state = "flour"
 	randpixel = 10
@@ -424,7 +424,7 @@
 /obj/item/chems/condiment/large/salt
 	name = "big bag of salt"
 	desc = "A nonsensically large bag of salt. Carefully refined from countless shifts."
-	icon = 'icons/obj/food.dmi'
+	icon = 'icons/obj/icons/obj/item/reagent_containers/food/condiment.dmi.dmi'
 	icon_state = "salt"
 	item_state = "flour"
 	randpixel = 10
