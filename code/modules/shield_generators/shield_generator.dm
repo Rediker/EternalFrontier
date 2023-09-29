@@ -3,7 +3,7 @@
 	desc = "A heavy-duty shield generator and capacitor, capable of generating energy shields at large distances."
 	icon = 'icons/obj/machines/shielding.dmi'
 	icon_state = "generator0"
-	anchored = TRUE
+	anchored = 0
 	density = 1
 	base_type = /obj/machinery/shield_generator
 	construct_state = /decl/machine_construction/default/panel_closed
@@ -525,3 +525,16 @@
 			turfs.Add(T)
 
 	return turfs
+
+/obj/machinery/shield_generator/attackby(obj/item/W, mob/user)
+	if(IS_WRENCH(W))
+		if(running==SHIELD_OFF)
+			src.anchored=!src.anchored
+
+			if (!src.anchored)
+				user.show_message(text("<span cRlass='warning'>[src] can now be moved.</span>"))
+
+			if (src.anchored)
+				user.show_message(text("<span class='warning'>[src] is now secured.</span>"))
+		else
+			to_chat(user, "Turn off [src] first.")
