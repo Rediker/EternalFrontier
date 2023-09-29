@@ -3,6 +3,7 @@
 	desc = "A heavy-duty shield generator and capacitor, capable of generating energy shields at large distances."
 	icon = 'icons/obj/machines/shielding.dmi'
 	icon_state = "generator0"
+	anchored = TRUE
 	density = 1
 	base_type = /obj/machinery/shield_generator
 	construct_state = /decl/machine_construction/default/panel_closed
@@ -95,7 +96,6 @@
 	mitigation_physical = clamp(0, mitigation_physical, mitigation_max)
 	mitigation_heat = clamp(0, mitigation_heat, mitigation_max)
 	..()
-
 
 // Shuts down the shield, removing all shield segments and unlocking generator settings.
 /obj/machinery/shield_generator/proc/shutdown_field()
