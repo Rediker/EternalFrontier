@@ -10,7 +10,7 @@
 	icon = 'icons/obj/machines/power/fusion.dmi'
 	icon_state = "injector0"
 	density = 1
-	anchored = 0
+	anchored = 1
 	idle_power_usage = 0.1 KILOWATTS // Displays etc. Actual attraction of the asteroid takes far more.
 	active_power_usage = 25 KILOWATTS
 	construct_state = /decl/machine_construction/default/panel_closed
@@ -180,17 +180,6 @@
 		/obj/item/stock_parts/keyboard = 1,
 		/obj/item/stock_parts/power/apc/buildable = 1
 	)
-
-/obj/machinery/asteroid_magnet/attackby(obj/item/W, mob/user)
-	if(IS_WRENCH(W))
-		src.anchored = !src.anchored
-
-		if (!src.anchored)
-			user.show_message(text("<span class='warning'>[src] can now be moved.</span>"))
-
-		else if (src.anchored)
-			user.show_message(text("<span class='warning'>[src] is now secured.</span>"))
-
 
 #undef ASTEROID_SIZE
 #undef MAX_OBJS
