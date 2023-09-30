@@ -57,4 +57,4 @@
 #define SHIELD_IDLE        3        // The shield is being kept at an idle state
 #define SHIELD_SPINNING_UP 4        // Going from idle to running
 
-#define SHIELD_SHUTDOWN_DISPERSION_RATE (10000 KILOWATTS)		// The rate at which shield energy disperses when shutdown is initiated.
+#define SHIELD_SHUTDOWN_DISPERSION_RATE (200 KILOWATTS)		// The rate at which shield energy disperses when shutdown is initiated.
