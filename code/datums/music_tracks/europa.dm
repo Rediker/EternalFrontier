@@ -53,3 +53,31 @@
 	song = 'sound/music/europa/Pulse_Emitter_-_04_-_Nebula.ogg'
 	license = /decl/license/cc_by_nc_sa_3_0
 	url = "https://pulseemitter.bandcamp.com/track/nebula"
+
+/decl/music_track/gimmeshelter
+	artist = "The Rolling Stones"
+	title = "Gimme Shelter"
+	song = 'sound/music/europa/GimmeShelter.ogg'
+	license = /decl/license/cc_by_nc_sa_3_0
+	url = "."
+
+/decl/music_track/holdon
+	artist = "Royal Blood"
+	title = "Hold On"
+	song = 'sound/music/europa/ho.ogg'
+	license = /decl/license/cc_by_nc_sa_3_0
+	url = "."
+
+/decl/music_track/redsectora
+	artist = "Rush"
+	title = "Red Sector A"
+	song = 'sound/music/europa/RedSectorA.ogg'
+	license = /decl/license/cc_by_nc_sa_3_0
+	url = "."
+
+/decl/music_track/thehorror
+	artist = "Savant"
+	title = "The Horror"
+	song = 'sound/music/europa/TheHorror.ogg'
+	license = /decl/license/cc_by_nc_sa_3_0
+	url = "."

@@ -22,17 +22,21 @@
 	emergency_shuttle_recall_message = "The emergency shuttle has been recalled"
 
 	lobby_screens = list(
-		'maps/kleibkhar/lobby/KleibkharTitle.gif'
+		'maps/kleibkhar/lobby/EF-BG.png'
 	)
+
 	lobby_tracks = list(
-		/decl/music_track/inorbit
+		/decl/music_track/redsectora,
+		/decl/music_track/holdon,
+		/decl/music_track/thehorror,
+		/decl/music_track/gimmeshelter,
 	)
+
 
 	starting_money = 5000
 	department_money = 0
 	salary_modifier = 0.2
 	num_exoplanets = 0
-	welcome_sound = 'sound/music/stingers/stinger_scifi.ogg'
 
 /datum/map/kleibkhar/get_map_info()
 	return "Kleibkhar Independent Colony. A diverse new commercial venture on the fringe of known space."
