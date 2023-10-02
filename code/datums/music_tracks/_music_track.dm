@@ -5,7 +5,7 @@
 	var/decl/license/license
 	var/song
 	var/url // Remember to include http:// or https:// or BYOND will be sad
-	var/volume = 70
+	var/volume = 5
 	abstract_type = /decl/music_track
 
 /decl/music_track/Initialize()
