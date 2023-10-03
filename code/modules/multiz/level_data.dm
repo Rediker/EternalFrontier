@@ -47,20 +47,20 @@
 	var/datum/level_data/LD = SSmapping.levels_by_z[z]
 	//South-West
 	.  = block(
-			locate(LD.level_inner_min_x - TRANSITIONEDGE, LD.level_inner_min_y - TRANSITIONEDGE, LD.level_z),
+			locate(LD.level_inner_min_x, 				  LD.level_inner_min_y, 				 LD.level_z),
 			locate(LD.level_inner_min_x - 1,              LD.level_inner_min_y - 1,              LD.level_z))
 	//South-East
 	. |= block(
-			locate(LD.level_inner_max_x + 1,              LD.level_inner_min_y - TRANSITIONEDGE, LD.level_z),
-			locate(LD.level_inner_max_x + TRANSITIONEDGE, LD.level_inner_min_y - 1,              LD.level_z))
+			locate(LD.level_inner_max_x + 1,              LD.level_inner_min_y,					 LD.level_z),
+			locate(LD.level_inner_max_x,				  LD.level_inner_min_y - 1,              LD.level_z))
 	//North-West
 	. |= block(
-			locate(LD.level_inner_min_x - TRANSITIONEDGE, LD.level_inner_max_y + 1,              LD.level_z),
-			locate(LD.level_inner_min_x - 1,              LD.level_inner_max_y + TRANSITIONEDGE, LD.level_z))
+			locate(LD.level_inner_min_x,			 	  LD.level_inner_max_y + 1,              LD.level_z),
+			locate(LD.level_inner_min_x - 1,              LD.level_inner_max_y,	 			  	 LD.level_z))
 	//North-East
 	. |= block(
 			locate(LD.level_inner_max_x + 1,              LD.level_inner_max_y + 1,              LD.level_z),
-			locate(LD.level_inner_max_x + TRANSITIONEDGE, LD.level_inner_max_y + TRANSITIONEDGE, LD.level_z))
+			locate(LD.level_inner_max_x, 				  LD.level_inner_max_y, 				 LD.level_z))
 
 ///Keeps details on how to generate, maintain and access a zlevel.
 /datum/level_data
@@ -121,7 +121,7 @@
 	/// If an unconnected edge is facing a connected edge, it will be instead filled with "border_filler" instead, if defined.
 	var/loop_turf_type// = /turf/unsimulated/mimc_edge/transition/loop
 	/// The turf type to use for zlevel lateral connections
-	var/transition_turf_type = /turf/unsimulated/mimic_edge/transition
+//	var/transition_turf_type = /turf/unsimulated/mimic_edge/transition
 
 	// *** Atmos ***
 	/// Temperature of standard exterior atmosphere.
@@ -219,8 +219,8 @@
 	level_max_height = level_max_height ? level_max_height : world.maxy
 
 	//The width of the accessible inner area of the level between the edges
-	level_inner_width  = level_max_width  - (2 * TRANSITIONEDGE)
-	level_inner_height = level_max_height - (2 * TRANSITIONEDGE)
+	level_inner_width  = level_max_width
+	level_inner_height = level_max_height
 
 	//Get the origin of the lower left corner where the level's edge begins at on the world.
 	//#FIXME: This is problematic when dealing with an even width/height
@@ -373,7 +373,7 @@
 /datum/level_data/proc/build_border_edge(var/edge_type, var/edge_dir)
 	if(edge_type == LEVEL_EDGE_NONE)
 		return
-
+/*
 	var/list/edge_turfs
 	switch(edge_type)
 		if(LEVEL_EDGE_LOOP)
@@ -388,6 +388,7 @@
 			edge_turfs = get_transition_edge_turfs(level_z, edge_dir, TRUE)
 			for(var/turf/T in edge_turfs)
 				T.ChangeTurf(border_filler)
+*/
 
 ///Handle preparing the level's border's corners after we've stup the edges.
 /datum/level_data/proc/build_border_corners()
@@ -562,8 +563,8 @@ INITIALIZE_IMMEDIATE(/obj/abstract/level_data_spawner)
 	name = "Sensor Display"
 	level_flags = ZLEVEL_SEALED
 	use_global_exterior_ambience = FALSE // Overmap doesn't care about ambient lighting
-	base_turf = /turf/unsimulated/dark_filler
-	transition_turf_type = null
+//	base_turf = /turf/unsimulated/dark_filler
+//	transition_turf_type = null
 
 //#TODO: This seems like it could be generalized in a much better way?
 // Used specifically by /turf/simulated/floor/asteroid, and some away sites to generate mining turfs

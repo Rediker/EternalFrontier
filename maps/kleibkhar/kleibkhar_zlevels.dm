@@ -25,7 +25,7 @@
 	ambient_light_level = 1.0
 	base_area           = /area/exoplanet/kleibkhar
 	base_turf           = /turf/exterior/kleibkhar_grass
-	loop_turf_type      = /turf/exterior/mimic_edge/transition/loop
+// 	loop_turf_type      = /turf/exterior/mimic_edge/transition/loop
 	border_filler       = /turf/unsimulated/dark_border
 	exterior_atmosphere = list(
 		/decl/material/gas/oxygen =   MOLES_O2STANDARD,
