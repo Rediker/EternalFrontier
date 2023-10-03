@@ -1,3 +1,4 @@
+/*
 #define MIMIC_EDGE_NAME "world's edge"
 #define MIMIC_EDGE_DESC "Flatearther's nightmare."
 
@@ -374,3 +375,4 @@
 
 #undef MIMIC_EDGE_NAME
 #undef MIMIC_EDGE_DESC
+*/
